@@ -1,17 +1,17 @@
 # Progress List
-[x] iCloud Photos
-[x] ReStyle IDE
-[x] ConvertICO
-[x] Linmeos Dev
-[x] CydiaUpdates
-[x] BundleID Search
-[x] ConvertICO
-[] Google
-[] YouTube
-[] eBay
-[] Amazon
-[] PayPal
-[] GitHub
+- [x] iCloud Photos
+- [x] ReStyle IDE
+- [x] ConvertICO
+- [x] Linmeos Dev
+- [x] CydiaUpdates
+- [x] BundleID Search
+- [x] ConvertICO
+- [] Google
+- [] YouTube
+- [] eBay
+- [] Amazon
+- [] PayPal
+- [] GitHub
 
 # Design Guidelines
 ## Basic Design Language
