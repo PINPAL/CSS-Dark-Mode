@@ -94,3 +94,25 @@ Again, don't forget the hover effect!
 :hover {
   background: linear-gradient(to right, rgba(149,136,213,0.4) , rgba(171,89,147,0.4));
 }
+```
+
+## Scroll Bars
+Title says it all. If neccesary here is the code for a custom scrollbar. The classes may need to be changed for a specific element.
+```css
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.08);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.20);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.25);;
+}
+```
+
