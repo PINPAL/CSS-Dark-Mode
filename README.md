@@ -1,8 +1,8 @@
-#ReStyle Dark Mode
-##Dark Mode for the Web.
+# ReStyle Dark Mode
+## Dark Mode for the Web.
 Big Thanks to @CHAZZOX
 
-#Design Guidelines
+# Design Guidelines
 
 ##Basic Design Language
 The basic design language focuses on a dark interface with a touch of color and motion to signify buttons and actions when pressed or hovered.
@@ -19,7 +19,7 @@ Links should be used a light blue color with the following hex value. The hover 
   #007aff
 ```
 
-##Big Box
+## Big Box
 This one is used in order to hold content. Don't use it too much. Large titles should be placed outside the box.
 ```css
 {
@@ -40,7 +40,7 @@ This one is used in order to hold content. Don't use it too much. Large titles s
 }
 ```
 
-##Buttons
+## Buttons
 This is a button, the rest is pretty self-explanatory. Links are NOT equal to buttons. Use wisely!
 ```css
 {
@@ -71,7 +71,7 @@ Don't forget a fancy hover effect!
 }
 ```
 
-##Search Boxes
+## Search Boxes
 These can also be used for drop-downs or checkboxes.
 ```css
 {
