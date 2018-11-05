@@ -1,0 +1,166 @@
+@-moz-document url-prefix("https://www.icloud.com/") {
+/*Background*/.p2-main-view .primary-panel, .p2-main-view .flow-grid .cw-ui-collections-list-header-view {
+	background: #242628;
+	color:white;
+}
+
+/*Date headers*/
+.p2-main-view .flow-grid .cw-ui-collections-list-header-view {
+	background: #242628;
+	color:white;
+}
+.p2-moments-grid-group-header-view .content .titles .title {
+    color:white;
+}
+
+/*Darken ugly seperators*/
+.p2-main-view .flow-grid .cw-ui-collections-list-header-view:before {
+    border-top-style: solid;
+	border-top-color: rgba(255, 255, 255, 0.1);
+	border-top-width: 1px;
+}
+/*Fix black Icons*/
+.icon {
+    filter: invert(100%);
+}
+
+/*Sidebar*/
+.p2-sidebar-view {
+	background: #242628;
+	color:#c4c4c4;
+	border-right-style: solid;
+	border-right-color: rgba(255, 255, 255, 0.25);
+	border-right-width: 1px;
+}
+/*Sidebar selected tab*/
+.container-list .cw-list-item-view.cw-selected {
+    background: #2a90fc;
+    color: white;
+}
+/*Sidebar expand arrows*/
+.cw-ui-collections-toggle-view, .cw-ui-collections-toggle-view svg {
+    fill: rgba(255,255,255,.35);
+}
+/*Sidebar titles*/
+.container-list .cw-list-item-view.p2-container-list-group-header-view .non-expandable-item-container, .container-list .cw-list-item-view.p2-container-list-group-header-view .outline-item-container {
+    color: white;
+}
+
+
+/*Top navbar*/
+p2-toolbar-scroll-view .p2-album-contents-selection-view, .p2-toolbar-scroll-view .p2-toolbar-view {
+    background-color: #2F3439;
+}
+
+/*Fix top left logo*/
+.cosk-app-name .cosk-icloud-logo>svg {
+    fill: #fff;
+    stroke: #fff;
+}
+.p2-main-view .cosk-app-name .cosk-app-switcher-trigger .cosk-app-display-name, .p2-main-view .cosk-app-name .cosk-app-switcher-trigger .cosk-chevron-icon, .p2-main-view~div .cw-popover-view .cosk-app-name .cosk-app-switcher-trigger .cosk-app-display-name, .p2-main-view~div .cw-popover-view .cosk-app-name .cosk-app-switcher-trigger .cosk-chevron-icon {
+    color: white;
+}
+
+/*Fix navbar zoom slider*/
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .sidebar-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .sidebar-button>.svg-container>svg {
+    fill: #fff;
+    stroke: #fff;
+}
+
+/*Fix navbar pill selector*/
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .cw-segmented-control .cw-button, .p2-toolbar-scroll-view .p2-toolbar-view .cw-segmented-control .cw-button {
+    background-color: transparent;
+}
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .cw-segmented-control .cw-button .title, .p2-toolbar-scroll-view .p2-toolbar-view .cw-segmented-control .cw-button .title {
+    color: rgba(255,255,255,0.75);
+}
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .cw-segmented-control .cw-button.cw-being-hovered.cw-on, .p2-toolbar-scroll-view .p2-album-contents-selection-view .cw-segmented-control .cw-button.cw-on, .p2-toolbar-scroll-view .p2-toolbar-view .cw-segmented-control .cw-button.cw-being-hovered.cw-on, .p2-toolbar-scroll-view .p2-toolbar-view .cw-segmented-control .cw-button.cw-on {
+    background-color: #2a90fc;
+}
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .cw-segmented-control .cw-button, .p2-toolbar-scroll-view .p2-toolbar-view .cw-segmented-control .cw-button {
+    border: 1px solid #2a90fc;
+}
+
+/*Date bar below navbar*/
+.p2-main-view .flow-grid .cw-ui-collections-list-header-view.is-floating {
+    background-color: #1b1c1e;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(255, 255, 255, 0.25);
+	border-bottom-width: 1px;
+}
+
+/*Pop-up box*/
+.photos-popover-view .cw-popover-content {
+    background-color: #1b1c1e;
+	color: white;
+}
+.album-picker-popover-menu.photos-popover-view .p2-album-picker-view .container-list {
+    background-color: #2F3439;
+    color: white;
+}
+.album-picker-popover-menu.photos-popover-view .p2-album-picker-view .p2-album-picker-view-title {
+	border-bottom-style: solid;
+	border-bottom-color: rgba(255, 255, 255, 0.25);
+	border-bottom-width: 1px;
+    color: white;
+}
+.photos-popover-view .cw-popover-arrow.cw-right-arrow {
+    background-image: url(blob:https://www.icloud.com/9bc721a5-3367-4d6d-bfc1-1e0e7c7988fc);
+	filter: invert(100%);
+}
+.sharing-selection-menu-popover-view .sharing-selection-menu-view .sharing-selection-menu-item-view:not([disabled]).cw-being-hovered {
+    background-color: #2a90fc;
+}
+.sharing-selection-menu-popover-view .sharing-selection-menu-view .sharing-selection-menu-header-view>.description {
+    color: rgba(255,255,255,0.5);
+}
+
+/*Fix moments add buttons*/
+.p2-moments-grid-group-header-view .accessory .moments-add-to-album-button.cw-button>.svg-container>svg, .p2-moments-grid-group-header-view .accessory .moments-sharrow-button>.svg-container>svg {
+    fill: white;
+    stroke: white;
+}
+
+/*Fix right navbar icons*/
+.cosk-user-view .cosk-user-display-name-wrapper .cosk-display-name {
+    color:white;
+}
+.p2-main-view .cosk-user-view .cosk-help-icon>svg, .p2-main-view~div .cw-popover-view .cosk-user-view .cosk-help-icon>svg {
+    fill: white;
+    stroke: white;
+}
+.cosk-user-view .cosk-help-icon>svg {
+    fill: white;
+    stroke: white;
+}
+.cosk-user-view .cosk-user-display-name-wrapper {
+    fill: white;
+    stroke: white;
+}
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .share-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .share-button>.svg-container>svg {
+	fill: white;
+    stroke: white;
+}
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .download-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .download-button>.svg-container>svg {
+	fill: white;
+    stroke: white;
+}
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .new-album-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .new-album-button>.svg-container>svg {
+	fill: white;
+    stroke: white;
+}
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .trash-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .trash-button>.svg-container>svg {
+	fill: white;
+    stroke: white;
+}
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .upload-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .upload-button>.svg-container>svg {
+	fill: white;
+    stroke: white;
+}
+
+/*Main iCloud.com background color*/
+.sc-view {
+	background-color: #242628;
+}
+
+}
