@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://www.google.com/") {
 /*Main Page Background*/
 body {
     background: #242628!important;
@@ -31,4 +32,5 @@ body {
 .Q8LRLc {
     font-size: 15px;
     color: white!important;
+}
 }
