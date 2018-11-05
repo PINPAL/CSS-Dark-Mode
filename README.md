@@ -13,6 +13,12 @@
 - [ ] PayPal
 - [ ] GitHub
 
+# To-Do List
+- [ ] Fix various issues on iCloud
+- [ ] Finish Google stylesheet
+- [ ] Add white cursor to ReStyle IDE
+- [ ] Fix export UI on ReStyle IDE
+
 # Design Guidelines
 ## Basic Design Language
 The basic design language focuses on a dark interface with a touch of color and motion to signify buttons and actions when pressed or hovered.
