@@ -1,5 +1,19 @@
-# ReStyle Dark Mode - Design Guidelines
+# Progress List
+[x] iCloud Photos
+[x] ReStyle IDE
+[x] ConvertICO
+[x] Linmeos Dev
+[x] CydiaUpdates
+[x] BundleID Search
+[x] ConvertICO
+[] Google
+[] YouTube
+[] eBay
+[] Amazon
+[] PayPal
+[] GitHub
 
+# Design Guidelines
 ## Basic Design Language
 The basic design language focuses on a dark interface with a touch of color and motion to signify buttons and actions when pressed or hovered.
 The most basic background color should have a hex value of:
