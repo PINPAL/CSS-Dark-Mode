@@ -1,6 +1,6 @@
 /*Main Page Background*/
 body {
-    background: #242628;
+    background: #242628!important;
     color: white;
 }
 
@@ -12,4 +12,23 @@ body {
 /*Google Shopping Price*/
 .O8U6h {
     color: #ffffff!important;
+}
+
+/*Annoying whitebar above  location8*/
+#fbar {
+    background: #242628;
+    border-top: 1px solid #242628!important;
+    line-height: 40px;
+    min-width: 980px;
+    border-bottom: 1px solid #242628;
+}
+/*About and Store color change*/
+#hptl a {
+	color: white;
+}
+
+/*Position text color change*/
+.Q8LRLc {
+    font-size: 15px;
+    color: white!important;
 }
