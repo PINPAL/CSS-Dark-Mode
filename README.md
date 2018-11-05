@@ -1,7 +1,4 @@
-# ReStyle Dark Mode
-## Dark Mode for the Web.
-
-# Design Guidelines
+# ReStyle Dark Mode - Design Guidelines
 
 ## Basic Design Language
 The basic design language focuses on a dark interface with a touch of color and motion to signify buttons and actions when pressed or hovered.
@@ -94,6 +91,6 @@ These can also be used for drop-downs or checkboxes.
 ```
 Again, don't forget the hover effect!
 ```css
-{
+:hover {
   background: linear-gradient(to right, rgba(149,136,213,0.4) , rgba(171,89,147,0.4));
 }
