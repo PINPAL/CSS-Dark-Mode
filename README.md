@@ -6,12 +6,12 @@
 - [x] CydiaUpdates
 - [x] BundleID Search
 - [x] ConvertICO
-- [] Google
-- [] YouTube
-- [] eBay
-- [] Amazon
-- [] PayPal
-- [] GitHub
+- [ ] Google
+- [ ] YouTube
+- [ ] eBay
+- [ ] Amazon
+- [ ] PayPal
+- [ ] GitHub
 
 # Design Guidelines
 ## Basic Design Language
