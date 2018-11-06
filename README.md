@@ -17,14 +17,11 @@
 - [ ] Fix various issues on iCloud
 - [ ] Finish Google stylesheet
 <<<<<<< HEAD
-- [ ] Add white cursor to ReStyle IDE
+- [X] Add white cursor to ReStyle IDE
 - [ ] Fix export UI on ReStyle IDE
 - [ ] Fix CSS code editor size bug
+- [ ] Add highlight colour to editor (just scroll to bottom and choose hex value)
 =======
-- [x] Add white cursor to ReStyle IDE
-- [x] Fix export UI on ReStyle IDE
-- [ ] Fix highlighted/selected text on ReStyle
->>>>>>> eab6b02480082526d47bea60c930ed4ef4c02f5d
 
 # Design Guidelines
 ## Basic Design Language

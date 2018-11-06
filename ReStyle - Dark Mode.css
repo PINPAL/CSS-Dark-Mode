@@ -31,7 +31,7 @@ body {
 
 /*Labels*/
 label {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;          
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
      font-size: 16px;
      text-align:center;
 }
@@ -64,7 +64,7 @@ img[src="help.png"] {
 .CodeMirror-scroll {
 	color: white;
     background-color: #272a2d;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;          
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
 	background: #2F3439;
     margin-right: 15px;
@@ -241,7 +241,7 @@ fieldset {
 }
 
 /*Drop Down Color*/
-option { 
+option {
     color: white;
 	background-color: #2F3439;
 }
@@ -327,26 +327,30 @@ option {
 .cm-s-default .cm-number {
     color: #00ff48;
 }
+
+/*highlight colour*/
+.CodeMirror-selected {
+}
 }
 
 @-moz-document url-prefix("chrome-extension://bldnjpcciemkbmbbfpehdmdhiaemidce/popup") {
 .body {
-	background:#242628;  
+	background:#242628;
     color:white;
 }
 #stylish-popup {
     background:#242628;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;          
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 17px;
     color:white;
 }
 #disableAll-label {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;       
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 13px;
 }
 .style-edit-link, .delete {
 	text-decoration: none;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;       
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin-left: 10px;
     background:  rgba(200, 200, 255, 0.2);
     text-align: center;
