@@ -49,10 +49,6 @@ This one is used in order to hold content. Don't use it too much. Large titles s
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.03);
   border-width: 2px;
-  padding-bottom: 50px;
-  padding-right: 0px;
-  margin-top: 10px;
-  height: 755px
 }
 ```
 ##(I like big box)
