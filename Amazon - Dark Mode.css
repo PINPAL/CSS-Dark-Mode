@@ -1,0 +1,84 @@
+@-moz-document domain("amazon.co.uk") {
+#pageContent {
+    background-color: #292C30;
+    color: white;
+}
+
+/*Product Cards*/
+.gw-card-layout .a-cardui, .adcenterRowWrapper, .billboardRowWrapper, .desktop-row {
+	background: #2F3439;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	text-align: left;
+	color: white;
+	border-radius: 25px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+}
+
+/*Price*/
+.a-price[data-a-color=base] {
+    color: white;
+}
+
+/*Headers*/
+.a-color-base {
+    color: #fff!important;
+}
+#gw-content-grid .fresh-shoveler .as-title-block .a-color-base {
+    color: #fff!important;
+    font-weight: 700;
+}
+
+/*Hide ad placeholder*/
+#desktop-grid-1-D2 {
+  display: none;
+}
+
+/*Buttons*/
+.a-button-primary {
+    background: none;
+    border: none;
+}
+.a-button-primary .a-button-inner {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  color:white;
+  font-size: 20px;
+  -webkit-transition: padding 0.5s ease; /*For Safari*/
+  transition: padding 0.25s ease;
+  transition: 0.25s;
+  border: none;
+}
+.a-button-primary:hover .a-button-inner:hover {
+  filter: hue-rotate(90deg);
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+}
+.a-button-text, #a-autoid-0-announce {
+  color: white;
+}
+
+/*Squished Row*/
+#squished-desktop-row {
+  background: none;
+}
+#squished-desktop-row .desktop-row {
+    min-height: none;
+    padding-right: none;
+    border-right: none;
+}
+
+/*Link*/
+a, a:active, a:link, a:visited {
+    color: #2a90fc;
+  opacity: 1;
+}
+a:hover {
+  color: #007aff;
+  text-decoration: none;
+  opacity: .5;
+}
+}
