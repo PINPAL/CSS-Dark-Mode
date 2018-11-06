@@ -251,6 +251,32 @@ option {
     border-top: none;
 }
 
+/*Export Box*/
+#help-popup.big {
+    max-width: 100%;
+    left: 0;
+}
+#help-popup {
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    height: 100%;
+    width: 100%;
+}
+
+/*White Text Carrot*/
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid white;
+}
+
+/*Export Bold Title*/
+#help-popup .title {
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
 /*=============================   Scrollbar Style  =============================*/
 
 ::-webkit-scrollbar {

@@ -16,16 +16,22 @@
 # To-Do List
 - [ ] Fix various issues on iCloud
 - [ ] Finish Google stylesheet
+<<<<<<< HEAD
 - [ ] Add white cursor to ReStyle IDE
 - [ ] Fix export UI on ReStyle IDE
 - [ ] Fix CSS code editor size bug
+=======
+- [x] Add white cursor to ReStyle IDE
+- [x] Fix export UI on ReStyle IDE
+- [ ] Fix highlighted/selected text on ReStyle
+>>>>>>> eab6b02480082526d47bea60c930ed4ef4c02f5d
 
 # Design Guidelines
 ## Basic Design Language
 The basic design language focuses on a dark interface with a touch of color and motion to signify buttons and actions when pressed or hovered.
 The most basic background color should have a hex value of:
 ```
-  #292C30
+#292C30
 ```
 White text will be used primarily however using text with an RGBA value can also be used in order to create darker text. In this format you can vary the alpha value in order to get the desired gray. For example, an element which should not be the main focus of the user could have a alpha of 50% eg:
 ```cs
@@ -33,7 +39,7 @@ White text will be used primarily however using text with an RGBA value can also
 ```
 Links should be used a light blue color with the following hex value. The hover effect can be created by applying a 50% alpha.
 ```
-  #007aff
+#2a90fc
 ```
 
 ## Big Box
@@ -52,7 +58,6 @@ This one is used in order to hold content. Don't use it too much. Large titles s
   border-width: 2px;
 }
 ```
-##(I like big box)
 
 ## Buttons
 This is a button, the rest is pretty self-explanatory. Links are NOT equal to buttons. Use wisely!
