@@ -3,6 +3,9 @@
     background-color: #292C30;
     color: white;
 }
+body {
+	background: #292C30;
+}
 
 /*Product Cards*/
 .gw-card-layout .a-cardui, .adcenterRowWrapper, .billboardRowWrapper, .desktop-row {
@@ -48,9 +51,6 @@
   border-radius: 25px;
   color:white;
   font-size: 20px;
-  -webkit-transition: padding 0.5s ease; /*For Safari*/
-  transition: padding 0.25s ease;
-  transition: 0.25s;
   border: none;
 }
 .a-button-primary:hover .a-button-inner:hover {
@@ -66,8 +66,8 @@
   background: none;
 }
 #squished-desktop-row .desktop-row {
-    min-height: none;
-    padding-right: none;
+    min-height: 0;
+    padding-right: 0;
     border-right: none;
 }
 
@@ -80,5 +80,113 @@ a:hover {
   color: #007aff;
   text-decoration: none;
   opacity: .5;
+}
+
+/*Navigation Bar*/
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+#navbar.nav-bluebeacon {
+    background-color: black;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	padding: 10px;
+}
+#navbar.nav-bluebeacon #nav-belt, #navbar.nav-bluebeacon #nav-main {
+    background-image: none;
+    background-color: black;
+	border-radius: 30px;
+} 
+
+/*Nav Search Bar*/
+#nav-search .nav-search-field {
+	background: rgba(200, 200, 255, 0.2) ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font-family: "SF Pro Display";
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:white;
+  font-size: 20px;
+  border: none;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+#nav-search .nav-search-field:hover {
+	background: linear-gradient(to right, rgba(149,136,213,0.4) , rgba(171,89,147,0.4));
+}
+
+/*Remove Ugly Search Bar Elements*/
+#nav-search .nav-active {
+    background: none;
+}
+#navbar.nav-bluebeacon #nav-search .nav-searchbar.nav-active .nav-search-scope {
+	border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+#navbar.nav-bluebeacon #nav-searhc .nav-searchbar.nav-active .nav-search-field {
+	border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+
+/*Nav Search Button*/
+#navbar.nav-bluebeacon #nav-search .nav-search-submit {
+	  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-family: "SF Pro Display";
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:white;
+  font-size: 20px;
+  border: none;
+}
+#navbar.nav-bluebeacon #nav-search .nav-search-submit:hover {
+	filter: hue-rotate(90deg);
+}
+
+/*Invert Colour of Nav Search Button Icon*/
+#nav-search .nav-search-submit .nav-search-submit-text {
+    filter: invert(100%);
+}
+
+/*Nav Search Category Button*/
+#navbar.nav-bluebeacon #nav-search .nav-search-scope {
+	background: rgba(200, 200, 255, 0.2) ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font-family: "SF Pro Display";
+  border-radius: 25px;
+  color:white;
+  font-size: 20px;
+  border: none;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+#navbar.nav-bluebeacon #nav-search .nav-search-scope:hover {
+	background: linear-gradient(to right, rgba(149,136,213,0.4) , rgba(171,89,147,0.4));
+  border-color: rgba(255, 255, 255, 0.05);
+}
+#nav-search .nav-search-facade .nav-icon {
+	border-top: 4px solid white;
+}
+#nav-search .nav-search-facade .nav-search-label {
+	color: white;
 }
 }
