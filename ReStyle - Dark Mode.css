@@ -253,7 +253,7 @@ option {
     border-top: none;
 }
 
-/*Export Box*/
+/*Export Popup*/
 #help-popup.big {
     max-width: 100%;
     left: 0;
@@ -262,21 +262,40 @@ option {
     top: 0;
     right: 0;
     position: fixed;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.85);
     height: 100%;
     width: 100%;
+}
+
+/*Export Code Box*/
+#help-popup.big .CodeMirror {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Export Bold Title*/
+#help-popup .title {
+	margin-top: 20px;
+	visibility: hidden;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#help-popup .title:after {
+	visibility: visible;
+	text-align: center;
+	margin-left: -320px;
+	padding: 40px;
+	content:'Export Style Sheet';
 }
 
 /*White Text Carrot*/
 .CodeMirror div.CodeMirror-cursor {
     border-left: 1px solid white;
-}
-
-/*Export Bold Title*/
-#help-popup .title {
-	margin-top: 10px;
-	font-size: 30px;
-	font-weight: bold;
 }
 
 /*Highlight colour*/
@@ -315,7 +334,7 @@ option {
 }
 .cm-s-default .cm-comment {
     color: #999999;
-		font-size: 21px;
+	font-size: 21px;
   	font-weight: bold;
 }
 .cm-s-default .cm-keyword {
