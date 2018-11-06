@@ -16,12 +16,10 @@
 # To-Do List
 - [ ] Fix various issues on iCloud
 - [ ] Finish Google stylesheet
-<<<<<<< HEAD
 - [X] Add white cursor to ReStyle IDE
 - [ ] Fix export UI on ReStyle IDE
 - [ ] Fix CSS code editor size bug
-- [X] Add highlight colour to editor (just scroll to bottom and choose hex value)
-=======
+- [X] Add highlight colour to editor
 
 # Design Guidelines
 ## Basic Design Language
