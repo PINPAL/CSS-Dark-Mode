@@ -16,8 +16,8 @@
 # To-Do List
 - [ ] Fix various issues on iCloud
 - [ ] Finish Google stylesheet
-- [ ] Add white cursor to ReStyle IDE
-- [ ] Fix export UI on ReStyle IDE
+- [x] Add white cursor to ReStyle IDE
+- [x] Fix export UI on ReStyle IDE
 
 # Design Guidelines
 ## Basic Design Language
