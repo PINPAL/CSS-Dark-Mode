@@ -60,6 +60,7 @@ img[src="help.png"] {
      font-size: 30px;
 	font-weight: bold;
 }
+
 /*Editor Area*/
 .CodeMirror-scroll {
 	color: white;
@@ -72,7 +73,7 @@ img[src="help.png"] {
 
 /*Active Line In Editor*/
 .CodeMirror-activeline-background {
-    background: rgba(127, 140, 141,0.4);
+    background: black;
 }
 
 /*Editor URL Box*/
@@ -277,6 +278,11 @@ option {
 	font-weight: bold;
 }
 
+/*Highlight colour*/
+.CodeMirror-selected {
+	background: rgb(61, 84, 107)!important;
+}
+
 /*=============================   Scrollbar Style  =============================*/
 
 ::-webkit-scrollbar {
@@ -307,7 +313,9 @@ option {
     color: #f40e57;
 }
 .cm-s-default .cm-comment {
-    color: #5b5b5b;
+    color: #999999;
+		font-size: 21px;
+  	font-weight: bold;
 }
 .cm-s-default .cm-keyword {
     color: #56b76b;
@@ -326,11 +334,6 @@ option {
 }
 .cm-s-default .cm-number {
     color: #00ff48;
-}
-
-/*highlight colour*/
-.CodeMirror-selected {
-	background: rgb(61, 84, 107)!important;
 }
 }
 
