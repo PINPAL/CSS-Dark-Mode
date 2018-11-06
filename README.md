@@ -18,6 +18,7 @@
 - [ ] Finish Google stylesheet
 - [x] Add white cursor to ReStyle IDE
 - [x] Fix export UI on ReStyle IDE
+- [ ] Fix highlighted/selected text on ReStyle
 
 # Design Guidelines
 ## Basic Design Language
