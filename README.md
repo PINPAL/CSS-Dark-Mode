@@ -18,6 +18,7 @@
 - [ ] Finish Google stylesheet
 - [ ] Add white cursor to ReStyle IDE
 - [ ] Fix export UI on ReStyle IDE
+- [ ] Fix CSS code editor size bug
 
 # Design Guidelines
 ## Basic Design Language
