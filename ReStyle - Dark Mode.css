@@ -72,7 +72,7 @@ img[src="help.png"] {
 
 /*Active Line In Editor*/
 .CodeMirror-activeline-background {
-    background: black;
+    background: rgba(44, 62, 80,1.0);
 }
 
 /*Editor URL Box*/
@@ -330,6 +330,7 @@ option {
 
 /*highlight colour*/
 .CodeMirror-selected {
+	background: rgba(44, 62, 80,10)!important;
 }
 }
 
