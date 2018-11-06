@@ -51,8 +51,6 @@ This one is used in order to hold content. Don't use it too much. Large titles s
   border-width: 2px;
   padding-bottom: 50px;
   padding-right: 0px;
-  margin-top: 10px;
-  height: 755px
 }
 ```
 
