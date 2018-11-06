@@ -51,7 +51,6 @@ This one is used in order to hold content. Don't use it too much. Large titles s
   border-width: 2px;
 }
 ```
-##(I like big box)
 
 ## Buttons
 This is a button, the rest is pretty self-explanatory. Links are NOT equal to buttons. Use wisely!
