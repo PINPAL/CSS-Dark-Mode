@@ -20,7 +20,7 @@
 - [X] Add white cursor to ReStyle IDE
 - [ ] Fix export UI on ReStyle IDE
 - [ ] Fix CSS code editor size bug
-- [ ] Add highlight colour to editor (just scroll to bottom and choose hex value)
+- [X] Add highlight colour to editor (just scroll to bottom and choose hex value)
 =======
 
 # Design Guidelines
