@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://www.google.com/") {
+@-moz-document url-prefix("https://www.google.com/"), url-prefix("https://www.google.co.uk/") {
 /*Main Page Background*/
 body {
     background: #242628!important;
@@ -26,7 +26,7 @@ body {
 	color: white;
 }
 
-/*location text background along with white bars above and below*/
+/*Location text background along with white bars above and below*/
 #fbar{
 	background: #242628!important;
     border-top: none!important;
@@ -36,7 +36,7 @@ body {
     border-bottom: none!important;
 }
 
-/*Google search and im feeling horny buttons*/
+/*Search Button*/
 .jhp input[type="submit"]{
 	border-radius: 25px;
 	padding-top: 10px;
@@ -62,7 +62,7 @@ body {
     color:white;
 }
 
-/*Silly Searchbar*/
+/*Other Searchbar*/
 .gsfi, .lst{
     background:  #2F3439!important;
 }
@@ -80,7 +80,7 @@ body {
 }
 .gsst_b {
 	background:  #2F3439!important;
-    border-bottom: none;
+	border-bottom: none;
 }
 
 .sfibbbc{
