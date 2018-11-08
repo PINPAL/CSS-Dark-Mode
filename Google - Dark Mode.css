@@ -84,6 +84,54 @@ body {
 }
 
 .sfibbbc{
-	background:  #242628!important;
+	background:  #242628 !important;
+}
+
+/*Search Text Colours*/
+/*Site Titlte*/
+a:link, .mblink:visited, a:visited,  a.fl:link {
+    color: #2a90fc !important;
+}
+/*URL Below Title*/
+cite {
+	color: white !important;
+}
+/*Site Description*/
+.s {
+    color: rgba(255,255,255,0.6);
+}
+
+/*Search Right Quick Info*/
+.kp-blk {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+	padding-bottom: 20px;
+}
+
+/*Right Side Quick Info - Title*/
+.garHBe {
+    color: white;
+}
+/*Hover Effect*/
+.rhsvw:hover {
+    background-color: black
+}
+/*Right Side Quick Info - Description*/
+.cwUqwd {
+    color: rgba(255,255,255,0.6) !important;
+}
+/*Right Side Quick Info - Link*/
+.xXEKkb {
+    color: #2a90fc !important;
+}
+
+/*Remove Ugly People also ask seperators*/
+.cbphWd {
+    border-top: none;
 }
 }
