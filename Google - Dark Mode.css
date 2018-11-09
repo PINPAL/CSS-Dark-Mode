@@ -65,7 +65,7 @@ body {
 /*Other Searchbar*/
 .gsfi, .lst{
     background:  #2F3439!important;
-	color: white
+	color: white !important;
 }
 
 .sbib_a{
