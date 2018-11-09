@@ -13,17 +13,17 @@ body {
 
 /*Google Shopping Price*/
 .O8U6h {
-    color: #ffffff!important;
+    color: white !important;
 }
 
 /*About and Store color change*/
 #hptl a {
-	color: white!important;
+	color: white !important;
 }
 
 /*Location text*/
 .Q8LRLc{
-	color: white;
+	color: white !important;
 }
 
 /*Location text background along with white bars above and below*/
@@ -65,6 +65,7 @@ body {
 /*Other Searchbar*/
 .gsfi, .lst{
     background:  #2F3439!important;
+	color: white
 }
 
 .sbib_a{
@@ -73,6 +74,7 @@ body {
 
 .sbib_b {
 	background:  #2F3439!important;
+	border-radius: 25px;
 }
 
 .gsst_a {
@@ -81,10 +83,14 @@ body {
 .gsst_b {
 	background:  #2F3439!important;
 	border-bottom: none;
+	border-radius: 25px;
+}
+.sbibod {
+    background-color: #242628 !important;
 }
 
 .sfibbbc{
-	background:  #242628 !important;
+	background-color:rgba(255,255,255,0);
 }
 
 /*Search Text Colours*/
@@ -108,18 +114,19 @@ cite {
   color: white;
   border-radius: 25px;
   border-style: solid;
-  border-color: rgba(255, 255, 255, 0.03);
-  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-width: 2px !important;
 	padding-bottom: 20px;
+	margin-bottom: 10px !important;
 }
 
 /*Right Side Quick Info - Title*/
-.garHBe {
-    color: white;
+.garHBe, .kno-ecr-pt {
+    color: white !important;
 }
 /*Hover Effect*/
 .rhsvw:hover {
-    background-color: black
+    background-color: none;
 }
 /*Right Side Quick Info - Description*/
 .cwUqwd {
@@ -132,6 +139,19 @@ cite {
 
 /*Remove Ugly People also ask seperators*/
 .cbphWd {
-    border-top: none;
+    border-top: none !important;
+}
+
+/*Video Cards*/
+.cv2VAd {
+	background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-width: 2px !important;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
 }
 }
