@@ -121,7 +121,7 @@ cite {
   background: #2F3439;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   color: white;
-  border-radius: 25px;
+  border-radius: 25px  !important;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.03) !important;
   border-width: 2px !important;
@@ -135,7 +135,7 @@ cite {
 }
 /*Hover Effect*/
 .rhsvw:hover {
-    background-color: none;
+    background: none;
 }
 /*Right Side Quick Info - Description*/
 .cwUqwd {
@@ -144,6 +144,22 @@ cite {
 /*Right Side Quick Info - Link*/
 .xXEKkb {
     color: #2a90fc !important;
+}
+/*Right Side Subtitles*/
+.Ss2Faf {
+    color: white !important;
+}
+/*Right Side Text*/
+.Ndq8Rb, .IZACzd {
+	color:white !important;
+}
+.piVJ4d, .mFI2Qb, .HF3S5b, .eaoWNe {
+    color: rgba(255,255,255,0.6) !important;
+}
+/*Round Right Side Topmost Image*/
+.kno-mrg {
+    border-radius: 25px !important;
+    margin: 15px;
 }
 
 /*Remove Ugly People also ask seperators*/
@@ -156,11 +172,129 @@ cite {
 	background: #2F3439;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   color: white;
-  border-radius: 25px;
+  border-radius: 25px  !important;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.03) !important;
   border-width: 2px !important;
 	padding-bottom: 20px;
 	margin-bottom: 10px;
+}
+
+/*Google Contact Cards*/
+.vkc_np {
+	background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  border-radius: 25px  !important;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-width: 2px !important;
+	padding-bottom: 20px;
+}
+
+/*Add Cards to Search Results*/
+.rc {
+	background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  border-radius: 25px !important;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-width: 2px !important;
+	padding: 15px;
+}
+
+/*Subcription Box*/
+.i29hTd .qLLird {
+	color: white !important;
+	opacity: .6 !important;
+}
+.N6Sb2c, .i3LlFf {
+    color: white !important;
+}
+
+/*Remove all Feedback buttons*/
+a.duf3 {
+    display: none;
+}
+
+/*Remove Ugly Seperators*/
+.E6Cqjb {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+	height: 3px;
+}
+.xpdclose .a84NUc:not(:empty), .xpdopen .CQKTwc:not(:empty), .cVqrTe, .kp-blk .xpdopen .mJ2Mod{
+    border-top: none !important;
+}
+.jA1nid {
+    border-bottom: none !important;
+}
+.ksSzJd .TZahnb, .ksSzJd .NY3LVe {
+    border-right: none !important;
+}
+
+/*Thumbs Up/Down Buttons*/
+.WKrsIc, .H0Ytud, .xpLNBf {
+    color: rgba(255,255,255,.6) !important;
+		fill: rgba(255,255,255,.6) !important;
+}
+.WKrsIc:hover, .H0Ytud:hover, .xpLNBf:hover {
+    color: rgba(255,255,255,1) !important;
+		fill: rgba(255,255,255,1) !important;
+}
+
+/*Share Icon*/
+.rsir2d {
+    color: white !important;
+    opacity: 0.6 !important;
+}
+.rsir2d:hover {
+    opacity: 1 !important;
+}
+
+/*More Button*/
+.xXEKkb {
+	background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-family: "SF Pro Display";
+  border-radius: 25px;
+	padding: 10px;
+  color: white !important;
+  font-size: 14px;
+  border: none;
+	display: block !important;
+	width: 100px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.xXEKkb:hover {
+  filter: hue-rotate(90deg);
+}
+.wR7plc:hover {
+    text-decoration: none !important;
+    color: white !important;
+}
+.wR7plc {
+	    color: white !important;
+}
+
+/*Show times*/
+.sKfzK {
+	background-color: #242628!important;
+	border-radius: 15px;
+}
+.rl_item_base .title {
+	color: white !important;
+	margin-left: 10px;
+}
+.jbzYp {
+	margin-left: 10px;
+}
+.rl_item_base {
+	background: none;
+	border: none;
+	margin-top: 5px;
 }
 }
