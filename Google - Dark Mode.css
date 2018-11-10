@@ -11,6 +11,15 @@ body {
     border-radius:15px!important;
 }
 
+/*Top Right Icons*/
+.gb_8 .gb_b {
+    opacity: 0.8;
+    filter: invert(100%);
+}
+.gb_Rc {
+    filter: invert(100%);
+}
+
 /*Google Shopping Price*/
 .O8U6h {
     color: white !important;
@@ -44,7 +53,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     color:white;
-    font-size: 20px;
+    font-size: 16px;
     -webkit-transition: padding 0.5s ease;
     transition: padding 0.25s ease;
     transition:.4s;
