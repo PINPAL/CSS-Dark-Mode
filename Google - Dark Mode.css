@@ -347,7 +347,7 @@ a.duf3 {
 
 /*Maps Address*/
 .y8Jpof .LrzXr {
-    color: rgba(255,255,255,.6) !important;
+	color: rgba(255,255,255,.6) !important;
 }
 
 /*Search Navbar*/
@@ -378,12 +378,12 @@ a.duf3 {
 	margin-right: auto;
 }
 .sfbgx, #hdtb, .sfbg {
-    background: none !important;
-    border-bottom: none !important;
+  background: none !important;
+	border-bottom: none !important;
 }
 .sfbgg {
-		border-radius: 25px 25px 0px 0px;
-    background-color: black;
+	border-radius: 25px 25px 0px 0px;
+	background-color: black;
 }
 
 /*Hide number of results on navbar*/
@@ -420,7 +420,7 @@ a.duf3 {
 }
 /*Remove Search Box Ugly Seperator*/
 .sbct:first-child .suggestions-inner-container {
-    border-top: none !important;
+	border-top: none !important;
 }
 /*Search Nav Bar Font Color*/
 .gLFyf {
