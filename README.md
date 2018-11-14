@@ -92,7 +92,6 @@ These can also be used for drop-downs or checkboxes.
   background: rgba(200, 200, 255, 0.2) ;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
-  font-family: "SF Pro Display";
   border-radius: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -100,8 +99,6 @@ These can also be used for drop-downs or checkboxes.
   padding-right: 15px;
   color:white;
   font-size: 20px;
-  border: none;
-  margin-right: 5px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.05);
   border-width: 2px;
