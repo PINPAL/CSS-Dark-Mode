@@ -65,6 +65,7 @@ body {
 }
 .sbdd_a input:hover {
 	background: linear-gradient(to right, #55B49D , #2B7DCA);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 	filter: hue-rotate(90deg);
 	border: none;
 	color: white;
