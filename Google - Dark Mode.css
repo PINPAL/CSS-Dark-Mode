@@ -5,6 +5,11 @@ body {
     color: white;
 }
 
+/*Hide doodle text*/
+#prm-pt {
+	display: none;
+}
+
 /*Search Bar*/
 .sbib_a, .sbib_b, .sfibbbc, .sbibod{
 	background: none !important;
