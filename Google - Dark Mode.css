@@ -8,6 +8,7 @@ body {
 /*Search Bar*/
 .sbib_a, .sbib_b, .sfibbbc, .sbibod{
 	background: none !important;
+	box-shadow: none;
 }
 .lst-c {
 	background: rgba(200, 200, 255, 0.2) ;
@@ -21,6 +22,7 @@ body {
 .gsfi, .lst {
     color: white;
 }
+
 /*Search Bar dropdown*/
 .sbsb_b,  .sbsb_a{
 	background: none !important;
@@ -398,12 +400,16 @@ a.duf3 {
 .sbl1 {
     color: white !important;
 }
-/*Search Box - hover effect*/
+/*Search Box - Hover Effect*/
 .sbhl {
 	background-color: rgba(200, 200, 255, 0.2);
 }
-/*Remove Search Box ugly seperator*/
+/*Remove Search Box Ugly Seperator*/
 .sbct:first-child .suggestions-inner-container {
     border-top: none !important;
+}
+/*Search Nav Bar Font Color*/
+.gLFyf {
+    color: white !important;
 }
 }
