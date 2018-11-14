@@ -252,6 +252,11 @@ a.duf3 {
     opacity: 1 !important;
 }
 
+/*Fix inverted profile picture*/
+.gbii {
+    filter: invert(100%);
+}
+
 /*More Button*/
 /*
 .piXPB {
@@ -340,7 +345,7 @@ a.duf3 {
 	padding-left: 15px;
 	padding-right: 15px;
 	border-radius:  0px 0px 25px 25px;
-	padding-bottom: 15px;
+	padding-bottom: 15px !important;
 	margin-bottom: 30px;
 }
 #hdtb {
