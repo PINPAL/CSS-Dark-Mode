@@ -75,8 +75,8 @@ body {
 .gb_Rc {
     filter: invert(100%);
 }
-/*Fix top right  inverted profile picture*/
-.gbii {
+/*Fix top right inverted profile picture/sign in*/
+.gbii, #gb a.gb_Aa.gb_Aa {
     filter: invert(100%);
 }
 
