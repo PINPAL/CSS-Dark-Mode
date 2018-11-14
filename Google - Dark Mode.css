@@ -387,9 +387,32 @@ a.duf3 {
 	background-color: black;
 }
 
-/*Hide number of results on navbar*/
+/*Topmost Quick Preview*/
 #appbar {
-	display: none;
+	background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.klbar, .abup {
+    border-bottom: none !important;
+    background: #2F3439 !important;
+}
+.H1ccWd {
+    color: white !important;
+}
+#lxhdr {
+    margin-left: 0 !important;
+		background-color: #2F3439 !important;
 }
 
 /*Search Box on navbar*/
