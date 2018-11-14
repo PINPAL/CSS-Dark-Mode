@@ -1,22 +1,74 @@
 @-moz-document url-prefix("https://www.google.com/"), url-prefix("https://www.google.co.uk/") {
 /*Main Page Background*/
 body {
-    background: #242628!important;
+    background: #242628 !important;
     color: white;
 }
 
 /*Search Bar*/
-.sbib_a {
-     background-color: white;
-    border-radius:15px!important;
+.sbib_a, .sbib_b, .sfibbbc, .sbibod{
+	background: none !important;
+}
+.lst-c {
+	background: rgba(200, 200, 255, 0.2) ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+.gsfi, .lst {
+    color: white;
+}
+/*Search Bar dropdown*/
+.sbsb_b,  .sbsb_a{
+	background: none !important;
+}
+.sbdd_b {
+	background:  #464856!important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 25px!important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+	border-top: none !important;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+}
+.sbpqs_a {
+    color: white;
+}
+/*Dropdown highlight color*/
+.sbsb_d {
+	background-color: rgba(200, 200, 255, 0.2);
+}
+/*Dropdown search buttons*/
+.sbdd_a input {
+	background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  border-radius: 25px;
+  color:white;
+  font-size: 18px;
+	font-weight: normal;
+  border: none;
+	height: 40px;
+}
+.sbdd_a input:hover {
+	background: linear-gradient(to right, #55B49D , #2B7DCA);
+	filter: hue-rotate(90deg);
+	border: none;
+	color: white;
 }
 
 /*Top Right Icons*/
-.gb_8 .gb_b {
-    opacity: 0.8;
+.gb_Rc {
     filter: invert(100%);
 }
-.gb_Rc {
+/*Fix top right  inverted profile picture*/
+.gbii {
     filter: invert(100%);
 }
 
@@ -49,19 +101,17 @@ body {
 .jhp input[type="submit"]{
 	border-radius: 25px;
 	padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color:white;
-    font-size: 16px;
-    -webkit-transition: padding 0.5s ease;
-    transition: padding 0.25s ease;
-    transition:.4s;
-    border: none;
-    height: 45px;
-    background: linear-gradient(to right, #55B49D , #2B7DCA);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-    text-align: center;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color:white;
+	font-size: 16px;
+	font-weight: normal;
+	border: none;
+	height: 45px;
+	background: linear-gradient(to right, #55B49D , #2B7DCA);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	text-align: center;
 }
 .jhp input[type="submit"]:hover{
 	filter: hue-rotate(90deg)!important;
@@ -69,37 +119,6 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     border: none;
     color:white;
-}
-
-/*Other Searchbar*/
-.gsfi, .lst{
-	background:  none!important;
-	color: white !important;
-}
-
-.sbib_a{
-	background:  #2F3439!important;
-}
-
-.sbib_b {
-	background:  #2F3439!important;
-	border-radius: 25px;
-}
-
-.gsst_a {
-	background:  #2F3439!important;
-}
-.gsst_b {
-	background:  #2F3439!important;
-	border-bottom: none;
-	border-radius: 25px;
-}
-.sbibod {
-    background-color: #242628 !important;
-}
-
-.sfibbbc{
-	background-color:rgba(255,255,255,0);
 }
 
 /*Search Text Colours*/
@@ -250,11 +269,6 @@ a.duf3 {
 }
 .rsir2d:hover {
     opacity: 1 !important;
-}
-
-/*Fix inverted profile picture*/
-.gbii {
-    filter: invert(100%);
 }
 
 /*More Button*/
