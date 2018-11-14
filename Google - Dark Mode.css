@@ -353,11 +353,11 @@ a.duf3 {
 /*Search Navbar*/
 .srp #searchform {
 	position: relative;
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    margin-top: 5px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+  margin-top: 5px;
 	padding-top: 15px;
 	border-radius: 25px 25px 0px 0px;
 }
@@ -376,6 +376,14 @@ a.duf3 {
 	width: 350px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.sfbgx, #hdtb  {
+    background: none;
+    border-bottom: none;
+}
+.sfbgg {
+		border-radius: 25px 25px 0px 0px;
+    background-color: black;
 }
 
 /*Hide number of results on navbar*/
