@@ -73,7 +73,7 @@ body {
 
 /*Other Searchbar*/
 .gsfi, .lst{
-    background:  #2F3439!important;
+	background:  none!important;
 	color: white !important;
 }
 
@@ -341,9 +341,7 @@ a.duf3 {
 }
 #hdtbSum {
 	position: relative;
-    background: black !important;
-	padding-left: 15px;
-	padding-right: 15px;
+	background: black !important;
 	border-radius:  0px 0px 25px 25px;
 	padding-bottom: 15px !important;
 	margin-bottom: 30px;
@@ -352,14 +350,46 @@ a.duf3 {
 	border-bottom: none !important;
 }
 #top_nav {
-    margin-top: -65px;
+	margin-top: -65px;
 	width: 350px;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*Hide number of results on navbar*/
 #appbar {
 	display: none;
+}
+
+/*Search Box on navbar*/
+.RNNXgb {
+	background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 25px;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+}
+/*Expanded Search Box on navbar*/
+.aajZCb {
+	background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+	width: 99.7%;
+	padding-top: 10px !important;
+	padding-bottom: 15px !important;
+}
+.sbl1 {
+    color: white !important;
+}
+/*Search Box - hover effect*/
+.sbhl {
+	background-color: rgba(200, 200, 255, 0.2);
+}
+/*Remove Search Box ugly seperator*/
+.sbct:first-child .suggestions-inner-container {
+    border-top: none !important;
 }
 }
