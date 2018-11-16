@@ -86,23 +86,6 @@ body {
     color: white !important;
 }
 
-/*'We've decided to steal even more of you data now'*/
-.Teq10 {
-    background: #2F3439!important;
-    margin-left: 27px!important;
-    color: white!important;
-    border-radius: 25px!important;
-    width: 75%!important;
-    margin: auto!important;
-    border-style: solid!important;
-    border-color: rgba(255, 255, 255, 0.03)!important;
-    border-width: 2px!important;
-    margin-bottom:15px!important;
-}
-
-.OFfaL{
-    color:white!important;
-}
 /*About and Store color change*/
 #hptl a {
 	color: white !important;
