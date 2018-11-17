@@ -1,0 +1,184 @@
+@-moz-document url-prefix("https://www.convertico.com/") {
+/*Main Page Background*/
+body {
+    background: #242628;
+    color: white;
+}
+
+/*Fix black text*/
+span {
+     color: white;
+}
+
+/*Fix Footer*/
+#footer {
+    background: #2F3439;
+}
+
+/*Fix black links*/
+a {
+    color: white;
+}
+
+/*Hide Ads*/
+#ads {
+     display:none
+}
+
+/*Dark File from URL*/
+input.text {
+ 	background-color: rgba(200, 200, 255, 0.2);
+	border-radius: 25px;
+	color: white;
+     font-size: 16px;
+	padding: 8px;
+	margin-right: 5px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.05);
+	border-width: 2px;
+     box-shadow: none;
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;          
+}
+
+/*Fix Glitchy White Shadow*/
+#intro h3, .intro h3, .left-header h3 {
+	color: #fff;
+	text-shadow: none;   
+}
+#intro h2, .intro h2, .left-header h2 {
+    color: #f40e57;
+    text-shadow: none;
+}
+
+/*New  logo*/
+#logo {
+	box-shadow: none;
+	background: none repeat scroll 0 0 #f40e57;
+     top: 0px;
+}
+
+/*Move logo subtitle down*/
+h3 {
+     margin-top: 20px;
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;     
+}
+
+/*Box Output*/
+#noicons {
+     background: #2F3439;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	border-radius: 25px;
+	padding: 15px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.03);
+	border-width: 2px;
+      color: #FF6666;
+}
+
+/*Box file drag and drop*/
+#dropzone {
+	background-image: url(https://cdn.discordapp.com/attachments/366628660939194378/502989884089303050/drop-here_1.png) ;
+     background-color: #2F3439;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	border-radius: 25px;
+	padding: 15px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.03);
+	border-width: 2px;
+	color: white;
+}
+#dropzone h3 {
+     color: white;
+     margin-top: 70px;
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;     
+	font-size: 16px;
+}
+.dropzone {
+     height: 150px;
+}
+
+/*Fix black icons*/
+.expandSizes.new-expand:before, .fb-link-footer {
+     filter: invert(100%)
+}
+.expand.new-expand:before {
+    filter: invert(100%)
+}   
+
+/*Hide Navbar*/
+#top {
+     display: none;
+}
+
+/*Fix ugly footer seperator*/
+#network-urls {
+    border-top: none;
+}
+
+/*Links above file drop box*/
+.expand.new-expand, .expandSizes.new-expand {
+    color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;     
+	font-size: 13px;
+}
+.expand.new-expand:hover, .expandSizes.new-expand:hover {
+    color: #ff1e5a;
+}
+
+/*Make not important stuff gray*/
+#intro p, .intro p, .col3 {
+    opacity: 0.5;
+}
+
+/*Remove ugly right navbar seperator*/
+.right-menu li {
+    border-bottom: none;
+}
+
+/*Dark right menu*/
+ul.right-menu.sub-top-menu {
+     background-color: #2F3439;
+	box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.9);
+	text-align: center;
+	border-radius: 25px;
+	padding: 15px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.03);
+	border-width: 2px;
+	color: white;
+}
+
+/*Fix Gray text*/
+#difference h4, #stats h5{
+    color: white;
+}
+
+/*Difference Boxes*/
+#difference .before, #difference .after {
+     background: #2F3439;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	border-radius: 25px;
+	padding: 15px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.03);
+	border-width: 2px;
+      color: white;
+}
+
+/*Optimisation Boxes*/
+#stats ul li {
+     background: #2F3439;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.03);
+	border-width: 2px;
+     margin-right: 4px;
+     height: 60px;
+}
+}
