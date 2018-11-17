@@ -1,12 +1,19 @@
 # Progress List
-- [ ] iCloud
-- [ ] ReStyle / Stylish IDE
-- [ ] Google
-- [ ] YouTube
-- [ ] eBay
-- [ ] Amazon
-- [ ] PayPal
-- [ ] GitHub
+![Progress](http://progressed.io/bar/65)   iCloud 
+
+![Progress](http://progressed.io/bar/95)   ReStyle / Stylish IDE 
+
+![Progress](http://progressed.io/bar/40)   Google 
+
+![Progress](http://progressed.io/bar/75)  Amazon
+
+![Progress](http://progressed.io/bar/0)  YouTube 
+
+![Progress](http://progressed.io/bar/0)  eBay
+
+![Progress](http://progressed.io/bar/0)  PayPal
+
+![Progress](http://progressed.io/bar/0)  GitHub
 
 # To-Do List
 - [ ] Fix various issues on iCloud
