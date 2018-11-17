@@ -1,5 +1,5 @@
 # Progress List
-![Progress](http://progressed.io/bar/65)   iCloud 
+![Progress](http://progressed.io/bar/65)   iCloud Photos
 
 ![Progress](http://progressed.io/bar/95)   ReStyle / Stylish IDE 
 
