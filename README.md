@@ -1,11 +1,6 @@
 # Progress List
-- [x] iCloud Photos
-- [x] ReStyle IDE
-- [x] ConvertICO
-- [x] Linmeos Dev
-- [x] CydiaUpdates
-- [x] BundleID Search
-- [x] ConvertICO
+- [ ] iCloud
+- [ ] ReStyle / Stylish IDE
 - [ ] Google
 - [ ] YouTube
 - [ ] eBay
@@ -20,6 +15,7 @@
 - [x] Fix export UI on ReStyle IDE
 - [ ] Fix CSS code editor size bug
 - [x] Add highlight colour to editor
+- [ ] Fix search results on Amazon
 
 # Design Guidelines
 ## Basic Design Language
@@ -61,17 +57,10 @@ This is a button, the rest is pretty self-explanatory. Links are NOT equal to bu
   background: linear-gradient(to right, #55B49D , #2B7DCA);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: center;
-  font-family: "SF Pro Display";
   border-radius: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
   color:white;
   font-size: 20px;
-  -webkit-transition: padding 0.5s ease; /*For Safari*/
-  transition: padding 0.25s ease;
-  transition: 0.25s;
   border: none;
 }
 ```
@@ -79,9 +68,6 @@ Don't forget a fancy hover effect!
 ```css
 :hover {
   filter: hue-rotate(90deg);
-  font-size: 22px;
-  padding-left: 9px;
-  padding-right: 9px;
 }
 ```
 
@@ -93,10 +79,7 @@ These can also be used for drop-downs or checkboxes.
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
   border-radius: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
   color:white;
   font-size: 20px;
   border-style: solid;
@@ -119,14 +102,14 @@ Title says it all. If neccesary here is the code for a custom scrollbar. The cla
   height: 9px;
 }
 ::-webkit-scrollbar-track {
-    background: rgba(255,255,255,0.08);
-    border-radius: 10px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgba(255,255,255,0.20);
-    border-radius: 10px;
+   background: rgba(255,255,255,0.20);
+   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255,255,255,0.25);;
+   background: rgba(255,255,255,0.25);;
 }
 ```
