@@ -164,10 +164,10 @@ cite {
 /*Search Right Quick Info*/
 .kp-blk {
   background: #2F3439;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
   color: white;
   border-radius: 25px  !important;
-  border-style: solid;
+  border-style: solid !important;
   border-color: rgba(255, 255, 255, 0.03) !important;
   border-width: 2px !important;
 	padding-bottom: 20px;
@@ -370,7 +370,7 @@ a.duf3 {
 
 /*Search Navbar*/
 .srp #searchform {
-	position: relative;
+	position: relative !important;
 	width: 350px;
 	margin-left: auto;
 	margin-right: auto;
@@ -406,7 +406,11 @@ a.duf3 {
 
 /*Topmost Quick Preview*/
 #appbar {
-	background: #2F3439;
+	background: none;
+}
+.klbar {
+	border-bottom: none !important;
+	background: #2F3439 !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
   color: white;
@@ -420,16 +424,28 @@ a.duf3 {
 	margin-left: auto;
 	margin-right: auto;
 }
-.klbar, .abup {
-    border-bottom: none !important;
-    background: #2F3439 !important;
-}
 .H1ccWd {
-    color: white !important;
+	color: white !important;
 }
 #lxhdr {
-    margin-left: 0 !important;
-		background-color: #2F3439 !important;
+	margin-left: 0 !important;
+	margin-left: 230px !important;
+	background: none;
+	width:  75%;
+  position: relative;
+}
+.lx_ctl .ksb.ab_button {
+	color: rgba(255,255,255,0.6) !important;
+}
+.klitem {
+	background: none !important;
+}
+.mlo-c {
+	background-color: #272733 !important;
+	border-radius: 15px !important;
+}
+.kltat, .klfact {
+	color: white !important;
 }
 
 /*Search Box on navbar*/
@@ -453,7 +469,7 @@ a.duf3 {
 	padding-bottom: 15px !important;
 }
 .sbl1 {
-    color: white !important;
+	color: white !important;
 }
 /*Search Box - Hover Effect*/
 .sbhl {
@@ -465,6 +481,27 @@ a.duf3 {
 }
 /*Search Nav Bar Font Color*/
 .gLFyf {
+    color: white !important;
+}
+
+/*Hide ugly exapnd arrows*/
+.ab_ctl.action-menu {
+    display: none;
+}
+
+/*Hide app bar background*/
+.kappbar {
+    background: none !important;
+}
+
+/*Stop blank space on left on carousel*/
+.wqBQjd .EDblX {
+    padding-left: 0 !important;
+}
+
+/*Round Arrows for carousels*/
+.k2Oeod.eSq3C g-fab, .BlOseb.eSq3C g-fab, .BlOseb.Oom88b g-fab, .k2Oeod.Oom88b g-fab {
+    background-color: black !important;
     color: white !important;
 }
 }
