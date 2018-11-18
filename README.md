@@ -10,7 +10,7 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 # Progress List
 ![Progress](http://progressed.io/bar/85)   iCloud Photos
 
-![Progress](http://progressed.io/bar/95)   ReStyle / Stylish IDE 
+![Progress](http://progressed.io/bar/97)   Stylish IDE 
 
 ![Progress](http://progressed.io/bar/40)   Google 
 
