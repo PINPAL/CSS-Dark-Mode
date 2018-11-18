@@ -27,9 +27,9 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 # To-Do List
 - [ ] Fix various issues on iCloud
 - [ ] Finish Google stylesheet
-- [x] Add white cursor to ReStyle IDE
-- [x] Fix export UI on ReStyle IDE
-- [ ] Fix CSS code editor size bug
+- [x] Add white cursor to Stylish IDE
+- [x] Fix export UI on Stylish IDE
+- [x] Fix CSS code editor size bug
 - [x] Add highlight colour to editor
 - [ ] Fix search results on Amazon
 
