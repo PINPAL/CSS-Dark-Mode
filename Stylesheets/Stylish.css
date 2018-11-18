@@ -1,4 +1,4 @@
-@-moz-document url-prefix("chrome-extension://bldnjpcciemkbmbbfpehdmdhiaemidce/edit"), url-prefix("chrome-extension://bldnjpcciemkbmbbfpehdmdhiaemidce/manage") {
+@-moz-document url-prefix("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/manage"), url-prefix("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/edit") {
 /*Main Page Background*/
 body {
     background: #242628;
@@ -12,7 +12,7 @@ body {
 }
 
 /*Main Editor Box*/
-.CodeMirror {
+.cm-s-ambiance.CodeMirror {
 	background: #2F3439;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
  	text-align: left;
@@ -24,10 +24,11 @@ body {
 	border-color: rgba(255, 255, 255, 0.03);
 	border-width: 2px;
 	padding-bottom: 50px;
-	padding-right: 0px;
+	padding-right: 0;
 	margin-top: 10px;
-    height: 755px;
-    outline: none;
+  height: 755px;
+  outline: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /*Labels*/
@@ -72,61 +73,56 @@ img[src="help.png"] {
     margin-right: 15px;
 }
 
-/*Active Line In Editor*/
-.CodeMirror-activeline-background {
-    background: black;
-}
-
 /*Editor URL Box*/
 .applies-to li .applies-value {
  	background-color: rgba(200, 200, 255, 0.2);
 	border-radius: 25px;
 	color: white;
-     font-size: 14px;
+    font-size: 14px;
 	padding: 8px;
 	margin-right: 5px;
 	border-style: solid;
 	border-color: rgba(255, 255, 255, 0.05);
 	border-width: 2px;
-     width: 10px;
+    width: 10px;
 }
 
 /*Increase Line Spacing on Options*/
 #options {
-     line-height: 25px;
+	line-height: 25px;
 }
 
 /*Style Name Box*/
 #name {
 	background-color: rgba(200, 200, 255, 0.2);
-    border-radius: 25px;
-    color: white;
-    font-size: 14px;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
  	padding: 8px;
-    border: none;
-    margin-right: 5px;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.05);
-    border-width: 2px;
-    margin-bottom: 10px;
+  border: none;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+  margin-bottom: 10px;
 }
 
 /*Incremental Number Boxes*/
 #options [type="number"] {
-    background-color: rgba(200, 200, 255, 0.2);
-    border-radius: 25px;
-    color: white;
-    font-size: 14px;
+  background-color: rgba(200, 200, 255, 0.2);
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
  	padding: 8px;
-    border: none;
-    margin-right: 5px;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.05);
-    border-width: 2px;
+  border: none;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
 }
 #options [type="number"]{
-    max-width: 100%;
-    text-align: left;
+  max-width: 100%;
+  text-align: left;
 }
 
 /*Dropdown Button*/
@@ -143,17 +139,20 @@ select {
 }
 
 /*Editor Line Numbers*/
-.CodeMirror-gutter  {
-    	background-color:#272a2d;
-}
-.CodeMirror-gutters {
+.cm-s-ambiance .CodeMirror-gutters  {
+	background-color:#272a2d;
+    box-shadow: none;
     border-right: 0px;
+}
+.cm-s-ambiance .CodeMirror-linenumber, .cm-s-ambiance .CodeMirror-guttermarker-subtle  {
+    text-shadow: none;
+    color: #999 ;
 }
 
 /*Sidebar*/
 #header {
-     margin: 10px;
-     width: 17rem;
+  margin: 10px;
+  width: 17rem;
 	background: #2F3439;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 	text-align: left;
@@ -162,15 +161,15 @@ select {
 	border-style: solid;
 	border-color: rgba(255, 255, 255, 0.03);
 	border-width: 2px;
-     height: 94.5%;
+  height: 94.5%;
 }
 
 /*Move Main Content*/
 #sections {
-     margin-left: 30px;
+	margin-left: 30px;
 }
 #installed {
-     margin-left: 320px;
+	margin-left: 320px;
 }
 
 /*Buttons*/
@@ -200,8 +199,8 @@ select {
      padding-right: 25px;
 }
 .add-section:hover,  .beautify-section:hover{
-     background:  #2a99f9;
-     filter: hue-rotate(0deg);
+    background:  #2a99f9;
+	filter: hue-rotate(0deg);
 }
 
 /*Installed Page Boxes*/
@@ -221,20 +220,20 @@ select {
 
 /*Hide Ugly Installed Page Line*/
 #installed::after {
-     display: none;
+	display: none;
 }
 
 /*Hide Ugly Filters Borders*/
 fieldset {
-    border-width: 0px;
+	border-width: 0px;
 }
 
 /*Installed Style Search Bar*/
 #search {
-     background-color: rgba(200, 200, 255, 0.2);
+    background-color: rgba(200, 200, 255, 0.2);
 	border-radius: 25px;
 	color: white;
-     font-size: 14px;
+    font-size: 14px;
 	padding: 8px;
 	margin-right: 5px;
 	border-style: solid;
@@ -303,6 +302,27 @@ option {
 	background: rgb(61, 84, 107)!important;
 }
 
+/*Collpased Line*/
+.CodeMirror-foldmarker {
+    color: #2F3439;
+    text-shadow: none;
+    line-height: 4;
+}
+.CodeMirror-foldmarker:after{
+    content: "";
+    background-color: black;
+    text-shadow: none;
+    color: #FFA07A;
+    margin-left: -400px;
+    padding-right: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: .3;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, .4);
+	border-width: 1px;
+}
+
 /*=============================   Scrollbar Style  =============================*/
 
 ::-webkit-scrollbar {
@@ -323,105 +343,155 @@ option {
 
 /*=============================   Syntax Highlithing  =============================*/
 
-.CodeMirror-wrap pre {
+.cm-s-ambiance .cm-property {
     color: white;
 }
-.cm-s-default .cm-tag {
+.cm-s-ambiance .cm-tag {
     color: #2a99f9;
 }
-.cm-s-default .cm-qualifier {
+.cm-s-ambiance .cm-qualifier {
     color: #f40e57;
 }
-.cm-s-default .cm-comment {
+.cm-s-ambiance .cm-comment {
     color: #999999;
 	font-size: 21px;
   	font-weight: bold;
 }
-.cm-s-default .cm-keyword {
+.cm-s-ambiance .cm-keyword {
     color: #56b76b;
 }
-.cm-s-default .cm-atom {
+.cm-s-ambiance .cm-atom {
     color: #18af8c;
 }
-.cm-s-default .cm-meta {
+.cm-s-ambiance .cm-meta {
     color: #f79347;
 }
-.cm-s-default .cm-builtin {
+.cm-s-ambiance .cm-builtin {
     color: #e070e0;
 }
-.cm-s-default .cm-string {
+.cm-s-ambiance .cm-string {
     color: #ff1e5a;
 }
-.cm-s-default .cm-number {
+.cm-s-ambiance .cm-number {
     color: #00ff48;
 }
 }
 
-@-moz-document url-prefix("chrome-extension://bldnjpcciemkbmbbfpehdmdhiaemidce/popup") {
-.body {
-	background:#242628;
-    color:white;
+@-moz-document url-prefix("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/src/popup") {
+/*Main Background*/
+.tabs-container, body {
+  background: #292C30;
 }
-#stylish-popup {
-    background:#242628;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 17px;
-    color:white;
-}
-#disableAll-label {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 13px;
-}
-.style-edit-link, .delete {
-	text-decoration: none;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    margin-left: 10px;
-    background:  rgba(200, 200, 255, 0.2);
-    text-align: center;
-    border-radius: 25px;
-    padding: 9px;
-    color: white;
-    font-size: 13px;
-    border: none;
-    line-height: 40px;
-    padding-left: 20px;
-     padding-right: 20px;
-}
-.style-edit-link:hover, .delete:hover {
-	background:#2a90fc;
-}
-.style-name {
-    color:white;
-    border-bottom-style: solid;
-	border-bottom-color: rgba(255, 255, 255, 0.1);
-	border-bottom-width: 2px;
-    margin-bottom: 10px;
-}
-#find-styles-link, #open-manage-link {
-    background: linear-gradient(to right, #55B49D , #2B7DCA);
-    text-align: center;
-    border-radius: 25px;
-    padding: 9px;
-    color: white;
-    font-size: 13px;
-    border: none;
-    text-decoration: none;
-    line-height: 40px;
-}
-#find-styles-link:hover, #open-manage-link:hover {
-	filter: hue-rotate(90deg);
-}
-.write-style-link {
-    text-decoration: none;
-    color:white;
-}
-body > DIV {
-    border-bottom-style: solid;
-	border-bottom-color: rgba(255, 255, 255, 0.1);
-	border-bottom-width: 2px;
+body {
+  padding-top: 5px;
 }
 
-a, a:visited {
-    color: white;
+/*Style Boxes*/
+.entry {
+ 	background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+}
+
+/*Style Thumbnails*/
+.thumbnail {
+  border-radius: 25px 25px 0px 0px;
+}
+
+/*Install Button*/
+.thumbnail-mask {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  padding: 8px;
+  color:white;
+  font-size: 20px;
+  border: none;
+  margin-left: 5px;
+}
+.thumbnail_install {
+	background: none;
+  padding: 0 !important;
+  margin-left: 0;
+}
+
+/*Style Name*/
+.style-name {
+  color: white;
+  text-decoration: none;
+}
+
+/*Bottom Bar*/
+.find-styles {
+  background-color: black;
+  box-shadow: none;
+}
+
+/*Top Bar*/
+#header {
+  background-color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px 20px 0px 0px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+.tabs-container header {
+  background-color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0px 0px 20px 20px ;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+.tabs-container header .tab-header {
+  width: 50%;
+}
+
+/*No installed styles text*/
+#zerostyles {
+  color: rgba(255,255,255,.5);
+  font-weight: normal;
+}
+
+/*Hide stylish branding*/
+.stylish_on_off_text {
+  font-size: 0;
+  width: 20px;
+}
+.stylish_on_off_text:after {
+  font-size: 13px;
+  content: "On"
+}
+
+/*Scrollbar*/
+.maintab::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+.maintab::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+}
+.maintab::-webkit-scrollbar-track:hover {
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+}
+.maintab::-webkit-scrollbar-thumb {
+   background: rgba(255,255,255,0.20);
+   border-radius: 10px;
+}
+.maintab::-webkit-scrollbar-thumb:hover {
+   background: rgba(255,255,255,0.25);;
 }
 }
