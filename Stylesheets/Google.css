@@ -457,14 +457,14 @@ a.duf3 {
 .RNNXgb {
 	background: rgba(200, 200, 255, 0.2) !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
-  border-radius: 25px;
+  border-radius: 25px !important;
   border-style: solid !important;
   border-color: rgba(255, 255, 255, 0.05) !important;
   border-width: 2px !important;
 }
 /*Expanded Search Box on navbar*/
 .aajZCb {
-	background: rgba(200, 200, 255, 0.2) !important;
+	background: #414350 !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
   border-style: solid !important;
   border-color: rgba(255, 255, 255, 0.05) !important;
@@ -472,6 +472,9 @@ a.duf3 {
 	width: 99.7%;
 	padding-top: 10px !important;
 	padding-bottom: 15px !important;
+  border-radius: 25px !important;
+  margin-bottom: -5px !important;
+  margin-top: 8px !important;
 }
 .sbl1 {
 	color: white !important;
@@ -514,5 +517,143 @@ a.duf3 {
 .ab_tnav_wrp {
     height: 33px;
     display: none;
+}
+
+/*Top stories cards*/
+g-inner-card {
+  background: #2F3439 !important;;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;;
+  text-align: left !important;;
+  color: white !important;;
+  border-radius: 25px !important;;
+  padding: 15px !important;; 
+  line-height: 1.6 !important;;
+  border-style: solid !important;;
+  border-color: rgba(255, 255, 255, 0.03) !important;;
+  border-width: 2px !important;;
+}
+
+/*Links*/
+.wUrVib {
+    color: #2a90fc !important; 
+}
+.wUrVib:hover {
+    opacity: .8;
+}
+/*Link Arrow*/
+.EZRelc {
+    color: #2a90fc !important; 
+}
+.EZRelc:hover {
+    opacity: .8;
+}
+
+/*Calculator*/
+.vk_c {
+	background: #2F3439 !important;;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;;
+  text-align: left !important;;
+  color: white !important;;
+  border-radius: 25px !important;;
+  padding: 15px !important;; 
+  line-height: 1.6 !important;;
+  border-style: solid !important;;
+  border-color: rgba(255, 255, 255, 0.03) !important;;
+  border-width: 2px !important;;
+}
+/*Remove calculator white bar*/
+.cwtlwm {
+  background: none !important;
+}
+/*Calculator results text*/
+.cwcot {
+  color: white !important;
+}
+/*Calculator results bar*/
+.cwtlb {
+  background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 25px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  top: 5px !important;
+}
+/*Calculator light buttons*/
+.cwlgb-tpl {
+  background-image: none !important;
+  background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 25px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  top: 5px !important;
+  color: white !important;
+}
+/*Calculator blue button*/
+.cwbb-tpl {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 25px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  top: 5px !important;
+}
+.Lw1BTd {
+    font-weight: normal;
+}
+/*Calculator dark buttons*/
+.cwdgb-tpl {
+  background-image: none !important;
+  background: rgba(200, 200, 255, 0.075) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 25px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  top: 5px !important;
+  color: white !important;
+}
+/*Calculator top left buttons*/
+.cwrb-tpl {
+  background-image: none !important;
+  background: #414449 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 25px 0px 0px 25px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px 0 2px 2px !important;
+  top: 5px !important;
+  width: 97% !important;
+  color: white !important;
+  left: 6px !important;
+}
+.cwdb-tpl {
+  background-image: none !important;
+  background: #414449 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 0px 25px 25px 0px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px 2px 2px 0px !important;
+  top: 5px !important;
+  width: 97% !important;
+  color: white !important;
+  left: -1px;
+}
+/*Calculator Selector (top left)*/
+.cwdrsb-tpl {
+  background-image: none !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 25px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  top: 5px !important;
+  width: 97% !important;
+/*Calculator button text*/
+.BVPfqc {
+  color: white !Important;
 }
 }
