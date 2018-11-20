@@ -187,7 +187,10 @@ cite {
 }
 /*Right Side Quick Info - Link*/
 .xXEKkb {
-    color: #2a90fc !important;
+  color: #2a90fc !important;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
 }
 /*Right Side Subtitles*/
 .Ss2Faf {
@@ -209,9 +212,19 @@ cite {
     margin: 15px;
 }
 
-/*Remove Ugly People also ask seperators*/
-.cbphWd {
+/*Remove ugly seperators*/
+.cbphWd, .KjyTCd {
     border-top: none !important;
+}
+
+/*Remove wasted space*/
+.HF3S5b {
+  min-height: 0 !important;
+}
+
+/*Posting publicly text*/
+.RJ3lSb {
+    color: rgba(255,255,255,.6) !important;
 }
 
 /*Video Cards*/
@@ -300,8 +313,7 @@ a.duf3 {
 }
 
 /*More Button*/
-/*
-.piXPB {
+.SW5pqf {
 	background: linear-gradient(to right, #55B49D , #2B7DCA);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -316,17 +328,12 @@ a.duf3 {
 	width: 100px;
 	margin-left: auto;
 	margin-right: auto;
+  text-decoration: none !important;
 }
-.piXPB:hover {
+.SW5pqf:hover {
   filter: hue-rotate(90deg);
+  text-decoration: none !important;
 }
-.wR7plc:hover {
-    text-decoration: none !important;
-    color: white !important;
-}
-.wR7plc {
-	    color: white !important;
-}*/
 
 /*Show times*/
 .sKfzK {
@@ -353,9 +360,6 @@ a.duf3 {
 	top: 10px !important;
 	right: 10px !important;
 	opacity: .7 !important;
-}
-.xXEKkb {
-    color: #1a0dab !important;
 }
 .adgvqc:hover {
 	opacity: 1 !Important;
@@ -652,8 +656,39 @@ g-inner-card {
   border-width: 2px !important;
   top: 5px !important;
   width: 97% !important;
+}
 /*Calculator button text*/
 .BVPfqc {
   color: white !Important;
+}
+  
+/*Date*/
+.vk_bk {
+    color: white !important;
+}
+
+/*Watched Videos Link*/
+.cJzOGc, .cJzOGc.Fuybue:visited {
+    color: #2a90fc !important;
+}
+  
+  /*Claim panel button*/
+.H73aad {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px;
+  border: none !important;
+}
+.H73aad:hover {
+  filter: hue-rotate(90deg);
+}
+.jleFbf {
+    color: white !important;
+    font-size: 14px;
+}
+.LbNDAb {
+    color: white !important;
 }
 }
