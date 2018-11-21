@@ -674,7 +674,7 @@ g-inner-card {
   
   /*Claim panel button*/
 .H73aad {
-  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: center;
   border-radius: 25px;
@@ -690,5 +690,97 @@ g-inner-card {
 }
 .LbNDAb {
     color: white !important;
+}
+
+/*Google Images suggestions*/
+.Mw2I7 {
+  background-color: #2F3439 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-width: 2px !important;
+}
+.dtviD {
+  color: white !important;
+}
+
+/*Google Image Boxes*/
+.rg_bx {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  min-height: 250px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+}
+.rg_l {
+  top: 8px;
+  background: none !important;
+}
+
+/*Google Images text*/
+.iKjWAf {
+  top: 8px;
+  background: none !important;
+}
+.mVDMnf {
+  color: white !important;
+}
+.nJGrxf.FnqxG {
+  color: rgba(255,255,255,.6) !important;
+}
+
+/*Images expand an image*/
+#irc_cc {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+  width: 95% !important;
+  height: 100% !important;
+}
+
+/*Images close button*/
+#irc_cb {
+  right: 50px !important;
+}
+
+/*Remove images seperator*/
+.irc_land .irc_sep, .irc_land .irc_infosep {
+  display: none !important;
+}
+
+/*Images Visit Buttons*/
+.iAcjwd a {
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important;;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;;
+  text-align: center !important;;
+  border-radius: 25px !important;
+  padding: 15px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  color:white !important;
+  font-size: 14px !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+.iAcjwd a:hover {
+    filter: hue-rotate(90deg);
+}
+
+/*Images move title down*/
+a.irc_pt {
+  margin-top: 50px !important;
 }
 }
