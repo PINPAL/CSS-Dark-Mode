@@ -12,7 +12,7 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 
 ![Progress](http://progressed.io/bar/97)   Stylish IDE 
 
-![Progress](http://progressed.io/bar/40)   Google 
+![Progress](http://progressed.io/bar/55)   Google 
 
 ![Progress](http://progressed.io/bar/60)   Amazon
 
