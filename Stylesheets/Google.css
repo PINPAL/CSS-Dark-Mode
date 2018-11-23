@@ -1,8 +1,25 @@
-@-moz-document url-prefix("https://www.google.com/"), url-prefix("https://www.google.co.uk/") {
+@-moz-document regexp("https://www.google.*") {
 /*Main Page Background*/
 body {
     background: #242628 !important;
     color: white;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 9px;
+  height: 95%;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+   background: rgba(255,255,255,0.20);
+   border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+   background: rgba(255,255,255,0.25);;
 }
 
 /*Hide doodle text*/
@@ -184,13 +201,6 @@ cite {
 /*Right Side Quick Info - Description*/
 .cwUqwd {
     color: rgba(255,255,255,0.6) !important;
-}
-/*Right Side Quick Info - Link*/
-.xXEKkb {
-  color: #2a90fc !important;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 26px;
 }
 /*Right Side Subtitles*/
 .Ss2Faf {
@@ -782,5 +792,169 @@ g-inner-card {
 /*Images move title down*/
 a.irc_pt {
   margin-top: 50px !important;
+}
+
+/*Right Side Quick Info - Link*/
+.xXEKkb {
+  color: #2a90fc !important;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/*Shopping - Search Results*/
+.sh-dlr__list-result {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  color: white;
+  border-radius: 25px !important;
+  padding: 15px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+  margin-bottom: 20px !important;
+  width: 0%;
+}
+
+/*Shopping - Hide seperators*/
+.IxCT4b {
+  display: none !important;
+}
+.sh-sr__shop-result-group {
+    border-bottom: none !important;
+}
+.sh-dtt__sort-by {
+    border-left: none !important;
+}
+
+/*Shopping - Sidebar*/
+#leftnavc {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  color: white;
+  border-radius: 25px !important;
+  padding: 5px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+  margin-left: 15px;
+  position: fixed;
+  top: 15px;
+  height: 95%;
+  width: 250px;
+}
+.sh-dr__before {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  bottom: 15px;
+  overflow: auto;
+}
+/*Shopping - Sidebar text*/
+.ELcVZ {
+  color: white !important;
+}
+.vjtvke, .vjtvke:link, .vjtvke:visited {
+  color: rgba(255,255,255,.5) !important;
+}
+
+/*Shopping - Clear filters button*/
+.EQ4p8c.XWVz1e {
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important;;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;;
+  text-align: center !important;;
+  border-radius: 25px !important;
+  padding: 15px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  color:white !important;
+  font-size: 14px !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+.EQ4p8c.XWVz1e:hover {
+  filter: hue-rotate(90deg);
+}
+#rcnt a:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+/*Shopping - Center location in sidebar*/
+.CV7Lzb {
+  text-align: center;
+  color: rgba(255,255,255,.3)
+}
+
+
+
+/*Shopping - hide "sponsered" text*/
+#topstuff .sh-sp__pswtr {
+  display: none !important;
+}
+
+/*Shopping price box*/
+.HUZACb {
+  background: rgba(200, 200, 255, 0.2) ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  border-radius: 25px;
+  padding: 15px !important;
+  padding-top: 8px !important;
+  padding-bottom: 2px !important;
+  color:white;
+  font-size: 14px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+.plRs9b {
+  background: none !important;
+}
+.sh-dr__pr.EQ4p8c {
+    margin-top: 20px;
+}
+
+/*Shopping - Filter go button*/
+.LfUe1b {
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important;;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;;
+  text-align: center !important;;
+  border-radius: 25px !important;
+  padding: 15px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  color:white !important;
+  font-size: 14px !important;
+  border: none !important;
+  text-decoration: none !important;
+  width: 100% !important;
+  margin-top: 25px;
+}
+.LfUe1b:hover {
+  filter: hue-rotate(90deg);
+}
+}
+
+@-moz-document regexp("https://www.google.*tbm=shop.*") {
+/*Shopping - move content away from sidebar*/
+#cnt #center_col, .mw #center_col, .mw #foot {
+    margin-left: 330px !important;
+}
+
+/*Shopping center content*/
+#main .mw {
+    max-width: 100% !important;
+}
+#main #cnt #center_col {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 55%;
+}
+.sh-dlr__content {
+  width: 100%;
+  min-width: 0 !important;
 }
 }
