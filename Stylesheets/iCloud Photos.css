@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://www.icloud.com/") {
+@-moz-document regexp("https://www.icloud.*photos.*") {
 /*Background*/.p2-main-view .primary-panel, .p2-main-view .flow-grid .cw-ui-collections-list-header-view {
 	background: #242628;
 	color:white;
@@ -15,7 +15,7 @@
 
 /*Darken ugly seperators*/
 .p2-main-view .flow-grid .cw-ui-collections-list-header-view:before {
-    border-top-style: solid;
+  border-top-style: solid;
 	border-top-color: rgba(255, 255, 255, 0.1);
 	border-top-width: 1px;
 }
@@ -34,28 +34,28 @@
 }
 /*Sidebar selected tab*/
 .container-list .cw-list-item-view.cw-selected {
-    background: #2a90fc;
-    color: white;
+  background: #2a90fc;
+  color: white;
 }
 /*Sidebar expand arrows*/
 .cw-ui-collections-toggle-view, .cw-ui-collections-toggle-view svg {
-    fill: rgba(255,255,255,.35);
+	fill: rgba(255,255,255,.35);
 }
 /*Sidebar titles*/
 .container-list .cw-list-item-view.p2-container-list-group-header-view .non-expandable-item-container, .container-list .cw-list-item-view.p2-container-list-group-header-view .outline-item-container {
-    color: white;
+	color: white;
 }
 
 
 /*Top navbar*/
 p2-toolbar-scroll-view .p2-album-contents-selection-view, .p2-toolbar-scroll-view .p2-toolbar-view {
-    background-color: #2F3439;
+	background-color: #2F3439;
 }
 
 /*Fix top left logo*/
 .cosk-app-name .cosk-icloud-logo>svg {
-    fill: #fff;
-    stroke: #fff;
+  fill: #fff;
+	stroke: #fff;
 }
 .p2-main-view .cosk-app-name .cosk-app-switcher-trigger .cosk-app-display-name, .p2-main-view .cosk-app-name .cosk-app-switcher-trigger .cosk-chevron-icon, .p2-main-view~div .cw-popover-view .cosk-app-name .cosk-app-switcher-trigger .cosk-app-display-name, .p2-main-view~div .cw-popover-view .cosk-app-name .cosk-app-switcher-trigger .cosk-chevron-icon {
     color: white;
@@ -79,6 +79,11 @@ p2-toolbar-scroll-view .p2-album-contents-selection-view, .p2-toolbar-scroll-vie
 }
 .p2-toolbar-scroll-view .p2-album-contents-selection-view .cw-segmented-control .cw-button, .p2-toolbar-scroll-view .p2-toolbar-view .cw-segmented-control .cw-button {
     border: 1px solid #2a90fc;
+}
+.p2-toolbar-scroll-view .p2-toolbar-view .cw-segmented-control .cw-button:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 1px solid #2a90fc;
 }
 
 /*Date bar below navbar*/
@@ -163,4 +168,55 @@ p2-toolbar-scroll-view .p2-album-contents-selection-view, .p2-toolbar-scroll-vie
 	background-color: #242628;
 }
 
+/*Bottom photos timeline*/
+.p2-thumbnails-strip-view {
+	background-color: #1b1c1e;
+}
+
+/*Fix favourite heart icon*/
+.p2-toolbar-scroll-view .p2-album-contents-selection-view .favorite-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .favorite-button>.svg-container>svg {
+	fill: white;
+  stroke: white;
+}
+
+/*Fix photos date*/
+.title {
+	color: white;
+}
+.subtitle {
+	color: rgba(255,255,255,0.7) !important;
+}
+
+/*Fix back button*/
+.p2-toolbar-scroll-view .p2-toolbar-view .back-button>.svg-container>svg {
+	fill: white;
+  stroke: white;
+}
+
+/*Fix top right down arrow*/
+.cosk-app-name .cosk-chevron-icon {
+	fill: white;
+}
+
+/*Springboard app switcher text*/
+.springboard-view.app-switcher .sc-view .sb-title>.sb-title-text {
+    color: white;
+}
+
+/*Springboard selected app name*/
+.springboard-view.app-switcher .sb-title-highlight {
+    background: #2a90fc;
+  	border-color: rgba(255,255,255,.2)
+}
+
+/*Popup*/
+.atv4.cw-alert.sc-pane.sc-panel>.sc-view .title-label {
+    color: white;
+}
+.atv4.cw-alert.sc-pane.sc-panel>.sc-view .description {
+    color: rgba(255,255,255,.5)
+}
+.atv4.sc-pane.sc-panel:before {
+  background-color: #242628;
+}
 }
