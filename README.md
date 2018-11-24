@@ -8,7 +8,7 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 [Unofficial fork for Safari](http://sobolev.us/stylish/)
 
 # Progress List
-![Progress](http://progressed.io/bar/85)   iCloud Photos
+![Progress](http://progressed.io/bar/95)   iCloud Photos
 
 ![Progress](http://progressed.io/bar/97)   Stylish IDE 
 
