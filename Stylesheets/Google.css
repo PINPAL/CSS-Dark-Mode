@@ -758,7 +758,7 @@ g-inner-card {
   border-color: rgba(255, 255, 255, 0.03);
   border-width: 2px;
   width: 95% !important;
-  height: 100% !important;
+  height: 90% !important;
 }
 
 /*Images close button*/
@@ -1000,6 +1000,12 @@ a.irc_pt {
 }
 .wYWDAd {
     border-top: none !Important;
+}
+
+/*Images move image expand view up*/
+.irc_mi {
+  margin-top: -12px !important;
+  background: none !important;
 }
 
 }
