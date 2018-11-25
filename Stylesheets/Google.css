@@ -936,6 +936,72 @@ a.irc_pt {
 .LfUe1b:hover {
   filter: hue-rotate(90deg);
 }
+
+/*Site specific search bar*/
+.ktf {
+  background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  text-align: left;
+  border-radius: 25px !important;
+  padding-left: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color:white !important;
+  font-size: 20px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  width: 470px !important;
+}
+.mslg .ab_button {
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important;;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;;
+  text-align: center !important;;
+  border-radius: 25px !important;
+  padding: 15px !important;
+  color:white !important;
+  font-size: 14px !important;
+  border: none !important;
+  height: 42px !important;
+  margin-right: 15px !important;
+}
+.mslg .ab_button:hover {
+  filter: hue-rotate(90deg);
+}
+.JOmIqc {
+  	filter: invert(100);
+    margin-top: -8px !important;
+}
+
+/*Location list*/
+.dbg0pd {
+    color: white !important;
+}
+.rllt__details>div {
+   color: rgba(255,255,255,.5) !important;
+}
+.VkpGBb:hover {
+  background-color: rgba(255,255,255,.5) !important;
+}
+/*Location list - fix map size*/
+#lu_map {
+  width: 100% !Important;
+  border-radius: 25px !important;
+}
+/*Location list - remove ugly seperators*/
+.ccBEnf {
+    border: none !important;
+}
+.zkIadb {
+    border-top: none !Important;
+}
+.yyjhs {
+    background: none !important
+}
+.wYWDAd {
+    border-top: none !Important;
+}
+
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
