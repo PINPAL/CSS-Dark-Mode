@@ -325,7 +325,6 @@ a.duf3 {
 /*More Button*/
 .SW5pqf {
 	background: linear-gradient(to right, #55B49D , #2B7DCA);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: center;
   font-family: "SF Pro Display";
   border-radius: 25px;
@@ -334,7 +333,8 @@ a.duf3 {
   font-size: 14px;
   border: none;
 	display: block !important;
-	margin-top: 10px;
+	margin-top: 8px;
+  margin-bottom: 25px;
 	width: 100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -1008,6 +1008,53 @@ a.irc_pt {
   background: none !important;
 }
 
+/*Move right side travel icons*/
+.EJ4P6e .Im3qld {
+    margin-left: 15px !important;
+}
+
+/*Hide ugly seperators - "things to do at location" list*/
+.jktSrf td {
+  border: none !important; 
+}
+
+/*Color text for - "things to do at location" list*/
+.T2uyV {
+   color: white !important;
+}
+.pa72cd {
+  color: rgba(255,255,255,.5) !important;
+}
+.M5mFPb {
+	filter: hue-rotate() brightness(100);
+  opacity: .5;
+}
+
+/*Top stories*/
+.qmv19b {
+    box-shadow: none !Important;
+}
+.EPLo7b {
+    border-top: none !Important;
+}
+g-section-with-header {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+}
+.y9oXvf {
+  color: white !important;
+}
+.wqg8ad {
+    color: #2a90fc !important;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
