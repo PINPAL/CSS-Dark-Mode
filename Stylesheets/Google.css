@@ -105,19 +105,11 @@ body {
 	color: white;
 }
 
-/*Top Right Icons*/
-.gb_Rc {
-    filter: invert(100%);
-}
-/*Fix top right inverted profile picture/sign in*/
-.gbii, #gb a.gb_Aa.gb_Aa {
-		color: white !important;
-}
-
-/*Aplications icon*/
+/*Top right icons*/
 .gb_8 .gb_b,.gb_Tc {
     filter: invert(1) !important;
 }
+
 /*Google Shopping Price*/
 .O8U6h {
     color: white !important;
@@ -543,7 +535,7 @@ g-inner-card {
   text-align: left !important;;
   color: white !important;;
   border-radius: 25px !important;;
-  padding: 15px !important;;
+  padding: 15px !important;; 
   line-height: 1.6 !important;;
   border-style: solid !important;;
   border-color: rgba(255, 255, 255, 0.03) !important;;
@@ -552,14 +544,14 @@ g-inner-card {
 
 /*Links*/
 .wUrVib {
-    color: #2a90fc !important;
+    color: #2a90fc !important; 
 }
 .wUrVib:hover {
     opacity: .8;
 }
 /*Link Arrow*/
 .EZRelc {
-    color: #2a90fc !important;
+    color: #2a90fc !important; 
 }
 .EZRelc:hover {
     opacity: .8;
@@ -572,7 +564,7 @@ g-inner-card {
   text-align: left !important;;
   color: white !important;;
   border-radius: 25px !important;;
-  padding: 15px !important;;
+  padding: 15px !important;; 
   line-height: 1.6 !important;;
   border-style: solid !important;;
   border-color: rgba(255, 255, 255, 0.03) !important;;
@@ -674,7 +666,7 @@ g-inner-card {
 .BVPfqc {
   color: white !Important;
 }
-
+  
 /*Date*/
 .vk_bk {
     color: white !important;
@@ -684,7 +676,7 @@ g-inner-card {
 .cJzOGc, .cJzOGc.Fuybue:visited {
     color: #2a90fc !important;
 }
-
+  
   /*Claim panel button*/
 .H73aad {
   background: linear-gradient(to right, #55B49D , #2B7DCA) !important;
@@ -1018,7 +1010,7 @@ a.irc_pt {
 
 /*Hide ugly seperators - "things to do at location" list*/
 .jktSrf td {
-  border: none !important;
+  border: none !important; 
 }
 
 /*Color text for - "things to do at location" list*/
@@ -1104,5 +1096,96 @@ hr {
 .sh-dlr__content {
   width: 100%;
   min-width: 0 !important;
+}
+}
+
+@-moz-document regexp("https://www.google.*/maps/*") {
+.searchbox {
+  background: rgba(200, 200, 255, 0.2) !impoitant;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !impoitant;
+  text-align: left !impoitant;
+  border-radius: 25px !impoitant;
+  padding: 15px !impoitant;
+  color:white !impoitant;
+  font-size: 20px !impoitant;
+  border-style: solid !impoitant;
+  border-color: rgba(255, 255, 255, 0.05) !impoitant;
+  border-width: 2px !impoitant;
+}
+}
+
+@-moz-document regexp("https://translate.google.*") {
+body, .epu-dt .frame {
+    background-color: #292C30 !important;
+}
+
+.orig, .main-header.long-text .result, body:not(.with-lang-list) .results-container.empty, body:not(.with-lang-list) .main-header.long-text .results-container.empty, .source-wrap, .source-input, .result-dict-wrapper {
+    background-color: #2F3439;
+    color: white;
+}
+
+.main-header.long-text .result-dict-wrapper .translation {
+  color: white;
+}
+
+/*Top Language Bar*/
+.ls-wrap {
+  	border-style: solid;
+  	border-color: rgba(255, 255, 255, 0.03);
+  	border-width: 2px;
+    background-color: #292C30;
+}
+.sl-sugg .goog-inline-block.jfk-button, .tl-sugg .goog-inline-block.jfk-button {
+  color: white;
+}
+.sl-sugg .goog-inline-block.jfk-button-checked, .tl-sugg .goog-inline-block.jfk-button-checked {
+  color: #2a90fc;
+}
+.ls-wrap .sugg-fade {
+	background: linear-gradient(to right,rgba(255,255,255,0),#292C30);
+  height: 44px;
+}
+.ls-wrap .sl-sugg .goog-inline-block.jfk-button:focus {
+  background-color: black;
+}
+
+/*Swap Button*/
+.swap-wrap {
+    background: none;
+}
+.swap.jfk-button {
+  background-color: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  color:white;
+  border: none;
+}
+
+/*Top Buttons*/
+.homepage.translate-text .input-button.text-icon, .homepage.translate-docs .input-button.documents-icon, .header-button {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;;
+  color:white;
+  font-size: 20px;
+  border: none;
+  width: 180px;
+  font-size: 18px;
+  font-weight: normal;
+}
+/*Top Button Glyph Icons*/
+.input-button.text-icon::before, .input-button.documents-icon::before {
+  filter: brightness(100);
+}
+
+/*Icons*/
+.main-header.long-text .ttsbutton-res .jfk-button-img, .ttsbutton .jfk-button-img, .speech-button .jfk-button-img, .ita-kd-icon-button.ita-kd-small, .clear .jfk-button-img, .main-header.long-text .trans-verified-button, .main-header.long-text .result .unstarred>.jfk-button-img, .main-header.long-text .copybutton .jfk-button-img {
+    opacity: .55!important;
+    filter: invert(1);
 }
 }
