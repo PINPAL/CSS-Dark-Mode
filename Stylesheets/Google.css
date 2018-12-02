@@ -1120,11 +1120,11 @@ hr {
 }
 
 @-moz-document regexp("https://translate.google.*") {
-.epu-dt .frame {
+body, .epu-dt .frame {
     background-color: #292C30 !important;
 }
 
-.orig, .main-header.long-text .result, body:not(.with-lang-list) .results-container.empty, body:not(.with-lang-list) .main-header.long-text .results-container.empty, .source-wrap {
+.orig, .main-header.long-text .result, body:not(.with-lang-list) .results-container.empty, body:not(.with-lang-list) .main-header.long-text .results-container.empty, .source-wrap, .source-input, .result-dict-wrapper {
     background-color: #2F3439;
     color: white;
 }
@@ -1154,6 +1154,18 @@ hr {
   background-color: black;
 }
 
+/*Swap Button*/
+.swap-wrap {
+    background: none;
+}
+.swap.jfk-button {
+  background-color: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  color:white;
+  border: none;
+}
 
 /*Top Buttons*/
 .homepage.translate-text .input-button.text-icon, .homepage.translate-docs .input-button.documents-icon, .header-button {
@@ -1174,5 +1186,11 @@ hr {
 /*Top Button Glyph Icons*/
 .input-button.text-icon::before, .input-button.documents-icon::before {
   filter: brightness(100);
+}
+
+/*Icons*/
+.main-header.long-text .ttsbutton-res .jfk-button-img, .ttsbutton .jfk-button-img, .speech-button .jfk-button-img, .ita-kd-icon-button.ita-kd-small, .clear .jfk-button-img, .main-header.long-text .trans-verified-button, .main-header.long-text .result .unstarred>.jfk-button-img, .main-header.long-text .copybutton .jfk-button-img {
+    opacity: .55!important;
+    filter: invert(1);
 }
 }
