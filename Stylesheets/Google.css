@@ -111,7 +111,6 @@ body {
 }
 /*Fix top right inverted profile picture/sign in*/
 .gbii, #gb a.gb_Aa.gb_Aa {
-    filter: invert(100%);
 		color: white !important;
 }
 
@@ -540,7 +539,7 @@ g-inner-card {
   text-align: left !important;;
   color: white !important;;
   border-radius: 25px !important;;
-  padding: 15px !important;; 
+  padding: 15px !important;;
   line-height: 1.6 !important;;
   border-style: solid !important;;
   border-color: rgba(255, 255, 255, 0.03) !important;;
@@ -549,14 +548,14 @@ g-inner-card {
 
 /*Links*/
 .wUrVib {
-    color: #2a90fc !important; 
+    color: #2a90fc !important;
 }
 .wUrVib:hover {
     opacity: .8;
 }
 /*Link Arrow*/
 .EZRelc {
-    color: #2a90fc !important; 
+    color: #2a90fc !important;
 }
 .EZRelc:hover {
     opacity: .8;
@@ -569,7 +568,7 @@ g-inner-card {
   text-align: left !important;;
   color: white !important;;
   border-radius: 25px !important;;
-  padding: 15px !important;; 
+  padding: 15px !important;;
   line-height: 1.6 !important;;
   border-style: solid !important;;
   border-color: rgba(255, 255, 255, 0.03) !important;;
@@ -671,7 +670,7 @@ g-inner-card {
 .BVPfqc {
   color: white !Important;
 }
-  
+
 /*Date*/
 .vk_bk {
     color: white !important;
@@ -681,7 +680,7 @@ g-inner-card {
 .cJzOGc, .cJzOGc.Fuybue:visited {
     color: #2a90fc !important;
 }
-  
+
   /*Claim panel button*/
 .H73aad {
   background: linear-gradient(to right, #55B49D , #2B7DCA) !important;
@@ -1015,7 +1014,7 @@ a.irc_pt {
 
 /*Hide ugly seperators - "things to do at location" list*/
 .jktSrf td {
-  border: none !important; 
+  border: none !important;
 }
 
 /*Color text for - "things to do at location" list*/
