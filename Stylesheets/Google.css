@@ -8,7 +8,7 @@ body {
 /*Scrollbar*/
 ::-webkit-scrollbar {
   width: 9px;
-  height: 95%;
+  height: 9px;
 }
 ::-webkit-scrollbar-track {
   background: rgba(255,255,255,0.08);
@@ -141,32 +141,32 @@ body {
 
 /*Search Button*/
 .jhp input[type="submit"]{
-	border-radius: 25px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 15px;
-	padding-right: 15px;
-	color:white;
-	font-size: 16px;
-	font-weight: normal;
-	border: none;
-	height: 45px;
-	background: linear-gradient(to right, #55B49D , #2B7DCA);
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-	text-align: center;
+	border-radius: 25px !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	color:white !important;
+	font-size: 16px !important;
+	font-weight: normal !important;
+	border: none !important;
+	height: 45px !important;
+	background: linear-gradient(to right, #55B49D , #2B7DCA) !important;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+	text-align: center !important;
 }
 .jhp input[type="submit"]:hover{
 	filter: hue-rotate(90deg)!important;
-    background: linear-gradient(to right, #55B49D , #2B7DCA);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-    border: none;
-    color:white;
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border: none;
+  color:white;
 }
 
 /*Search Text Colours*/
 /*Site Title*/
 a:link, .mblink:visited, a:visited,  a.fl:link {
-    color: #2a90fc !important;
+  color: #2a90fc !important;
 }
 /*URL Below Title*/
 cite {
@@ -174,7 +174,7 @@ cite {
 }
 /*Site Description*/
 .s {
-    color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.6);
 }
 
 /*Search Right Quick Info*/
@@ -192,39 +192,39 @@ cite {
 
 /*Right Side Quick Info - Title*/
 .garHBe, .kno-ecr-pt {
-    color: white !important;
+  color: white !important;
 }
 /*Hover Effect*/
 .rhsvw:hover {
-    background: none !important;
+  background: none !important;
 }
 /*Right Side Quick Info - Description*/
 .cwUqwd {
-    color: rgba(255,255,255,0.6) !important;
+  color: rgba(255,255,255,0.6) !important;
 }
 /*Right Side Subtitles*/
 .Ss2Faf {
-    color: white !important;
+  color: white !important;
 }
 /*Right Side Text*/
 .Ndq8Rb, .IZACzd {
 	color:white !important;
 }
 .piVJ4d, .mFI2Qb, .HF3S5b, .eaoWNe {
-    color: rgba(255,255,255,0.6) !important;
+  color: rgba(255,255,255,0.6) !important;
 }
 .jbzYp, .q0OVVc, .lVpIye, .NmQOSc, .Vcnuqf, .HoEOQb {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 /*Round Right Side Topmost Image*/
 .kno-mrg {
-    border-radius: 25px !important;
-    margin: 15px;
+  border-radius: 25px !important;
+  margin: 15px;
 }
 
 /*Remove ugly seperators*/
 .cbphWd, .KjyTCd {
-    border-top: none !important;
+  border-top: none !important;
 }
 
 /*Remove wasted space*/
@@ -234,7 +234,7 @@ cite {
 
 /*Posting publicly text*/
 .RJ3lSb {
-    color: rgba(255,255,255,.6) !important;
+  color: rgba(255,255,255,.6) !important;
 }
 
 /*Video Cards*/
@@ -280,12 +280,12 @@ cite {
 	opacity: .6 !important;
 }
 .N6Sb2c, .i3LlFf {
-    color: white !important;
+  color: white !important;
 }
 
 /*Remove all Feedback buttons*/
 a.duf3 {
-    display: none;
+  display: none;
 }
 
 /*Remove Ugly Seperators*/
@@ -294,32 +294,32 @@ a.duf3 {
 	height: 3px;
 }
 .xpdclose .a84NUc:not(:empty), .xpdopen .CQKTwc:not(:empty), .cVqrTe, .kp-blk .xpdopen .mJ2Mod{
-    border-top: none !important;
+  border-top: none !important;
 }
 .jA1nid {
-    border-bottom: none !important;
+  border-bottom: none !important;
 }
 .ksSzJd .TZahnb, .ksSzJd .NY3LVe {
-    border-right: none !important;
+  border-right: none !important;
 }
 
 /*Thumbs Up/Down Buttons*/
 .WKrsIc, .H0Ytud, .xpLNBf {
-    color: rgba(255,255,255,.6) !important;
-		fill: rgba(255,255,255,.6) !important;
+  color: rgba(255,255,255,.6) !important;
+  fill: rgba(255,255,255,.6) !important;
 }
 .WKrsIc:hover, .H0Ytud:hover, .xpLNBf:hover {
-    color: rgba(255,255,255,1) !important;
-		fill: rgba(255,255,255,1) !important;
+  color: rgba(255,255,255,1) !important;
+  fill: rgba(255,255,255,1) !important;
 }
 
 /*Share Icon*/
 .rsir2d {
-    color: white !important;
-    opacity: 0.6 !important;
+  color: white !important;
+  opacity: 0.6 !important;
 }
 .rsir2d:hover {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 /*More Button*/
@@ -1101,5 +1101,78 @@ hr {
 .sh-dlr__content {
   width: 100%;
   min-width: 0 !important;
+}
+}
+
+@-moz-document regexp("https://www.google.*/maps/*") {
+.searchbox {
+  background: rgba(200, 200, 255, 0.2) !impoitant;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !impoitant;
+  text-align: left !impoitant;
+  border-radius: 25px !impoitant;
+  padding: 15px !impoitant;
+  color:white !impoitant;
+  font-size: 20px !impoitant;
+  border-style: solid !impoitant;
+  border-color: rgba(255, 255, 255, 0.05) !impoitant;
+  border-width: 2px !impoitant;
+}
+}
+
+@-moz-document regexp("https://translate.google.*") {
+.epu-dt .frame {
+    background-color: #292C30 !important;
+}
+
+.orig, .main-header.long-text .result, body:not(.with-lang-list) .results-container.empty, body:not(.with-lang-list) .main-header.long-text .results-container.empty, .source-wrap {
+    background-color: #2F3439;
+    color: white;
+}
+
+.main-header.long-text .result-dict-wrapper .translation {
+  color: white;
+}
+
+/*Top Language Bar*/
+.ls-wrap {
+  	border-style: solid;
+  	border-color: rgba(255, 255, 255, 0.03);
+  	border-width: 2px;
+    background-color: #292C30;
+}
+.sl-sugg .goog-inline-block.jfk-button, .tl-sugg .goog-inline-block.jfk-button {
+  color: white;
+}
+.sl-sugg .goog-inline-block.jfk-button-checked, .tl-sugg .goog-inline-block.jfk-button-checked {
+  color: #2a90fc;
+}
+.ls-wrap .sugg-fade {
+	background: linear-gradient(to right,rgba(255,255,255,0),#292C30);
+  height: 44px;
+}
+.ls-wrap .sl-sugg .goog-inline-block.jfk-button:focus {
+  background-color: black;
+}
+
+
+/*Top Buttons*/
+.homepage.translate-text .input-button.text-icon, .homepage.translate-docs .input-button.documents-icon, .header-button {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;;
+  color:white;
+  font-size: 20px;
+  border: none;
+  width: 180px;
+  font-size: 18px;
+  font-weight: normal;
+}
+/*Top Button Glyph Icons*/
+.input-button.text-icon::before, .input-button.documents-icon::before {
+  filter: brightness(100);
 }
 }
