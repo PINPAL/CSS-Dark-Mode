@@ -12,7 +12,7 @@ body {
 }
 
 /*Main Editor Box*/
-.cm-s-ambiance .CodeMirror {
+.cm-s-ambiance.CodeMirror {
   background: #2F3439;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
