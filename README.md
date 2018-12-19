@@ -1,16 +1,12 @@
 # How to Use
-Custom Stylesheets can be applied using CSS Injection within your browser. The easiest method to do this is to use the browser extension called "Stylish". Download links can be found below:
+Custom Stylesheets can be applied using CSS Injection within your browser. The easiest method to do this is to use the browser extension called "Stylus". Download links can be found below:
 
-[Stylish for Google Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en)
-
-[Stylish for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/stylish/)
-
-[Unofficial fork for Safari](http://sobolev.us/stylish/)
+[Stylus Extension](https://github.com/openstyles/stylus)
 
 # Progress List
 ![Progress](http://progressed.io/bar/95)   iCloud Photos
 
-![Progress](http://progressed.io/bar/97)   Stylish IDE 
+![Progress](http://progressed.io/bar/88)   Stylus IDE 
 
 ![Progress](http://progressed.io/bar/55)   Google 
 
