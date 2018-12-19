@@ -38,6 +38,11 @@ label {
 	text-align:center;
 }
 
+/*Style Name*/
+a, .disabled a:hover {
+    color: white;
+}
+
 /*Hide Extra Scrollbar*/
 .CodeMirror-vscrollbar {
      width: 0px;
@@ -169,7 +174,9 @@ select {
 	margin-left: 30px;
 }
 #installed {
-	margin-left: 320px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 /*Buttons*/
@@ -213,6 +220,7 @@ select {
 	border-style: solid;
 	border-color: rgba(255, 255, 255, 0.03);
 	border-width: 2px;
+    margin-top: 20px;
 }
 .disabled {
 	opacity: 0.25;
@@ -230,10 +238,10 @@ fieldset {
 
 /*Installed Style Search Bar*/
 #search {
-    background-color: rgba(200, 200, 255, 0.2);
+  background-color: rgba(200, 200, 255, 0.2);
 	border-radius: 25px;
 	color: white;
-    font-size: 14px;
+  font-size: 14px;
 	padding: 8px;
 	margin-right: 5px;
 	border-style: solid;
@@ -243,27 +251,51 @@ fieldset {
 
 /*Drop Down Color*/
 option {
-    color: white;
+  color: rgba(255,255,255,.65);
 	background-color: #2F3439;
+}
+optgroup {
+  color: white;
+	background-color: #1f2326;
+}
+.svg-icon.select-arrow {
+  fill: white;
+}
+
+/*Tick box*/
+.svg-icon.checked {
+  fill: white;
+}
+input[type="checkbox"]:not(.slider) {
+  background: rgba(200, 200, 255, 0.2) ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
+  text-align: left;
+  border-radius: 5px;
+  padding: 2px;
+  color:white;
+  font-size: 20px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
 }
 
 /*Remove Ugly Seperators*/
 #sections > div:not(:first-of-type) {
-    border-top: none;
+  border-top: none;
 }
 
 /*Export Popup*/
 #help-popup.big {
-    max-width: 100%;
-    left: 0;
+  max-width: 100%;
+  left: 0;
 }
 #help-popup {
-    top: 0;
-    right: 0;
-    position: fixed;
-    background-color: rgba(0,0,0,.85);
-    height: 100%;
-    width: 100%;
+  top: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgba(0,0,0,.85);
+  height: 100%;
+  width: 100%;
 }
 
 /*Export Code Box*/
@@ -273,23 +305,15 @@ option {
     margin-right: auto;
 }
 
-/*Export Bold Title*/
+/*Export/Import Bold Title*/
 #help-popup .title {
 	margin-top: 20px;
-	visibility: hidden;
 	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
 	width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-#help-popup .title:after {
-	visibility: visible;
-	text-align: center;
-	margin-left: -320px;
-	padding: 40px;
-	content:'Export Style Sheet';
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*White Text Carrot*/
@@ -321,6 +345,55 @@ option {
 	border-style: solid;
 	border-color: rgba(255, 255, 255, .4);
 	border-width: 1px;
+}
+
+/*All icons*/
+.svg-icon {
+  fill: white;
+}
+.svg-icon.info:hover {
+  fill: white;
+}
+
+/*Search Stylesheet*/
+#search-replace-dialog textarea {
+  background: rgba(200, 200, 255, 0.2) ;
+  text-align: left;
+  border-radius: 25px 25px 25px 0;
+  padding: 6px;
+  color:white;
+  font-size: 16px;
+  font-weight: normal;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+#search-replace-dialog {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+  opacity: 1;
+  top: 5px;
+  right: 10px;
+}
+#search-replace-dialog > * {
+  border-radius: 25px 25px 0px 0px;
+}
+#search-replace-dialog [data-type="status"] {
+  border-radius: 0px 0px 25px 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+#search-replace-dialog svg:hover,#search-replace-dialog [data-action="case"]:hover{
+  fill: white;
+  text-decoration: none;
 }
 
 /*=============================   Scrollbar Style  =============================*/
