@@ -1,4 +1,4 @@
-@-moz-document url-prefix("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/manage"), url-prefix("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/edit") {
+@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit") {
 /*Main Page Background*/
 body {
     background: #242628;
@@ -377,7 +377,7 @@ option {
 }
 }
 
-@-moz-document url-prefix("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/src/popup") {
+@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/src/popup") {
 /*Main Background*/
 .tabs-container, body {
   background: #292C30;
