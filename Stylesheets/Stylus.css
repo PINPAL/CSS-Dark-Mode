@@ -1,31 +1,31 @@
 @-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit") {
 /*Main Page Background*/
 body {
-    background: #242628;
-    color: white;
+  background: #242628;
+  color: white;
 }
 
 /*Bold Top Left Heading*/
 #heading {
-	font-size: 30px;
-	font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /*Main Editor Box*/
-.cm-s-ambiance.CodeMirror {
-	background: #2F3439;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
- 	text-align: left;
- 	color: white;
-	border-radius: 25px;
-	padding: 15px;
-	line-height: 1.6;
-	border-style: solid;
-	border-color: rgba(255, 255, 255, 0.03);
-	border-width: 2px;
-	padding-bottom: 50px;
-	padding-right: 0;
-	margin-top: 10px;
+.cm-s-ambiance .CodeMirror {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+  padding-bottom: 50px;
+  padding-right: 0;
+  margin-top: 10px;
   height: 755px;
   outline: none;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -33,77 +33,82 @@ body {
 
 /*Labels*/
 label {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 16px;
-	text-align:center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
 
 /*Style Name*/
-a, .disabled a:hover {
-    color: white;
+a,
+.disabled a:hover {
+  color: white;
 }
 
 /*Hide Extra Scrollbar*/
 .CodeMirror-vscrollbar {
-     width: 0px;
+  width: 0px;
 }
 
 /*Hide Helps Question Marks*/
-.applies-to-help, #sections-help, #to-mozilla-help, #lint-help, #keyMap-help {
-     width: 0px;
+.applies-to-help,
+#sections-help,
+#to-mozilla-help,
+#lint-help,
+#keyMap-help {
+  width: 0px;
 }
 img[src="help.png"] {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
-/*Hide Mozilla Format Title*/
+/*Hide Useless Mozila Formatting Heading*/
 #mozilla-format-heading {
-     font-size: 0px;
+  display: none;
 }
 
 /*Large Top Page Section Heading*/
 #sections-heading {
-	margin-left: 25px;
-	font-size: 30px;
-	font-weight: bold;
+  margin-left: 25px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /*Editor Area*/
 .CodeMirror-scroll {
-	color: white;
-    background-color: #272a2d;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 16px;
-	background: #2F3439;
-    margin-right: 15px;
+  color: white;
+  background-color: #272a2d;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  background: #2F3439;
+  margin-right: 15px;
 }
 
 /*Editor URL Box*/
 .applies-to li .applies-value {
- 	background-color: rgba(200, 200, 255, 0.2);
-	border-radius: 25px;
-	color: white;
-    font-size: 14px;
-	padding: 8px;
-	margin-right: 5px;
-	border-style: solid;
-	border-color: rgba(255, 255, 255, 0.05);
-	border-width: 2px;
-    width: 10px;
+  background-color: rgba(200, 200, 255, 0.2);
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+  width: 10px;
 }
 
 /*Increase Line Spacing on Options*/
 #options {
-	line-height: 25px;
+  line-height: 25px;
 }
 
 /*Style Name Box*/
 #name {
-	background-color: rgba(200, 200, 255, 0.2);
+  background-color: rgba(200, 200, 255, 0.2);
   border-radius: 25px;
   color: white;
   font-size: 14px;
- 	padding: 8px;
+  padding: 8px;
   border: none;
   margin-right: 5px;
   border-style: solid;
@@ -118,145 +123,151 @@ img[src="help.png"] {
   border-radius: 25px;
   color: white;
   font-size: 14px;
- 	padding: 8px;
+  padding: 8px;
   border: none;
   margin-right: 5px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.05);
   border-width: 2px;
 }
-#options [type="number"]{
+#options [type="number"] {
   max-width: 100%;
   text-align: left;
 }
 
 /*Dropdown Button*/
 select {
-	background-color: rgba(200, 200, 255, 0.2);
-	border-radius: 25px;
-	color: white;
-	font-size: 14px;
-	padding: 8px;
-	border: none;
-	border-style: solid;
-	border-color: rgba(255, 255, 255, 0.05);
-	border-width: 2px;
+  background-color: rgba(200, 200, 255, 0.2);
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  border: none;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
 }
 
 /*Editor Line Numbers*/
-.cm-s-ambiance .CodeMirror-gutters  {
-	background-color:#272a2d;
-    box-shadow: none;
-    border-right: 0px;
+.cm-s-ambiance .CodeMirror-gutters {
+  background-color: #272a2d;
+  box-shadow: none;
+  border-right: 0px;
 }
-.cm-s-ambiance .CodeMirror-linenumber, .cm-s-ambiance .CodeMirror-guttermarker-subtle  {
-    text-shadow: none;
-    color: #999 ;
+.cm-s-ambiance .CodeMirror-linenumber,
+.cm-s-ambiance .CodeMirror-guttermarker-subtle {
+  text-shadow: none;
+  color: #999;
 }
 
 /*Sidebar*/
 #header {
   margin: 10px;
   width: 17rem;
-	background: #2F3439;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-	text-align: left;
-	border-radius: 25px;
-	padding: 15px;
-	border-style: solid;
-	border-color: rgba(255, 255, 255, 0.03);
-	border-width: 2px;
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  border-radius: 25px;
+  padding: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
   height: 94.5%;
 }
 
 /*Move Main Content*/
 #sections {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 #installed {
-	margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 /*Buttons*/
-::-webkit-file-upload-button, button{
-	background: linear-gradient(to right, #55B49D , #2B7DCA);
-	text-align: center;
-	border-radius: 25px;
-	padding: 9px;
-	color: white;
-	font-size: 14px;
-	border: none;
-	margin-right: 5px;
+::-webkit-file-upload-button,
+button {
+  background: linear-gradient(to right, #55B49D, #2B7DCA);
+  text-align: center;
+  border-radius: 25px;
+  padding: 9px;
+  color: white !important;
+  font-size: 14px;
+  border: none;
+  margin-right: 5px;
 }
-::-webkit-file-upload-button, button:hover {
-	filter: hue-rotate(90deg);
+::-webkit-file-upload-button,
+button:hover {
+  filter: hue-rotate(90deg);
 }
 
 /*Add Spacing Between Buttons and URL Bar*/
 .applies-to ul {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /*Boring Style for New Section/Beautify Buttons*/
-.add-section,  .beautify-section{
-     background:  rgba(200, 200, 255, 0.2);
-     padding-left: 25px;
-     padding-right: 25px;
+.add-section,
+.beautify-section {
+  background: rgba(200, 200, 255, 0.2);
+  padding-left: 25px;
+  padding-right: 25px;
 }
-.add-section:hover,  .beautify-section:hover{
-    background:  #2a99f9;
-	filter: hue-rotate(0deg);
+.add-section:hover,
+.beautify-section:hover {
+  background: #2a99f9;
+  filter: hue-rotate(0deg);
 }
 
 /*Installed Page Boxes*/
-.enabled, .disabled {
-	background: #2F3439;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-	text-align: center;
-	border-radius: 25px;
-	padding: 15px;
-	border-style: solid;
-	border-color: rgba(255, 255, 255, 0.03);
-	border-width: 2px;
-    margin-top: 20px;
+.enabled,
+.disabled {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  padding: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+  margin-top: 20px;
 }
 .disabled {
-	opacity: 0.25;
+  opacity: 0.25;
 }
 
 /*Hide Ugly Installed Page Line*/
 #installed::after {
-	display: none;
+  display: none;
 }
 
 /*Hide Ugly Filters Borders*/
 fieldset {
-	border-width: 0px;
+  border-width: 0px;
 }
 
 /*Installed Style Search Bar*/
 #search {
   background-color: rgba(200, 200, 255, 0.2);
-	border-radius: 25px;
-	color: white;
+  border-radius: 25px;
+  color: white;
   font-size: 14px;
-	padding: 8px;
-	margin-right: 5px;
-	border-style: solid;
-	border-color: rgba(255, 255, 255, 0.05);
-	border-width: 2px;
+  padding: 8px;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
 }
 
 /*Drop Down Color*/
 option {
-  color: rgba(255,255,255,.65);
-	background-color: #2F3439;
+  color: rgba(255, 255, 255, .65);
+  background-color: #2F3439;
 }
 optgroup {
   color: white;
-	background-color: #1f2326;
+  background-color: #1f2326;
 }
 .svg-icon.select-arrow {
   fill: white;
@@ -267,12 +278,12 @@ optgroup {
   fill: white;
 }
 input[type="checkbox"]:not(.slider) {
-  background: rgba(200, 200, 255, 0.2) ;
+  background: rgba(200, 200, 255, 0.2);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
   text-align: left;
   border-radius: 5px;
   padding: 2px;
-  color:white;
+  color: white;
   font-size: 20px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.05);
@@ -293,75 +304,75 @@ input[type="checkbox"]:not(.slider) {
   top: 0;
   right: 0;
   position: fixed;
-  background-color: rgba(0,0,0,.85);
+  background-color: rgba(0, 0, 0, .85);
   height: 100%;
   width: 100%;
 }
 
 /*Export Code Box*/
 #help-popup.big .CodeMirror {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Export/Import Bold Title*/
 #help-popup .title {
-	margin-top: 20px;
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-	width: 50%;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
 /*White Text Carrot*/
 .CodeMirror div.CodeMirror-cursor {
-    border-left: 1px solid white;
+  border-left: 1px solid white;
 }
 
 /*Highlight colour*/
 .CodeMirror-selected {
-	background: rgb(61, 84, 107)!important;
+  background: rgb(61, 84, 107)!important;
 }
 
 /*Collpased Line*/
 .CodeMirror-foldmarker {
-    color: #2F3439;
-    text-shadow: none;
-    line-height: 4;
+  color: #2F3439;
+  text-shadow: none;
+  line-height: 4;
 }
-.CodeMirror-foldmarker:after{
-    content: "";
-    background-color: black;
-    text-shadow: none;
-    color: #FFA07A;
-    margin-left: -400px;
-    padding-right: 30%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    opacity: .3;
-	border-style: solid;
-	border-color: rgba(255, 255, 255, .4);
-	border-width: 1px;
+.CodeMirror-foldmarker:after {
+  content: "";
+  background-color: black;
+  text-shadow: none;
+  color: #FFA07A;
+  margin-left: -400px;
+  padding-right: 30%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  opacity: .3;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, .4);
+  border-width: 1px;
 }
 
 /*All icons*/
-.svg-icon {
-  fill: white;
+.svg-icon, .svg-icon.info, .svg-icon.settings{
+  fill: rgba(255,255,255,.5);
 }
-.svg-icon.info:hover {
+.svg-icon:hover, .svg-icon.info:hover, .svg-icon.settings:hover {
   fill: white;
 }
 
 /*Search Stylesheet*/
 #search-replace-dialog textarea {
-  background: rgba(200, 200, 255, 0.2) ;
+  background: rgba(200, 200, 255, 0.2);
   text-align: left;
   border-radius: 25px 25px 25px 0;
   padding: 6px;
-  color:white;
+  color: white;
   font-size: 16px;
   font-weight: normal;
   border-style: solid;
@@ -391,180 +402,65 @@ input[type="checkbox"]:not(.slider) {
   padding-right: 25px;
   padding-left: 25px;
 }
-#search-replace-dialog svg:hover,#search-replace-dialog [data-action="case"]:hover{
+#search-replace-dialog svg:hover,
+#search-replace-dialog [data-action="case"]:hover {
   fill: white;
   text-decoration: none;
 }
 
+/*Hide Info Buttons*/
+.svg-icon.info {
+  display: none;
+}
+
 /*=============================   Scrollbar Style  =============================*/
-
 ::-webkit-scrollbar {
-    width: 9px;
-    height: 9px;
-}
-::-webkit-scrollbar-track {
-    background: #48484f;
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-    background: #646569;
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(255,255,255,0.25);
-}
-
-/*=============================   Syntax Highlithing  =============================*/
-
-.cm-s-ambiance .cm-property {
-    color: white;
-}
-.cm-s-ambiance .cm-tag {
-    color: #2a99f9;
-}
-.cm-s-ambiance .cm-qualifier {
-    color: #f40e57;
-}
-.cm-s-ambiance .cm-comment {
-    color: #999999;
-	font-size: 21px;
-  	font-weight: bold;
-}
-.cm-s-ambiance .cm-keyword {
-    color: #56b76b;
-}
-.cm-s-ambiance .cm-atom {
-    color: #18af8c;
-}
-.cm-s-ambiance .cm-meta {
-    color: #f79347;
-}
-.cm-s-ambiance .cm-builtin {
-    color: #e070e0;
-}
-.cm-s-ambiance .cm-string {
-    color: #ff1e5a;
-}
-.cm-s-ambiance .cm-number {
-    color: #00ff48;
-}
-}
-
-@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/src/popup") {
-/*Main Background*/
-.tabs-container, body {
-  background: #292C30;
-}
-body {
-  padding-top: 5px;
-}
-
-/*Style Boxes*/
-.entry {
- 	background: #2F3439;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-  text-align: left;
-  color: white;
-  padding: 5px;
-  border-radius: 25px;
-  line-height: 1.6;
-  border-style: solid;
-  border-color: rgba(255, 255, 255, 0.03);
-  border-width: 2px;
-}
-
-/*Style Thumbnails*/
-.thumbnail {
-  border-radius: 25px 25px 0px 0px;
-}
-
-/*Install Button*/
-.thumbnail-mask {
-  background: linear-gradient(to right, #55B49D , #2B7DCA);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-  text-align: center;
-  border-radius: 25px;
-  padding: 8px;
-  color:white;
-  font-size: 20px;
-  border: none;
-  margin-left: 5px;
-}
-.thumbnail_install {
-	background: none;
-  padding: 0 !important;
-  margin-left: 0;
-}
-
-/*Style Name*/
-.style-name {
-  color: white;
-  text-decoration: none;
-}
-
-/*Bottom Bar*/
-.find-styles {
-  background-color: black;
-  box-shadow: none;
-}
-
-/*Top Bar*/
-#header {
-  background-color: black;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px 20px 0px 0px;
-  padding-left: 15px;
-  padding-bottom: 10px;
-}
-.tabs-container header {
-  background-color: black;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 0px 0px 20px 20px ;
-  padding-left: 15px;
-  padding-bottom: 10px;
-}
-.tabs-container header .tab-header {
-  width: 50%;
-}
-
-/*No installed styles text*/
-#zerostyles {
-  color: rgba(255,255,255,.5);
-  font-weight: normal;
-}
-
-/*Hide stylish branding*/
-.stylish_on_off_text {
-  font-size: 0;
-  width: 20px;
-}
-.stylish_on_off_text:after {
-  font-size: 13px;
-  content: "On"
-}
-
-/*Scrollbar*/
-.maintab::-webkit-scrollbar {
   width: 9px;
   height: 9px;
 }
-.maintab::-webkit-scrollbar-track {
-  background: rgba(255,255,255,0.08);
+::-webkit-scrollbar-track {
+  background: #48484f;
   border-radius: 10px;
 }
-.maintab::-webkit-scrollbar-track:hover {
-  background: rgba(255,255,255,0.08);
+::-webkit-scrollbar-thumb {
+  background: #646569;
   border-radius: 10px;
 }
-.maintab::-webkit-scrollbar-thumb {
-   background: rgba(255,255,255,0.20);
-   border-radius: 10px;
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
 }
-.maintab::-webkit-scrollbar-thumb:hover {
-   background: rgba(255,255,255,0.25);;
+
+/*=============================   Syntax Highlithing  =============================*/
+.cm-s-ambiance .cm-property {
+  color: white;
+}
+.cm-s-ambiance .cm-tag {
+  color: #2a99f9;
+}
+.cm-s-ambiance .cm-qualifier {
+  color: #f40e57;
+}
+.cm-s-ambiance.cm-comment {
+  color: #999999;
+  font-size: 21px;
+  font-weight: bold;
+}
+.cm-s-ambiance .cm-keyword {
+  color: #56b76b;
+}
+.cm-s-ambiance .cm-atom {
+  color: #18af8c;
+}
+.cm-s-ambiance .cm-meta {
+  color: #f79347;
+}
+.cm-s-ambiance .cm-builtin {
+  color: #e070e0;
+}
+.cm-s-ambiance .cm-string {
+  color: #ff1e5a;
+}
+.cm-s-ambiance .cm-number {
+  color: #00ff48;
 }
 }
