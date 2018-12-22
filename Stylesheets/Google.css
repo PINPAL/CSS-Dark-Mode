@@ -1153,9 +1153,57 @@ hr {
   border-left: none;
 }
 .pVFdhc {
-  background-color: rgba(255,255,255,.1);
-  height: 2px;
-  border-radius: 100px;
+  display: none;
+}
+.lr_c_tf {
+  padding-top: 10px:
+}
+
+/*Word Dictionary Search Box*/
+.dw-sb-cont {
+  background: none !important;
+  position: relative;
+}
+.dw-sb-cont .dw-sbi {
+  background: rgba(200, 200, 255, 0.2) ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:white;
+  font-size: 18px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+  width: calc(100% - 45px);
+}
+.dw-sb-cont .dw-sb-btn {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color:white;
+  font-size: 20px;
+  border: none;
+  float: right;
+  top: 0;
+  position: absolute;
+}
+.dw-sb-cont .dw-sb-btn:hover {
+  filter: hue-rotate(90deg);
+}
+.cgUIY{
+  margin-top: 25px;
+}
+.gJBeNe {
+  color: rgba(255,255,255,.5);
+  font-size: 28px;
+  line-height: 0;
 }
 }
 
