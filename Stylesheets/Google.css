@@ -1132,6 +1132,15 @@ hr {
 .vk_ard {
   opacity: .5 !important;
 }
+
+/*People also search for*/
+#brs .med {
+  color: white !important;
+}
+/*Page numbers and Bottom Address*/
+#foot #navcnt .cur, #swml-loc {
+  color: rgba(255,255,255,.5);
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
