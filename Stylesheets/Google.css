@@ -1141,6 +1141,22 @@ hr {
 #foot #navcnt .cur, #swml-loc {
   color: rgba(255,255,255,.5);
 }
+
+/*Movie showtimes*/
+.wcluHf {
+  color: rgba(255,255,255,.5)
+}
+.lr_c_tf {
+  background: none;
+}
+.tb_l {
+  border-left: none;
+}
+.pVFdhc {
+  background-color: rgba(255,255,255,.1);
+  height: 2px;
+  border-radius: 100px;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
