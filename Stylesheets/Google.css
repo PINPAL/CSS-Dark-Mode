@@ -1,4 +1,4 @@
-@-moz-document regexp("https://www.google.*") {
+@-moz-document regexp("https://www.google.*/search?.*") {
 /*Main Page Background*/
 body {
     background: #242628 !important;
