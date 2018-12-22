@@ -20,15 +20,6 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 
 ![Progress](http://progressed.io/bar/0)    GitHub
 
-# To-Do List
-- [ ] Fix various issues on iCloud
-- [ ] Finish Google stylesheet
-- [x] Add white cursor to Stylish IDE
-- [x] Fix export UI on Stylish IDE
-- [x] Fix CSS code editor size bug
-- [x] Add highlight colour to editor
-- [ ] Fix search results on Amazon
-
 # Design Guidelines
 ## Basic Design Language
 The basic design language focuses on a dark interface with a touch of color and motion to signify buttons and actions when pressed or hovered.
