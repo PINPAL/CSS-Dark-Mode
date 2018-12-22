@@ -559,16 +559,17 @@ g-inner-card {
 
 /*Calculator*/
 .vk_c {
-	background: #2F3439 !important;;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;;
-  text-align: left !important;;
-  color: white !important;;
-  border-radius: 25px !important;;
-  padding: 15px !important;; 
-  line-height: 1.6 !important;;
-  border-style: solid !important;;
-  border-color: rgba(255, 255, 255, 0.03) !important;;
-  border-width: 2px !important;;
+	background: #2F3439 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  text-align: left !important;
+  color: white !important;
+  border-radius: 25px !important;
+  padding: 15px !important;
+  line-height: 1.6 !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-width: 2px !important;
+  margin-bottom: 10px !important;
 }
 /*Remove calculator white bar*/
 .cwtlwm {
@@ -1032,7 +1033,7 @@ a.irc_pt {
 .EPLo7b {
     border-top: none !Important;
 }
-g-section-with-header {
+.qmv19b {
   background: #2F3439;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
@@ -1049,6 +1050,13 @@ g-section-with-header {
 }
 .wqg8ad {
     color: #2a90fc !important;
+}
+
+/*Time Zone Conversion*/
+.odXoZb {
+  color: rgba(255,255,255,.6) !important;
+  border-top: none !important;
+  padding-top: 0 !important;
 }
 
 /*What's my IP?*/
@@ -1076,6 +1084,54 @@ hr {
 .IBf7jf {
     display: none !important;
 }
+
+/*Quick Translate*/
+.tw-lang-selector-wrapper {
+  background: rgba(200, 200, 255, 0.2) ;
+  text-align: left;
+  border-radius: 25px;
+  color:white;
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-width: 150px;
+  margin-top: -5px;
+}
+.tw-lang-selector {
+  color: rgba(255,255,255,.6);
+  text-align: center;
+}
+.tw-lang-selector:hover {
+  color: white;
+}
+.tw-text-large {
+  color: rgba(255,255,255,.5);
+}
+.tw-data-text {
+  color: white !important;
+}
+.tw-text-edit-btn {
+  color: rgba(255,255,255,.3) !important;
+}
+.tw-menu-btn-image:hover {
+  background: none;
+}
+.vk_arc {
+  border-top: none !important;
+}
+.DHcWmd {
+  background-color: rgba(255,255,255,.1) !Important;
+  width: 2px;
+}
+.tw-menu-btn {
+  color: rgba(255,255,255,.6)
+}
+.vk_ard {
+  opacity: .5 !important;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
@@ -1101,16 +1157,16 @@ hr {
 
 @-moz-document regexp("https://www.google.*/maps/*") {
 .searchbox {
-  background: rgba(200, 200, 255, 0.2) !impoitant;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !impoitant;
-  text-align: left !impoitant;
-  border-radius: 25px !impoitant;
-  padding: 15px !impoitant;
-  color:white !impoitant;
-  font-size: 20px !impoitant;
-  border-style: solid !impoitant;
-  border-color: rgba(255, 255, 255, 0.05) !impoitant;
-  border-width: 2px !impoitant;
+  background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  text-align: left !important;
+  border-radius: 25px !important;
+  padding: 15px !important;
+  color:white !important;
+  font-size: 20px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
 }
 }
 
@@ -1172,7 +1228,6 @@ body, .epu-dt .frame {
   padding-right: 15px;
   padding-top: 2px;;
   color:white;
-  font-size: 20px;
   border: none;
   width: 180px;
   font-size: 18px;
