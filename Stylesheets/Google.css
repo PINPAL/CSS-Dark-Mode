@@ -1156,7 +1156,7 @@ hr {
   display: none;
 }
 .lr_c_tf {
-  padding-top: 10px:
+  padding-top: 10px;
 }
 
 /*Word Dictionary Search Box*/
@@ -1204,6 +1204,29 @@ hr {
   color: rgba(255,255,255,.5);
   font-size: 28px;
   line-height: 0;
+}
+.SDZsVb {
+  color: #2a90fc;
+}
+.lr_dct_more_btn {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  border-radius: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:white;
+  font-size: 15px;
+  border: none;
+  display: block;
+  max-width: 50px;
+  margin-top: 5px;
+}
+.lr_dct_more_btn:hover {
+  filter: hue-rotate(90deg);
+  text-decoration: none;
 }
 }
 
