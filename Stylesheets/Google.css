@@ -1228,6 +1228,9 @@ hr {
   filter: hue-rotate(90deg);
   text-decoration: none;
 }
+.lr_dct_spkr {
+  filter: invert(100%)
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
