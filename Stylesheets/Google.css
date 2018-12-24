@@ -1228,6 +1228,11 @@ hr {
   filter: hue-rotate(90deg);
   text-decoration: none;
 }
+
+/*People also search for*/
+.eJ7tvc {
+    color: white;
+}
 .lr_dct_spkr {
   filter: invert(100%)
 }
