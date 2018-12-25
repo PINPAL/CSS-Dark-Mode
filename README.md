@@ -69,6 +69,7 @@ This is a button, the rest is pretty self-explanatory. Links are NOT equal to bu
   font-size: 18px;
   border: none;
   font-weight: normal;
+}
 ```
 Don't forget a fancy hover effect!
 ```css
