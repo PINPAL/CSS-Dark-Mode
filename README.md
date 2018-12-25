@@ -8,7 +8,7 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 
 ![Progress](http://progressed.io/bar/92)   Stylus IDE 
 
-![Progress](http://progressed.io/bar/55)   Google 
+![Progress](http://progressed.io/bar/70)   Google 
 
 ![Progress](http://progressed.io/bar/60)   Amazon
 
