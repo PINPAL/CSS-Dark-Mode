@@ -1257,6 +1257,77 @@ hr {
   width: 100%;
   min-width: 0 !important;
 }
+
+/*Shoppng Price*/
+._-de {
+  color: white !important;
+}
+
+/*Close Icon*/
+._-j_ {
+    background: url(https://flaticons.net/gd/makefg.php?i=icons/Mobile%20Application/Close.png&r=255&g=255&b=255) no-repeat 10px 20px;
+    background-size: 20px;
+}
+
+/*Visit Site Button*/
+.kpbb {
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
+  text-align: center !important;
+  border-radius: 25px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 25px !important;
+  padding-right: 25px!important;
+  color:white !important;
+  font-size: 18px !important;
+  border: none!important;
+  font-weight: normal !important;
+}
+.kpbb:hover {
+  filter: hue-rotate(90deg);
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important; 
+  border: none !important;
+}
+
+/*Shop Name / Description / P&P etc*/
+._-iw, .sh-ds__desc, ._-dn span {
+  color: rgba(255,255,255,.5) !important;
+}
+
+/*Remove ugly seperator*/
+._-ke, ._-kb {
+  display: none !important;
+}
+
+/*Save Button*/
+.pspo-popout .gko-add {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color:white;
+  font-size: 18px;
+  border: none;
+  font-weight: normal;
+}
+.ksb {
+  background: none;
+  border: none !important;
+}
+.pspo-popout .gko-add .gko-a-lbl {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
+.pspo-popout .gko-add ._-bq {
+   filter: invert(100%) grayscale(1) brightness(100%);
+}
+
 }
 
 @-moz-document regexp("https://www.google.*/maps/*") {
