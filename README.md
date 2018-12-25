@@ -58,14 +58,17 @@ This is a button, the rest is pretty self-explanatory. Links are NOT equal to bu
 ```css
 {
   background: linear-gradient(to right, #55B49D , #2B7DCA);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   text-align: center;
   border-radius: 25px;
-  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
   color:white;
-  font-size: 20px;
+  font-size: 18px;
   border: none;
-}
+  font-weight: normal;
 ```
 Don't forget a fancy hover effect!
 ```css
