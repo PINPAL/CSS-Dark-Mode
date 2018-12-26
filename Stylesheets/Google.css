@@ -1236,6 +1236,27 @@ hr {
 .lr_dct_spkr {
   filter: invert(100%)
 }
+
+/*Top List*/
+div.rl_feature {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.rlc__slider, .rlc__slider-page, .rl_center {
+  background: none;
+  border: none;
+}
+
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
