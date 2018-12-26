@@ -319,6 +319,7 @@ a.duf3 {
 
 /*More Button*/
 .SW5pqf {
+  text-transform: capitalise;
 	background: linear-gradient(to right, #55B49D , #2B7DCA);
   text-align: center;
   font-family: "SF Pro Display";
@@ -331,8 +332,6 @@ a.duf3 {
 	margin-top: 8px;
   margin-bottom: 25px;
 	width: 100px;
-	margin-left: auto;
-	margin-right: auto;
   text-decoration: none !important;
 }
 .SW5pqf:hover {
@@ -1256,7 +1255,102 @@ div.rl_feature {
   background: none;
   border: none;
 }
+#lxhdr {
+  margin-left: 0 !important;
+}
 
+/*Right Sidebar Subscription Service Names*/
+.Eegi6c {
+    color: rgba(255,255,255,.6);
+}
+
+/*Remove Ugly ListSeperators*/
+.scrt tr:first-child td, .scrt tr:last-child td, .scrt td, .cRXWJb, .kp-blk .xpdclose .farUxc, .kp-blk .xpdopen .mJ2Mod {
+  border: none !Important;
+}
+
+/*Submit Review Button*/
+.j4Iw3b {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color:white !important;
+  font-size: 17px;
+  border: none;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.j4Iw3b:hover {
+  filter: hue-rotate(90deg);
+}
+
+/*Google Contact Card*/
+.XiMyEd {
+  color: white;
+}
+.MVG5H {
+  color: rgba(255,255,255,.6)
+}
+.vk_gbt {
+  border: none;
+}
+a.ksb { 
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color:white !important;
+  font-size: 17px;
+  border: none;
+  font-weight: normal;
+}
+a.ksb:hover {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  border: none;
+  filter: hue-rotate(90deg);
+}
+
+/*Large Video Preview*/
+.twQ0Be {
+  border-radius: 25px 25px 0px 0px !important;
+}
+
+/*Event Date*/
+.CAaTrb, .aXUuyd {
+  color: white;
+  margin-left: 15px;
+}
+
+/*More Services Button*/
+.EcjpKb {
+  color: white;
+  font-size: 17px;
+}
+.dUFb4e  {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color:white;
+  font-size: 18px;
+  border: none;
+  font-weight: normal;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
