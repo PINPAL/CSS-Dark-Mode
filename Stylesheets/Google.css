@@ -1351,6 +1351,47 @@ a.ksb:hover {
   margin-top: 5px;
   text-transform: capitalize;
 }
+
+/*Currency Conversions*/
+.yvg0ob span, .gx4n6c {
+  background: #2F3439;
+  color: white;
+}
+.qUjgX {
+  color: white;
+}
+.Hg3mWc, .J8cLR {
+  background: rgba(200, 200, 255, 0.2) ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  border-radius: 25px;
+  color:white !important;;
+  font-size: 17px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+  min-width: 125px;
+  margin-left: -5px;
+}
+.R9zNe, .uWmgv {
+  background: none;
+}
+.knowledge-finance-wholepage-chart__highlight-line {
+  background-image: linear-gradient(rgba(255,255,255,.38) 50%,rgba(255,255,255,0) 0%);
+}
+
+/*Dropdown Button */
+select, option {
+  background-color: #4E5261;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  border: none;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
