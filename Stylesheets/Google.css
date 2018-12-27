@@ -1,4 +1,4 @@
-@-moz-document regexp("https://www.google.*/search?.*") {
+@-moz-document regexp("https://www.google.*/search[?].*") {
 /*Main Page Background*/
 body {
     background: #242628 !important;
@@ -1492,21 +1492,6 @@ select, option {
   vertical-align: middle;
 }
 
-}
-
-@-moz-document regexp("https://www.google.*/maps/*") {
-.searchbox {
-  background: rgba(200, 200, 255, 0.2) !important;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
-  text-align: left !important;
-  border-radius: 25px !important;
-  padding: 15px !important;
-  color:white !important;
-  font-size: 20px !important;
-  border-style: solid !important;
-  border-color: rgba(255, 255, 255, 0.05) !important;
-  border-width: 2px !important;
-}
 }
 
 @-moz-document regexp("https://translate.google.*") {
