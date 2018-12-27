@@ -319,7 +319,7 @@ a.duf3 {
 
 /*More Button*/
 .SW5pqf {
-  text-transform: capitalise;
+  text-transform: capitalize;
 	background: linear-gradient(to right, #55B49D , #2B7DCA);
   text-align: center;
   font-family: "SF Pro Display";
@@ -896,11 +896,11 @@ a.irc_pt {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
   border-radius: 25px;
-  padding: 15px !important;
+  padding: 14px !important;
   padding-top: 8px !important;
   padding-bottom: 2px !important;
-  color:white;
-  font-size: 14px;
+  color:rgba(255,255,255,.5);
+  font-size: 17px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.05);
   border-width: 2px;
@@ -1375,7 +1375,7 @@ a.ksb:hover {
 }
 .R9zNe, .uWmgv {
   background: none;
-}
+}more
 .knowledge-finance-wholepage-chart__highlight-line {
   background-image: linear-gradient(rgba(255,255,255,.38) 50%,rgba(255,255,255,0) 0%);
 }
@@ -1482,6 +1482,14 @@ select, option {
 }
 .pspo-popout .gko-add ._-bq {
    filter: invert(100%) grayscale(1) brightness(100%);
+}
+
+/*Max and Minimum price box*/
+.plRs9b {
+  color: white;
+  font-size: 17px;
+  width: 5em;
+  vertical-align: middle;
 }
 
 }
