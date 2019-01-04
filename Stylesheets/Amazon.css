@@ -84,9 +84,9 @@ a:hover {
 
 /*Navigation Bar*/
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 25px;
 }
@@ -100,7 +100,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     background-image: none;
     background-color: black;
 	border-radius: 30px;
-} 
+}
+#nav-subnav {
+  background: none;
+}
+#nav-subnav .nav-a {
+  color: rgba(255,255,255,.6);
+}
+#nav-subnav .nav-a:hover {
+  color: #2a90fc;
+  opacity: 1;
+  border-color: #2a90fc;
+}
 
 /*Nav Search Bar*/
 #nav-search .nav-search-field {
