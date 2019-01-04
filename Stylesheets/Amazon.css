@@ -189,4 +189,103 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 #nav-search .nav-search-facade .nav-search-label {
 	color: white;
 }
+
+/*Search Result*/
+.s-item-container {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  line-height: 1.6;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-width: 2px !important;
+  margin-bottom: 25px;
+  max-width: 1200px;
+  min-width: 450px;
+  width: 100%
+}
+
+/*Images*/
+img {
+  border-radius: 25px;
+}
+
+/*Product List*/
+.a-color-secondary {
+  color: rgba(255,255,255,.5) !important;
+}
+.a-color-price, .a-color-state {
+  color: white !Important;
+}
+
+/*Left Nav in Search*/
+#leftNav #leftNavContainer {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+   min-width: 270px;
+}
+#leftNav {
+  left: 15px;
+}
+#rightResultsATF {
+  margin-left: 320px;
+}
+
+/*Dropdown Arrow*/
+.a-icon-popover {
+  filter:invert(100%)
+}
+
+/*Top Results Bar*/
+#s-result-info-bar {
+  border: none;
+  box-shadow: none;
+  color: rgba(255,255,255,.5);
+}
+
+/*Remove Ugly Seperator*/
+.djlz .adFeedback {
+  display: none;
+}
+
+/*Select Box*/
+input, select, textarea {
+  background: rgba(200, 200, 255, 0.2) ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:white;
+  font-size: 14px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+
+/*Drop Down Color*/
+option {
+  color: rgba(255, 255, 255, .65);
+  background-color: #2F3439;
+}
+/*Turn off Blue Box*/
+select:active, select:hover {
+  outline: none
+}
+
+
+
 }
