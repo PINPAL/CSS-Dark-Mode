@@ -1,14 +1,14 @@
+/*Custom Font*/
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+* {
+  font-family: Nunito;
+}
+
 @-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit") {
 /*Main Page Background*/
 body {
   background: #242628;
   color: white;
-}
-
-/*Custom Font*/
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-* {
-  font-family: Nunito;
 }
 
 /*Bold Top Left Heading*/
