@@ -37,6 +37,11 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+/*Current Active Line*/
+.CodeMirror-activeline-background {
+  background-color: rgba(200, 200, 255, 0.1);
+}
+
 /*Labels*/
 label {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -65,11 +70,6 @@ a,
 }
 img[src="help.png"] {
   margin-left: 0px;
-}
-
-/*Current Active Line*/
-.CodeMirror-activeline-background {
-  background-color: rgba(200, 200, 255, 0.1);
 }
 
 /*Hide Useless Mozila Formatting Heading*/
@@ -165,8 +165,7 @@ select {
   box-shadow: none;
   border-right: 0px;
 }
-.CodeMirror-linenumber,
-.CodeMirror-guttermarker-subtle {
+.CodeMirror-linenumber,.CodeMirror-guttermarker-subtle {
   text-shadow: none;
   color: #999;
 }
@@ -445,7 +444,7 @@ input[type="checkbox"]:not(.slider) {
 .cm-property {
   color: white !important;
 }
-.cm-tag, .cm-def {
+.cm-tag {
   color: #2a99f9 !important;
 }
 .cm-qualifier {
@@ -453,8 +452,8 @@ input[type="checkbox"]:not(.slider) {
 }
 .cm-comment {
   color: #999999 !important;
-  font-size: 21px;
-  font-weight: bold;
+  font-size: 21px !important;
+  font-weight: bold !important;
 }
 .cm-keyword {
   color: #56b76b !important;
@@ -462,7 +461,7 @@ input[type="checkbox"]:not(.slider) {
 .cm-atom {
   color: #18af8c !important;
 }
-.cm-meta {
+ .cm-meta {
   color: #f79347 !important;
 }
 .cm-builtin {
