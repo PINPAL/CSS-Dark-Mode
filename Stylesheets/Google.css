@@ -41,7 +41,7 @@ body {
   border-color: rgba(255, 255, 255, 0.05);
   border-width: 2px;
 }
-.gsfi, .lst {
+.gsfi, .lst,.Z0LcW {
     color: white;
 }
 
@@ -1566,10 +1566,5 @@ body, .epu-dt .frame {
 .main-header.long-text .ttsbutton-res .jfk-button-img, .ttsbutton .jfk-button-img, .speech-button .jfk-button-img, .ita-kd-icon-button.ita-kd-small, .clear .jfk-button-img, .main-header.long-text .trans-verified-button, .main-header.long-text .result .unstarred>.jfk-button-img, .main-header.long-text .copybutton .jfk-button-img {
     opacity: .55!important;
     filter: invert(1);
-}
-	
-/*Insert word here meaning colour*/
-.Z0LcW{
-	color:white;
 }
 }
