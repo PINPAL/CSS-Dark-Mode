@@ -444,7 +444,7 @@ input[type="checkbox"]:not(.slider) {
 .cm-property {
   color: white !important;
 }
-.cm-tag {
+.cm-tag, .cm-def {
   color: #2a99f9 !important;
 }
 .cm-qualifier {
