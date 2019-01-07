@@ -5,6 +5,12 @@ body {
   color: white;
 }
 
+/*Custom Font*/
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+* {
+  font-family: Nunito;
+}
+
 /*Bold Top Left Heading*/
 #heading {
   font-size: 30px;
@@ -12,7 +18,7 @@ body {
 }
 
 /*Main Editor Box*/
-.cm-s-ambiance.CodeMirror {
+.CodeMirror {
   background: #2F3439;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
@@ -59,6 +65,11 @@ a,
 }
 img[src="help.png"] {
   margin-left: 0px;
+}
+
+/*Current Active Line*/
+.CodeMirror-activeline-background {
+  background-color: rgba(200, 200, 255, 0.1);
 }
 
 /*Hide Useless Mozila Formatting Heading*/
@@ -149,13 +160,13 @@ select {
 }
 
 /*Editor Line Numbers*/
-.cm-s-ambiance .CodeMirror-gutters {
+.CodeMirror-gutters {
   background-color: #272a2d;
   box-shadow: none;
   border-right: 0px;
 }
-.cm-s-ambiance .CodeMirror-linenumber,
-.cm-s-ambiance .CodeMirror-guttermarker-subtle {
+.CodeMirror-linenumber,
+.CodeMirror-guttermarker-subtle {
   text-shadow: none;
   color: #999;
 }
@@ -431,36 +442,36 @@ input[type="checkbox"]:not(.slider) {
 }
 
 /*=============================   Syntax Highlithing  =============================*/
-.cm-s-ambiance .cm-property {
-  color: white;
+.cm-property {
+  color: white !important;
 }
-.cm-s-ambiance .cm-tag {
-  color: #2a99f9;
+.cm-tag, .cm-def {
+  color: #2a99f9 !important;
 }
-.cm-s-ambiance .cm-qualifier {
-  color: #f40e57;
+.cm-qualifier {
+  color: #f40e57 !important;
 }
-.cm-s-ambiance.cm-comment {
-  color: #999999;
+.cm-comment {
+  color: #999999 !important;
   font-size: 21px;
   font-weight: bold;
 }
-.cm-s-ambiance .cm-keyword {
-  color: #56b76b;
+.cm-keyword {
+  color: #56b76b !important;
 }
-.cm-s-ambiance .cm-atom {
-  color: #18af8c;
+.cm-atom {
+  color: #18af8c !important;
 }
-.cm-s-ambiance .cm-meta {
-  color: #f79347;
+.cm-meta {
+  color: #f79347 !important;
 }
-.cm-s-ambiance .cm-builtin {
-  color: #e070e0;
+.cm-builtin {
+  color: #e070e0 !important;
 }
-.cm-s-ambiance .cm-string {
-  color: #ff1e5a;
+.cm-string {
+  color: #ff1e5a !important;
 }
-.cm-s-ambiance .cm-number {
-  color: #00ff48;
+.cm-number {
+  color: #00ff48 !important;
 }
 }
