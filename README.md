@@ -87,7 +87,10 @@ These can also be used for drop-downs or checkboxes.
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
   border-radius: 25px;
-  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
   color:white;
   font-size: 20px;
   border-style: solid;
