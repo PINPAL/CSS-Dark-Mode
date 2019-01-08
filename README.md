@@ -92,7 +92,7 @@ These can also be used for drop-downs or checkboxes.
   padding-left: 25px;
   padding-right: 25px;
   color:white;
-  font-size: 20px;
+  font-size: 18px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.05);
   border-width: 2px;
