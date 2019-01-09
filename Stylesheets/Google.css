@@ -1392,6 +1392,11 @@ select, option {
   border-color: rgba(255, 255, 255, 0.05);
   border-width: 2px;
 }
+
+/*Privacy Reminder*/
+.KJXbRb {
+  color: white !Important;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
@@ -1491,7 +1496,6 @@ select, option {
   width: 5em;
   vertical-align: middle;
 }
-
 }
 
 @-moz-document regexp("https://translate.google.*") {
