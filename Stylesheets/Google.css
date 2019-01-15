@@ -1499,17 +1499,24 @@ select, option {
 }
 
 @-moz-document regexp("https://translate.google.*") {
-body, .epu-dt .frame {
+body, .epu-dt .frame, .frame {
     background-color: #292C30 !important;
 }
 
-.orig, .main-header.long-text .result, body:not(.with-lang-list) .results-container.empty, body:not(.with-lang-list) .main-header.long-text .results-container.empty, .source-wrap, .source-input, .result-dict-wrapper {
-    background-color: #2F3439;
-    color: white;
+/*Middle Boxes*/
+.orig, .main-header.long-text .result, body:not(.with-lang-list) .results-container.empty, body:not(.with-lang-list) .main-header.long-text .results-container.empty, .source-wrap, .source-input, .result-dict-wrapper, .results-container, .result, .gt-edit, .contribute-target {
+    background-color: #2F3439 !important;
+    color: white !important;
 }
 
-.main-header.long-text .result-dict-wrapper .translation {
-  color: white;
+/*Boxes Text*/
+.main-header.long-text .result-dict-wrapper .translation, .results-container:not(.empty) .placeholder, .result-dict-wrapper .translation, .contribute-target, #st-buttons .jfk-button {
+  color: white !important;
+}
+
+/*Highlight Hover Text*/
+.trans-target-highlight {
+  background-color: rgba(200, 200, 255, 0.1) !important;
 }
 
 /*Top Language Bar*/
@@ -1567,8 +1574,51 @@ body, .epu-dt .frame {
 }
 
 /*Icons*/
-.main-header.long-text .ttsbutton-res .jfk-button-img, .ttsbutton .jfk-button-img, .speech-button .jfk-button-img, .ita-kd-icon-button.ita-kd-small, .clear .jfk-button-img, .main-header.long-text .trans-verified-button, .main-header.long-text .result .unstarred>.jfk-button-img, .main-header.long-text .copybutton .jfk-button-img {
-    opacity: .55!important;
+.jfk-button-img {
+    opacity: .55 !important;
     filter: invert(1);
+}
+
+/*Title Bar*/
+.gb_Ce {
+  background-color: black !important;
+  color: white !important;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  width: 95%;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+#gb {
+  border: none !Important;
+}
+
+/*Middle Swap Languages Button*/
+.swap.jfk-button {
+  background-image: none !important;
+  background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 25px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  color: white !important;
+  z-index: 2147483647 !important;
+  width: 35px !important;
+  height: 35px !important;
+}
+.swap .jfk-button-img {
+    background-position: 0 -53px;
+}
+
+/*Hamburger Menu*/
+.gb_Wa svg, .gb_Fc svg {
+  color: white !Important;
+}
+
+/*Bottom Button Text*/
+.ft-icon-txt {
+  color: rgba(255,255,255,.7)
 }
 }
