@@ -412,6 +412,122 @@ a.duf3 {
 .sfbgg {
 	border-radius: 25px 25px 0px 0px;
 	background-color: black;
+  outline: none !important;
+}
+#hdtb .hdtb-mitem a, #top_nav .ab_button, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, .hdtb-mn-hd {
+  color: rgba(255,255,255,.6);
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+}
+#hdtb .hdtb-mitem a:hover, #top_nav .ab_button:hover, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls:hover, .hdtb-mn-hd:hover {
+  color: rgba(255,255,255,.6);
+  opacity: .75 !important;
+  outline: none !important;
+}
+#hdtbMenus.hdtb-td-o {
+  margin-top: -55px;
+  background-color: black;
+  border-radius: 0px 0px 25px 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+   outline: none !important;
+}
+
+/*Navbar Popout Menus (More Tools)*/
+#hdtbMenus.hdtb-td-c {
+  opacity: 0 !important;
+}
+.hdtb-mn-o {
+  background-color: black;
+  position: absolute;
+  top: 54px !important;
+  left: 0 !important;
+  border-radius: 0px 0px 25px 25px;
+  width: 100%;
+  border: none;
+  border-top-style: solid;
+  border-top-color: rgba(255, 255, 255, 0.1);
+  border-top-width: 2px;
+  outline: none !important;
+}
+.hdtbItm.hdtbSel, #hdtb .hdtbItm a, #hdtb-more-mn a, #cdrlnk, .hdtbItm {
+   background-color: black; 
+   border-radius: 25px;
+   color: rgba(255,255,255,.6);
+   outline: none !important;
+}
+.mn-dwn-arw {
+  border-color: rgba(255,255,255,.6) transparent !important;
+}
+.sc, .hdtbItm {
+   background-color: black;
+    outline: none !important;
+}
+.cdr_sep, #cdrlnk, #cdr_opt {
+  border: none !Important;
+  background-color: black;
+   outline: none !important;
+}
+#cdrlnk:hover, .hdtbItm.hdtbSel:hover, .sc:hover {
+  border: none !Important;
+  background-color: rgba(200, 200, 255, 0.2) !important;
+  color: white !important;
+}
+#isz_lt {
+  display: none !important;
+}
+
+/*Exact Image Size Popout*/
+.Hrg3ab {
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  color: white !important;
+  border-radius: 25px;
+  line-height: 1.6;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px;
+}
+.WbxHpf, .af7Ejf {
+  color: rgba(255,255,255,.6) !important;
+}
+.bXs5of {
+  color: white !important;
+}
+.tG5i7d {
+  background: url(https://flaticons.net/gd/makefg.php?i=icons/Mobile%20Application/Close.png&r=255&g=255&b=255) no-repeat;
+  background-size: cover;
+  top: 20px;
+  right: 20px;
+  width: 15px;
+  height: 15px;
+}
+.AfK4Be {
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
+  text-align: center !important;
+  border-radius: 25px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  color:white !important;
+  font-size: 18px !important;
+  border: none !important;
+  font-weight: normal !important;
+  text-transform: capitalize !important;
+  min-width: 40px !important;
+  max-width: 40px !important;
+  left: calc(50% - 40px) !important;
+}
+.AfK4Be:hover {
+  filter: hue-rotate(90deg);
+}
+.u7UD5c {
+  background: black !important;
 }
 
 /*Topmost Quick Preview*/
