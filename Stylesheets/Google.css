@@ -1275,6 +1275,24 @@ hr {
   padding-top: 10px;
 }
 
+/*Dictionary*/
+.zN1Msc, .aYim3e {
+  color: rgba(255,255,255,.6) !important;
+}
+.M1wVnd {
+  color: #2a90fc !important;
+}
+.AYV4Je {
+  color: white !important;
+  font-weight: bold;
+}
+.LCM7d:not(:first-child) {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.uUoqX {
+  color: white !important;
+}
+
 /*Word Dictionary Search Box*/
 .dw-sb-cont {
   background: none !important;
