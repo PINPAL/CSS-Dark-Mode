@@ -633,8 +633,9 @@ a.duf3 {
 
 /*Round Arrows for carousels*/
 .k2Oeod.eSq3C g-fab, .BlOseb.eSq3C g-fab, .BlOseb.Oom88b g-fab, .k2Oeod.Oom88b g-fab {
-    background-color: black !important;
-    color: white !important;
+  background-color: black !important;
+  color: white !important;
+  border: none !important
 }
 
 /*Hide number of search results*/
