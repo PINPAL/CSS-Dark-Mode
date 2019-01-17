@@ -136,12 +136,6 @@ body {
   color: white !important;
 }
 
-/*Location text background along with white bars above and below*/
-#fbar {
-  background: #242628 !important;
-  border-top: none !important;
-}
-
 .b2hzT {
   border-bottom: none !important;
 }
@@ -1696,6 +1690,47 @@ select, option {
 .NIUoNb {
   color: rgba(255, 255, 255, .6) !important;
 }
+
+/*Bottom Page Links*/
+#fbarcnt {
+  position: absolute;
+  bottom: -100px;
+  width: 60vw;
+  left: 20vw;
+  text-align: center;
+}
+
+/*Bottom Page Numbers*/
+#navcnt {
+  background: none;
+  position: absolute;
+  bottom: -145px;
+  min-width: 300px;
+  max-width: 300px;
+  left: calc(50vw - 300px);
+  text-align: center;
+  min-height: 120px;
+  max-height: 120px;
+  z-index: 999999;
+}
+
+/*Remove Useless Bottom Padding*/
+.b0KoTc, .B4GxFc {
+  padding: 0;
+  margin: 0 !important;
+}
+
+/*Bottom Page Container*/
+#fbar {
+  margin-top: -100px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  background-color: black;
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
