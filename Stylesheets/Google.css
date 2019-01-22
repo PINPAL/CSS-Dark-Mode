@@ -1731,6 +1731,96 @@ select, option {
   border-radius: 25px;
 }
 
+
+/*NEW GOOGLE IMAGES - Preview Box*/
+#irc_bg, .irc_b {
+  color: white !important;
+  background: none !Important;
+}
+
+/*NEW GOOGLE IMAGES - Preview Buttons*/
+.eg084e .NDcgDe {
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05) !important;
+  text-align: center !important;
+  border-radius: 25px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  color:white !Important;
+  font-size: 18px !important;
+  border: none !important;
+  font-weight: normal !important;
+  text-transform: capitalize !important;
+}
+.eg084e .NDcgDe:hover {
+  filter: hue-rotate(90deg);
+}
+.eg084e .aDEWOd, .eg084e .icon, .eg084e .NDcgDe span {
+    color:white !Important;
+    fill: white !important;
+}
+
+/*NEW GOOGLE IMAGES - Preview Big box*/
+#irc_cc {
+  width: 100% !Important;
+}
+
+/*NEW GOOGLE IMAGES - Preview Text*/
+.irc_asc, .cdCElc {
+  color: rgba(255,255,255,.6) !important;
+}
+
+/*NEW GOOGLE IMAGES - Preview Related Searches*/
+.yJbeqd span {
+  color: white !Important;
+}
+.BObnTb {
+  background: rgba(200, 200, 255, 0.2) !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+}
+.BObnTb a {
+  border-top-style: solid !important;
+  border-top-color: inherit !important;
+  border-top-width: inherit !important;
+}
+
+/*NEW GOOGLE IMAGES - Preview "See More" Button*/
+.yJbeqd a, .yJbeqd a:hover, .yJbeqd a:visited {
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
+  text-align: center !important;
+  border-radius: 25px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  color:white !important;
+  font-size: 17px !important;
+  border: none !important;
+  font-weight: normal !important;
+  text-transform: capitalize !important;
+}
+.yJbeqd a:hover {
+  filter: hue-rotate(90deg);
+}
+
+/*NEW GOOGLE IMAGES - Preview Close Button*/
+.YzOzod {
+  background-color: rgba(0,0,0,.7);
+  height: 30px;
+  width: 30px;
+}
+.YzOzod:hover {
+  background-color: rgba(0,0,0,1) !important;
+}
+#irc_ccbc {
+  right: 5px !important;
+}
+
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
