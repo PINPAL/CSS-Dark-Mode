@@ -1871,6 +1871,12 @@ select, option {
 .kxctl-lbl {
   text-align: center;
 }
+
+/*Location List*/
+.uMdZh {
+  background: none !important;
+  color: rgba(255,255,255,.6) !important;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
