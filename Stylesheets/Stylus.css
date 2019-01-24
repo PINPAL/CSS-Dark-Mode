@@ -1,7 +1,26 @@
-@-moz-document url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/") {
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@-moz-document url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/") {
 * {
   font-family: Nunito;
+  scrollbar-color: rgba(255,255,255,0.20) rgba(255,255,255,0.08);
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+   background: rgba(255,255,255,0.20);
+   border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+   background: rgba(255,255,255,0.25);
 }
 }
 
@@ -10,9 +29,6 @@
 body {
   background: #242628 !important;
   color: rgba(255,255,255,.6) !important;
-}
-* {
-    background: none;
 }
     
 /*Buttons*/
@@ -226,7 +242,7 @@ select {
 /*Sidebar*/
 #header {
   margin: 10px;
-  width: 17rem;
+  min-width: 19rem;
   background: #2F3439;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
