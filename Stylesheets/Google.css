@@ -613,10 +613,6 @@ a.duf3 {
   position: relative !important;
 }
 
-.lx_ctl .ksb.ab_button {
-  color: rgba(255, 255, 255, 0.6) !important;
-}
-
 .klitem {
   background: none !important;
 }
@@ -1581,6 +1577,7 @@ div.rl_feature {
   border: none !important;
 }
 
+/*Buttons*/
 a.ksb {
   background: linear-gradient(to right, #55B49D, #2B7DCA) !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
@@ -1595,11 +1592,13 @@ a.ksb {
   border: none !important;
   font-weight: normal !important;
 }
-
 a.ksb:hover {
   background: linear-gradient(to right, #55B49D, #2B7DCA) !important;
   border: none !important;
   filter: hue-rotate(90deg) !important;
+}
+.ab_button.ksb.JC5L5b {
+  background: none !Important;
 }
 
 /*Large Video Preview*/
@@ -1821,6 +1820,57 @@ select, option {
   right: 5px !important;
 }
 
+/*Notification and Apps Icons*/
+.gb_xc {
+  filter: invert(100%);
+}
+
+/*Stocks Big Box*/
+.aviV4d {
+  background: #2F3439 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25)!important;
+  text-align: left !important;
+  color: rgba(255,255,255,.6) !important; 
+  border-radius: 25px !important;
+  padding: 15px !important;
+  line-height: 1.6 !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-width: 2px !important;
+}
+
+/*Stocks Graph Selected Line*/
+.fw-ch-sel {
+  box-shadow: 0px 18px 0px -16px #2a90fc !important;
+}
+
+/*Stocks Hide Seperator*/
+.QcYZxe {
+  border-bottom-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  border-width: 2px !important;
+}
+
+/*Stocks Text*/
+.NprOob {
+  color: white !important;
+}
+.OiIFo, .CVIh4c, .TgMHGc, .qFiidc, .JgXcPd, .iyjjgb, .knFDje {
+  color: rgba(255,255,255,.5) !important;
+}
+
+/*Movie Genre Buttons*/
+#lx_ctls {
+  margin-top: 0;
+}
+.lx_ctl .kxctl-dd-arrow {
+  border-top-color: white;
+  top: calc(50% - 2.5px);
+  right: 12px;
+}
+.kxctl-lbl {
+  text-align: center;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
@@ -1846,7 +1896,7 @@ select, option {
 }
 
 /*Shoppng Price*/
-._-de {
+._-de, ._-dd {
   color: white !important;
 }
 
@@ -1871,7 +1921,6 @@ select, option {
   border: none!important;
   font-weight: normal !important;
 }
-
 .kpbb:hover {
   filter: hue-rotate(90deg);
   background: linear-gradient(to right, #55B49D, #2B7DCA) !important;
@@ -1903,18 +1952,18 @@ select, option {
   border: none;
   font-weight: normal;
 }
-
+.pspo-popout .gko-add:hover {
+  filter: hue-rotate(90deg);
+}
 .ksb {
   background: none;
   border: none !important;
 }
-
 .pspo-popout .gko-add .gko-a-lbl {
   color: white;
   font-size: 18px;
   font-weight: normal;
 }
-
 .pspo-popout .gko-add ._-bq {
   filter: invert(100%) grayscale(1) brightness(100%);
 }
@@ -1925,6 +1974,65 @@ select, option {
   font-size: 17px;
   width: 5em;
   vertical-align: middle;
+}
+
+/*Expand Item Box*/
+.sh-dp__cont {
+  background: #2F3439 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25)!important;
+  text-align: left !important;
+  color: rgba(255,255,255,.6) !important; 
+  border-radius: 25px !important;
+  padding: 15px !important;
+  line-height: 1.6 !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-width: 2px !important;
+}
+
+/*Close Button*/
+._-j8 {
+  background: url(https://flaticons.net/gd/makefg.php?i=icons/Mobile%20Application/Close.png&r=255&g=255&b=255) no-repeat 10px 20px !important;
+  background-size: 20px !important;
+  opacity: .6;
+}
+._-j8:hover {
+  opacity: 1;
+}
+._-j_ {
+    background: none !Important;
+}
+
+/*Other Text*/
+._-dZ, ._-iu {
+    color: rgba(255,255,255,.6) !important; 
+}
+
+/*Hide Seperator*/
+._-kc {
+  display: none;
+}
+
+/*Other Options*/
+.goog-flat-menu-button {
+  background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1) !important;
+  text-align: left !important;
+  border-radius: 25px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  color:white !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  line-height: normal !important;
+}
+.goog-flat-menu-button:hover {
+  background: linear-gradient(to right, rgba(149,136,213,0.4) , rgba(171,89,147,0.4)) !important;
 }
 }
 
