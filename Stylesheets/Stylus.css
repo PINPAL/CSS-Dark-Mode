@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-@-moz-document url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/") {
 * {
-  font-family: Nunito;
   scrollbar-color: rgba(255,255,255,0.20) rgba(255,255,255,0.08);
   scrollbar-width: thin;
+}
+
+@-moz-document url-prefix("moz-extension://"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/") {
+* {
+  font-family: Nunito;
 }
 
 ::-webkit-scrollbar {
@@ -24,7 +27,7 @@
 }
 }
 
-@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/popup"), url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6/popup") {
+@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/popup"), regexp("moz-extension://.*/popup.*") {
 /*Main Page Background*/
 body {
   background: #242628 !important;
@@ -73,7 +76,7 @@ input[type="checkbox"]:not(.slider) {
 }
 }
 
-@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit"), url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6/edit"), url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6/manage") {
+@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit"), regexp("moz-extension://.*/edit.*"), regexp("moz-extension://.*/manage.*") {
 /*Main Page Background*/
 body {
   background: #242628;
