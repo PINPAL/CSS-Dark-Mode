@@ -1,25 +1,19 @@
-/* ==UserStyle==
-@name           stylus
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         Me
-==/UserStyle== */
-/*Custom Font*/
-
+@-moz-document url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/") {
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 * {
   font-family: Nunito;
 }
-
-@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/popup"){
-    
-    /*Main Page Background*/
-body {
-  background: #242628;
-  color: white;
 }
-    
+
+@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/popup"), url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6/popup") {
+/*Main Page Background*/
+body {
+  background: #242628 !important;
+  color: rgba(255,255,255,.6) !important;
+}
+* {
+    background: none;
+}
     
 /*Buttons*/
 ::-webkit-file-upload-button,
@@ -32,15 +26,19 @@ button {
   font-size: 14px;
   border: none;
   margin-right: 5px;
+  min-height:30px;
 }
-    
 ::-webkit-file-upload-button,
 button:hover {
   filter: hue-rotate(90deg);
 }
-a{
-        color:white;
-    }
+a {
+  color:#2a90fc !important;
+}
+a:hover {
+  opacity: .5;
+}
+
 /*Tick box*/
 .svg-icon.checked {
   fill: white;
@@ -57,16 +55,14 @@ input[type="checkbox"]:not(.slider) {
   border-color: rgba(255, 255, 255, 0.05);
   border-width: 2px;
 }
-
 }
 
-@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit") {
+@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit"), url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6/edit"), url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6/manage") {
 /*Main Page Background*/
 body {
   background: #242628;
   color: white;
 }
-
 
 /*Bold Top Left Heading*/
 #heading {
@@ -253,19 +249,18 @@ select {
 }
 
 /*Buttons*/
-::-webkit-file-upload-button,
-button {
+::-webkit-file-upload-button, button {
   background: linear-gradient(to right, #55B49D, #2B7DCA);
   text-align: center;
   border-radius: 25px;
-  padding: 9px;
+  padding: 10px;
   color: white !important;
   font-size: 14px;
   border: none;
   margin-right: 5px;
+  min-height: 30px;
 }
-::-webkit-file-upload-button,
-button:hover {
+::-webkit-file-upload-button, button:hover {
   filter: hue-rotate(90deg);
 }
 
