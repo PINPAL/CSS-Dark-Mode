@@ -501,21 +501,11 @@ input[type="checkbox"]:not(.slider) {
   display: none;
 }
 
-/*=============================   Scrollbar Style  =============================*/
-::-webkit-scrollbar {
-  width: 9px;
-  height: 9px;
-}
-::-webkit-scrollbar-track {
-  background: #48484f;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: #646569;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.25);
+/*Dropdown Boxes*/
+select {
+  padding-top: 0px;
+  height: 30px;
+  padding-right: 20px;
 }
 
 /*=============================   Syntax Highlithing  =============================*/
