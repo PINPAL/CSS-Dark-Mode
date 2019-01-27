@@ -543,13 +543,21 @@ a.duf3 {
   color: white !important;
 }
 
-.tG5i7d {
+/*Close Icons*/
+.tG5i7d, ._-kl  {
   background: url(https://flaticons.net/gd/makefg.php?i=icons/Mobile%20Application/Close.png&r=255&g=255&b=255) no-repeat !important;
-  background-size: cover !important;
+  background-size: 20px !important;
+  opacity: 0.6 !important;
+}
+.tG5i7d:hover, ._-kl:hover  {
+  opacity: 1 !important;
+}
+._-kl {
+  top: 5px !important;
+}
+.tG5i7d {
   top: 20px !important;
   right: 20px !important;
-  width: 15px !important;
-  height: 15px !important;
 }
 
 .AfK4Be {
@@ -1053,8 +1061,15 @@ a.irc_pt {
   color: white !important;
 }
 
-.vjtvke, .vjtvke:link, .vjtvke:visited {
-  color: rgba(255, 255, 255, .5) !important;
+/*Hide Shopping Seperator*/
+._-kr {
+  border: none !Important;
+  display: none !important;
+}
+
+/*Shopping Text*/
+.vjtvke, .vjtvke:link, .vjtvke:visited, ._-iG, ._-d-, ._-c8 {
+  color: rgba(255, 255, 255, .6) !important;
 }
 
 /*Shopping - Clear filters button*/
@@ -1767,7 +1782,7 @@ select, option {
 }
 
 /*NEW GOOGLE IMAGES - Preview Text*/
-.irc_asc, .cdCElc {
+.irc_asc, .cdCElc, .g0fq0c, .XDjMxf {
   color: rgba(255,255,255,.6) !important;
 }
 
@@ -1808,7 +1823,7 @@ select, option {
 }
 
 /*NEW GOOGLE IMAGES - Preview Close Button*/
-.YzOzod {
+.YzOzod{
   background-color: rgba(0,0,0,.7);
   height: 30px;
   width: 30px;
@@ -1902,7 +1917,7 @@ select, option {
 }
 
 /*Shoppng Price*/
-._-de, ._-dd {
+._-de, ._-dd, ._-dp {
   color: white !important;
 }
 
