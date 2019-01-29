@@ -168,7 +168,7 @@ body {
 /*Search Text Colours*/
 /*Site Title*/
 a:link, .mblink:visited, a:visited, a.fl:link {
-  color: #2a90fc !important;
+  color: #2a90fc;
 }
 
 /*URL Below Title*/
@@ -417,8 +417,8 @@ a.duf3 {
   margin: 0 !important;
   background-color: black !important;
   padding-top: 15px !important;
-  padding-bottom: 0 !important;
-  border-radius: 25px 25px 0px 0px !important;
+  padding-bottom: 15px !important;
+  border-radius: 25px !important;
 }
 #hdtbSum {
   top: 75px !important;
@@ -2049,6 +2049,62 @@ select, option {
 }
 .e8fRJf {
   color: white !Important;
+}
+
+/*Hotel Features Icons*/
+.z3Trqc {
+  filter: invert(100%);
+}
+
+/*Hide Ugly Seperators*/
+.wlqJjf.gws-local-riddler__banner-shown, #rUnked, .awX4Bc {
+  border: none !important;
+}
+
+/*Sidebar Text*/
+.Y28wmf, .LrzXr {
+  color: rgba(255,255,255,.6) !important
+}
+
+/*Links*/
+.GtMhHe, .GtMhHe:hover, .EF00Ab {
+  color: #2a90fc !important;
+  text-decoration: none !Important;
+}
+
+/*Book a Room and Other Buttons*/
+.vRH59e, .ab_button {
+  background: linear-gradient(to right, #55B49D , #2B7DCA) !Important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1) !Important;
+  text-align: center !Important;
+  border-radius: 25px !Important;
+  padding-top: 5px !Important;
+  padding-bottom: 5px !Important;
+  padding-left: 15px !Important;
+  padding-right: 15px !Important;
+  color:white !Important;
+  font-size: 16px !Important;
+  border: none !Important;
+  font-weight: normal !Important;
+  text-transform: capitalize !Important;
+  outline: none !Important;
+}
+.vRH59e:hover, .ab_button:hover {
+  filter: hue-rotate(90deg);
+}
+.wrsf, .w8qArf .fl {
+  color: white !important;
+}
+
+/*Top Sidebar Buttons - Location*/
+.IzNS7c {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/*More Button*/
+.xXEKkb {
+  text-transform: capitalize !Important;
 }
 }
 
