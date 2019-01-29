@@ -151,11 +151,6 @@ img[src="help.png"] {
   margin-left: 0px;
 }
 
-/*Hide Useless Mozila Formatting Heading*/
-#mozilla-format-heading {
-  display: none;
-}
-
 /*Large Top Page Section Heading*/
 #sections-heading {
   margin-left: 25px;
