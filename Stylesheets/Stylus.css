@@ -3,8 +3,8 @@
 @-moz-document url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/") {
 * {
   font-family: Nunito;
-  scrollbar-color: rgba(255,255,255,0.20) rgba(255,255,255,0.08);
-  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.20) rgba(255,255,255,0.08); /*Firefox Exclusive*/
+  scrollbar-width: thin; /*Firefox Exclusive*/
 }
 
 ::-webkit-scrollbar {
