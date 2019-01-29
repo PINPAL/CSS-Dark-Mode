@@ -1012,7 +1012,7 @@ g-inner-card {
 }
 
 /*Images expand an image*/
-#irc_cc {
+#irc-cl {
   background: #2F3439 !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
   text-align: left !important;
@@ -1025,11 +1025,11 @@ g-inner-card {
   border-width: 2px !important;
   width: 95% !important;
   height: 90% !important;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-/*Images close button*/
-#irc_cb {
-  right: 50px !important;
+#irc_cc {
+  background: none !Important;
 }
 
 /*Remove images seperator*/
@@ -1281,15 +1281,12 @@ a.irc_pt {
 .ccBEnf {
   border: none !important;
 }
-
 .zkIadb {
   border-top: none !important;
 }
-
 .yyjhs {
   background: none !important
 }
-
 .wYWDAd {
   border-top: none !important;
 }
@@ -1298,6 +1295,7 @@ a.irc_pt {
 .irc_mi {
   margin-top: -12px !important;
   background: none !important;
+  box-shadow: 0 5px 35px rgba(0,0,0,.1);
 }
 
 /*Move right side travel icons*/
@@ -1803,14 +1801,18 @@ select, option {
   display: none;
 }
 
-
-/*NEW GOOGLE IMAGES - Preview Box*/
-#irc_bg, .irc_b {
+/*Google Images - Preview Box*/
+#irc_bg, .irc_b, #irc_bgl, .irc_bg {
   color: white !important;
   background: none !Important;
 }
 
-/*NEW GOOGLE IMAGES - Preview Buttons*/
+/*Hide "Images may be subject to copyright"*/
+.irc_bimg  {
+  display: none;
+}
+
+/*Google Images - Preview Buttons*/
 .eg084e .NDcgDe {
   background: linear-gradient(to right, #55B49D , #2B7DCA) !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05) !important;
@@ -1834,17 +1836,12 @@ select, option {
     fill: white !important;
 }
 
-/*NEW GOOGLE IMAGES - Preview Big box*/
-#irc_cc {
-  width: 100% !Important;
-}
-
-/*NEW GOOGLE IMAGES - Preview Text*/
+/*Google Images - Preview Text*/
 .irc_asc, .cdCElc, .g0fq0c, .XDjMxf {
   color: rgba(255,255,255,.6) !important;
 }
 
-/*NEW GOOGLE IMAGES - Preview Related Searches*/
+/*Google Images - Preview Related Searches*/
 .yJbeqd span {
   color: white !Important;
 }
@@ -1880,14 +1877,28 @@ select, option {
   filter: hue-rotate(90deg);
 }
 
-/*NEW GOOGLE IMAGES - Preview Close Button*/
-.YzOzod{
-  background-color: rgba(0,0,0,.7);
-  height: 30px;
-  width: 30px;
+/*Google Images - Preview Close Button*/
+.YzOzod, #irc_cb {
+  background-color: rgba(0,0,0,.5) !important;
+  background-size: 20px 20px !important;
+  border-radius: 100px !important;
+  padding: 6px !important;
+  opacity: 1 !important;
+  border-color: black;
+  border-width: 0;
+  border-style: solid;
+  filter: brightness(120%);
+   -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
 }
-.YzOzod:hover {
+.YzOzod:hover, #irc_cb:hover {
   background-color: rgba(0,0,0,1) !important;
+  border-width: 2px;
+  top: 8px;
+  right: 8px;
+  filter: brightness(500%);
 }
 #irc_ccbc {
   right: 5px !important;
@@ -1971,11 +1982,12 @@ select, option {
 .rg_anbg, .rg_ilmbg {
   background-color: black !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
-  border-radius: 25px !important;
+  border-radius: 50px !important;
   opacity: .9 !important;
-  left: 5px !important;
+  right: 5px !important;
   bottom: 5px !important;
   padding: 6px !important;
+  width: auto !important;
 }
 .rg_an, .rg_anbg, .rg_ilmbg {
   color: rgba(255,255,255,.6)
@@ -2115,6 +2127,43 @@ select, option {
 }
 .webanswers-webanswers_table__webanswers-table th {
   color: white !important;
+}
+
+/*Images Next/Back Buttons*/
+.SOS87c {
+  background: none !important;
+  border: none !important;
+}
+.WPyac {
+  background: none !important;
+  border: none !important;
+  height: 64px !important;
+  width: 64px !important;
+  border-radius: 100px !Important;
+}
+.YHTffc {
+  background-color: rgba(0,0,0,.6) !important;
+  border: none !Important;
+  height: 60px !important;
+  width: 60px !important;
+  border-radius: 100px !important;
+  padding: 0;
+  filter: brightness(70%);
+   -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+}
+.WPyac:hover .YHTffc {
+  background-color: rgba(0,0,0,1) !important;
+  padding: 2px;
+  filter: brightness(200%);
+}
+#irc-rac {
+  right: 0;
+}
+#irc-lac {
+  left: 0;
 }
 }
 
