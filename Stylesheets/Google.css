@@ -1983,6 +1983,54 @@ select, option {
 .rg_an, .rg_anbg, .rg_ilmbg {
   color: rgba(255,255,255,.6)
 }
+
+/*Flights Price*/
+.cUntLb {
+  color: white !Important;
+}
+
+/*Flights Location / Date Box*/
+.lDtMlf .flt-input, .flt-date {
+  background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1) !important;
+  text-align: left !important;
+  border-radius: 25px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 35px !important;
+  padding-right: 25px !important;
+  color:white !important;
+  font-size: 16px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  outline: none !important;
+}
+.Kibyc, .ofOfTc, .BulNGb, .xzUdA {
+  filter: invert(100%)
+}
+
+/*Flights - Hide Seperator*/
+.W0Rk3 {
+  border: none !Important;
+}
+
+/*Flights Date*/
+.keQQHc {
+  background: none !Important;
+  padding-left: 0 !Important;
+  padding-right: 0 !important;
+}
+
+/*Flights Fix Scrollbar*/
+.flt-actionblock {
+  overflow: hidden;
+} 
+
+/*Sponsored Text*/
+.Sjzt1b, a.Sjzt1b {
+  display: none;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
