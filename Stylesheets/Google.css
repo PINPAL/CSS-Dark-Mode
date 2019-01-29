@@ -2106,6 +2106,16 @@ select, option {
 .xXEKkb {
   text-transform: capitalize !Important;
 }
+
+/*Table Results*/
+.webanswers-webanswers_table__webanswers-table tr {
+  border-color: rgba(255,255,255,.1);
+  border-width: 2px;
+  color: rgba(255,255,255,.6)
+}
+.webanswers-webanswers_table__webanswers-table th {
+  color: white !important;
+}
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
