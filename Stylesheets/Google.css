@@ -471,11 +471,11 @@ a.duf3 {
 }
 
 #hdtbMenus.hdtb-td-o {
-  width: 100%;
-  position: fixed;
-  max-width: 1100px !Important;
+  width: 100% !important;
+  max-width: 1100px !important;
+  position: fixed !important;
   left: calc(50vw - 550px) !important;
-  top: 177px;
+  top: 177px !important;
   margin-top: -55px !important;
   background-color: black !important;
   border-radius: 0px 0px 25px 25px !important;
