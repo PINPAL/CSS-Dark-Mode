@@ -417,7 +417,7 @@ a.duf3 {
   margin: 0 !important;
   background-color: black !important;
   padding-top: 15px !important;
-  padding-bottom: 15px !important;
+  padding-bottom: 25px !Important;
   border-radius: 25px !important;
 }
 #hdtbSum {
@@ -431,6 +431,9 @@ a.duf3 {
   z-index: 99999 !Important;
   width: 100% !important;
   max-width: 1100px !important;
+}
+#hdtb-msb {
+  padding-top: 3px !important;
 }
 .jsrp .mdm .minidiv #hdtbSum {
   display: none;
@@ -528,6 +531,10 @@ a.duf3 {
 .RNNXgb {
   height: 44px !Important;
   margin: 0 auto !important;
+}
+.sbl1, .sbl1 b {
+  font-size: 16px !important;
+  font-weight: normal !important;
 }
 
 /*Navbar Popout Menus (More Tools)*/
@@ -705,28 +712,31 @@ a.duf3 {
 }
 
 /*Search Box on navbar*/
-.RNNXgb {
+.RNNXgb, .minidiv .RNNXgb {
   background: rgba(200, 200, 255, 0.2) !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
-  border-radius: 25px !important;
+  border-radius: 25px;
   border-style: solid !important;
   border-color: rgba(255, 255, 255, 0.05) !important;
   border-width: 2px !important;
 }
+.RNNXgb sbfc {
+  border-radius: 25px 25px 0 0 !important;
+}
 
-/*Expanded Search Box on navbar*/
+/*Expanded Search Box on Navbar*/
 .aajZCb {
-  background: #414350 !important;
+  background: #282833 !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
   border-style: solid !important;
   border-color: rgba(255, 255, 255, 0.05) !important;
   border-width: 2px !important;
+  border-top-style: none !Important;
   width: 99.7% !important;
   padding-top: 10px !important;
   padding-bottom: 15px !important;
-  border-radius: 25px !important;
-  margin-bottom: -5px !important;
-  margin-top: 8px !important;
+  border-radius: 0 0 25px 25px !important;
+  margin-bottom: 0 !important;
 }
 
 .sbl1 {
