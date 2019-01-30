@@ -35,7 +35,6 @@ body {
   background: none !important;
   box-shadow: none !important;
 }
-
 .lst-c {
   background: rgba(200, 200, 255, 0.2) !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
@@ -46,6 +45,10 @@ body {
   border-width: 2px !important;
 }
 
+/*Landing Site Navbar*/
+.jhp>#gb { 
+        top: -295px !important;
+    }
 .gsfi, .lst, .Z0LcW, #gb#gb a.gb_P {
   color: white !important;
 }
@@ -417,13 +420,13 @@ a.duf3 {
   margin: 0 !important;
   background-color: black !important;
   padding-top: 15px !important;
-  padding-bottom: 25px !Important;
+  padding-bottom: 22px !Important;
   border-radius: 25px !important;
 }
 #hdtbSum {
-  top: 75px !important;
+  top: -90px !important;
   left: calc(50vw - 550px) !important;
-  position: fixed !important;
+  position: absolute !important;
   background: black !important;
   border-radius: 0px 0px 25px 25px !important;
   padding-bottom: 15px !important;
@@ -452,6 +455,7 @@ a.duf3 {
 }
 .sfbgg {
   border-radius: 25px 25px 0px 0px !important;
+  box-shadow: none !important;
   background-color: black !important;
   outline: none !important;
 }
@@ -531,6 +535,9 @@ a.duf3 {
 .RNNXgb {
   height: 44px !Important;
   margin: 0 auto !important;
+}
+.RNNXgb .sbfc {
+  border-radius: 0 0 25px 25px;
 }
 .sbl1, .sbl1 b {
   font-size: 16px !important;
@@ -713,26 +720,31 @@ a.duf3 {
 
 /*Search Box on navbar*/
 .RNNXgb, .minidiv .RNNXgb {
-  background: rgba(200, 200, 255, 0.2) !important;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
-  border-radius: 25px;
+  background: #454653 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1) !important;
+  text-align: left !important;
+  border-radius: 25px !important;
+  color:white !important;
+  font-size: 18px !important;
   border-style: solid !important;
   border-color: rgba(255, 255, 255, 0.05) !important;
   border-width: 2px !important;
+  outline: none !important;
+  width: 100% !important;
 }
-.RNNXgb sbfc {
+.sbfc {
   border-radius: 25px 25px 0 0 !important;
 }
 
 /*Expanded Search Box on Navbar*/
 .aajZCb {
-  background: #282833 !important;
+  background: #454653 !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
   border-style: solid !important;
   border-color: rgba(255, 255, 255, 0.05) !important;
   border-width: 2px !important;
   border-top-style: none !Important;
-  width: 99.7% !important;
+  width: 100% !important;
   padding-top: 10px !important;
   padding-bottom: 15px !important;
   border-radius: 0 0 25px 25px !important;
@@ -1588,11 +1600,7 @@ hr {
   filter: hue-rotate(90deg) !important;
   text-decoration: none !important;
 }
-/*fixing margin issues*/
-.jhp>#gb { 
-  top: -295px!important;
-}
-    
+
 /*People also search for*/
 .eJ7tvc {
   color: white !important;
