@@ -1588,7 +1588,11 @@ hr {
   filter: hue-rotate(90deg) !important;
   text-decoration: none !important;
 }
-
+/*fixing margin issues*/
+.jhp>#gb { 
+  top: -295px!important;
+}
+    
 /*People also search for*/
 .eJ7tvc {
   color: white !important;
