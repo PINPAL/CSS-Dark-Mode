@@ -485,6 +485,13 @@ a.duf3 {
   outline: none !important;
 }
 
+/*Hover Mini Navbar to Reveal Lower Navbar*/
+/*BETA NOT WORKING ATM*/
+.srp #searchform:hover ~ #hdtbSum {
+  position: fixed !important;
+  top: 80px !important;
+}
+
 /*Navbar Search Box*/
 .sbibod {
   height: 50px !important;
@@ -723,7 +730,7 @@ a.duf3 {
   background: #454653 !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1) !important;
   text-align: left !important;
-  border-radius: 25px !important;
+  border-radius: 25px;
   color:white !important;
   font-size: 18px !important;
   border-style: solid !important;
