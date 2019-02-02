@@ -2282,6 +2282,42 @@ div.FCHAFf div.wbadwd {
   filter: hue-rotate(90deg);
 }
 
+/*Weather*/
+.wob_ds {
+  background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 10px !important;
+  color:white !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-width: 2px !important;
+  outline: none !important;
+}
+.ksb {
+  background: rgba(200, 200, 255, 0.2) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1)  !important;
+  text-align: left  !important;
+  color:white  !important;
+  font-size: 15px  !important;
+  font-weight: normal  !important;
+  border-style: solid  !important;
+  border-color: rgba(255, 255, 255, 0.05)  !important;
+  border-width: 2px  !important;
+  outline: none  !important;
+}
+#wob_temp {
+  border-radius: 25px 0 0 25px  !important;
+}
+#wob_wind {
+  border-radius: 0px 25px 25px 0  !important;
+}
+.ksb:hover {
+  background: linear-gradient(to right, rgba(149,136,213,0.4) , rgba(171,89,147,0.4)) !important;
+}
+.ksbs {
+  background: rgba(200, 200, 255, 0.4) !important;
+}
+
 }
 
 @-moz-document regexp("https://www.google.*tbm=shop.*") {
