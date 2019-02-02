@@ -798,7 +798,22 @@ a.duf3 {
 .k2Oeod.eSq3C g-fab, .BlOseb.eSq3C g-fab, .BlOseb.Oom88b g-fab, .k2Oeod.Oom88b g-fab {
   background-color: black !important;
   color: white !important;
-  border: none !important
+  border: none !important;
+   -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+}
+.z1asCe svg {
+  fill: rgba(255,255,255,.6) !important;
+}
+.k2Oeod.eSq3C g-fab:hover, .BlOseb.eSq3C g-fab:hover, .BlOseb.Oom88b g-fab:hover, .k2Oeod.Oom88b g-fab:hover,
+.k2Oeod.eSq3C g-fab:hover .z1asCe svg, .BlOseb.eSq3C g-fab:hover .z1asCe svg, .BlOseb.Oom88b g-fab:hover .z1asCe svg, .k2Oeod.Oom88b g-fab:hover .z1asCe svg{
+  opacity: 1 !important;
+  padding: 2px !important;
+  margin-left: -1px !important;
+  margin-top: -1px !important;
+  fill: white !important;
 }
 
 /*Hide number of search results*/
@@ -1481,6 +1496,9 @@ hr {
 /*People also search for*/
 #brs .med {
   color: white !important;
+}
+.JolIg {
+  padding: 0 0 15px 15px !important;
 }
 
 /*Page numbers and Bottom Address*/
