@@ -2012,11 +2012,16 @@ select, option {
 }
 
 /*Fix Boxes in Boxes*/
-.kp-blk .vkc_np, .kp-blk .rc, .kp-blk .cv2VAd {
+.kp-blk .vkc_np, .kp-blk .rc, .kp-blk .cv2VAd, .vk_c .rc, .vk_c .vkc_np {
   background: none !important;
   border: none !Important;
   box-shadow: none !important;
   padding-bottom: 0 !important;
+}
+
+/*Hide "Disclaimer"*/
+div.FCHAFf div.wbadwd {
+  display: none !Important;
 }
 
 /*Events*/
