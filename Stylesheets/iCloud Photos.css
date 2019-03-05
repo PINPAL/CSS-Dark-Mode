@@ -1,16 +1,20 @@
 @-moz-document regexp("https://www.icloud.*photos.*") {
-/*Background*/.p2-main-view .primary-panel, .p2-main-view .flow-grid .cw-ui-collections-list-header-view {
-	background: #242628;
+/*Background*/
+.p2-main-view .primary-panel, .p2-main-view .flow-grid .cw-ui-collections-list-header-view, .base-photos-grid-page {
+	background: #242628 !important;
 	color:white;
 }
 
 /*Date headers*/
-.p2-main-view .flow-grid .cw-ui-collections-list-header-view {
-	background: #242628;
+.p2-main-view .flow-grid .cw-ui-collections-list-header-view, .grid-header-view, .pgk-photos-grid-view .cw-ui-collections-list-header-view.is-floating {
+	background: #2F3439;
 	color:white;
 }
 .p2-moments-grid-group-header-view .content .titles .title {
     color:white;
+}
+.grid-header-view .bottom-row {
+  color: rgba(255,255,255,.6);
 }
 
 /*Darken ugly seperators*/
@@ -29,7 +33,7 @@
 	background: #242628;
 	color:#c4c4c4;
 	border-right-style: solid;
-	border-right-color: rgba(255, 255, 255, 0.25);
+	border-right-color: rgba(255, 255, 255, 0.1);
 	border-right-width: 1px;
 }
 /*Sidebar selected tab*/
@@ -120,47 +124,15 @@ p2-toolbar-scroll-view .p2-album-contents-selection-view, .p2-toolbar-scroll-vie
     color: rgba(255,255,255,0.5);
 }
 
-/*Fix moments add buttons*/
-.p2-moments-grid-group-header-view .accessory .moments-add-to-album-button.cw-button>.svg-container>svg, .p2-moments-grid-group-header-view .accessory .moments-sharrow-button>.svg-container>svg {
-    fill: white;
-    stroke: white;
+/*Make icons white */ 
+svg {
+  fill: white !important;
+  stroke: white !important;
 }
 
-/*Fix right navbar icons*/
+/*Fix top right name*/
 .cosk-user-view .cosk-user-display-name-wrapper .cosk-display-name {
-    color:white;
-}
-.p2-main-view .cosk-user-view .cosk-help-icon>svg, .p2-main-view~div .cw-popover-view .cosk-user-view .cosk-help-icon>svg {
-    fill: white;
-    stroke: white;
-}
-.cosk-user-view .cosk-help-icon>svg {
-    fill: white;
-    stroke: white;
-}
-.cosk-user-view .cosk-user-display-name-wrapper {
-    fill: white;
-    stroke: white;
-}
-.p2-toolbar-scroll-view .p2-album-contents-selection-view .share-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .share-button>.svg-container>svg {
-	fill: white;
-    stroke: white;
-}
-.p2-toolbar-scroll-view .p2-album-contents-selection-view .download-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .download-button>.svg-container>svg {
-	fill: white;
-    stroke: white;
-}
-.p2-toolbar-scroll-view .p2-album-contents-selection-view .new-album-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .new-album-button>.svg-container>svg {
-	fill: white;
-    stroke: white;
-}
-.p2-toolbar-scroll-view .p2-album-contents-selection-view .trash-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .trash-button>.svg-container>svg {
-	fill: white;
-    stroke: white;
-}
-.p2-toolbar-scroll-view .p2-album-contents-selection-view .upload-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .upload-button>.svg-container>svg {
-	fill: white;
-    stroke: white;
+  color: white;
 }
 
 /*Main iCloud.com background color*/
@@ -173,29 +145,12 @@ p2-toolbar-scroll-view .p2-album-contents-selection-view, .p2-toolbar-scroll-vie
 	background-color: #1b1c1e;
 }
 
-/*Fix favourite heart icon*/
-.p2-toolbar-scroll-view .p2-album-contents-selection-view .favorite-button>.svg-container>svg, .p2-toolbar-scroll-view .p2-toolbar-view .favorite-button>.svg-container>svg {
-	fill: white;
-  stroke: white;
-}
-
 /*Fix photos date*/
 .title {
 	color: white;
 }
 .subtitle {
 	color: rgba(255,255,255,0.7) !important;
-}
-
-/*Fix back button*/
-.p2-toolbar-scroll-view .p2-toolbar-view .back-button>.svg-container>svg {
-	fill: white;
-  stroke: white;
-}
-
-/*Fix top right down arrow*/
-.cosk-app-name .cosk-chevron-icon {
-	fill: white;
 }
 
 /*Springboard app switcher text*/
