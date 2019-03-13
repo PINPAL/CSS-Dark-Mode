@@ -20,6 +20,32 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 
 ![Progress](http://progressed.io/bar/0)    GitHub
 
+# To-Do List
+## Google Dark Mode
+[x] Flights  - "fly from la to nyc"
+[x] Hotel Booking "park inn cologne"
+[ ] Minor Stuff "p.f. chang's"
+[x] Sidebar Twitter "new york"
+[x] Make Bubble Buttons Pop
+[ ] Brighten Star Ratings "park inn cologne"
+[x] The entire News section
+[x] The navbar on Finance section
+[x] Boxes in boxes in personal section
+[ ] "More" drop down
+[ ] "Settings" drop down
+[ ] "Safe Search" drop down
+[ ] App Drawer (top right)
+[x] Preview Tables
+[ ] Fix hover mini navbar to reveal lower navbar
+[x] Weather
+[ ] Google images upload
+[ ] Google top left nav logo in Images/News etc
+[ ] League Tables "g2"
+[ ] Overlapping bottom bar "entombed"
+[ ] "More Images" on sidebar "entombed"
+[ ] Hex color picker
+[ ] Quick translate buttons / dropdowns
+
 # Design Guidelines
 ## Basic Design Language
 The basic design language focuses on a dark interface with a touch of color and motion to signify buttons and actions when pressed or hovered.
