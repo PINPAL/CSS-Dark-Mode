@@ -5,6 +5,10 @@ body {
   color: white !important;
 }
 
+#rcnt {
+    margin-top: 100px;
+}
+
 /*Scrollbar*/
 ::-webkit-scrollbar {
   width: 9px !important;
@@ -133,6 +137,11 @@ body {
 /*About and Store color change*/
 #hptl a {
   color: white !important;
+}
+
+/*Sidebar Text*/
+.kno-rdesc {
+  color: rgba(255,255,255,.6) !important;
 }
 
 /*Location text*/
@@ -306,6 +315,9 @@ a.duf3 {
 }
 
 /*Remove Ugly Seperators*/
+.jhg04d {
+  border: none !important;
+}
 .E6Cqjb {
   background-color: rgba(255, 255, 255, 0.03) !important;
   height: 3px !important;
@@ -873,28 +885,30 @@ g-inner-card {
 }
 
 /*Remove calculator white bar*/
-.cwtlwm {
+.cwtlwm, .wVudU {
   background: none !important;
 }
 
 /*Calculator results text*/
-.cwcot {
+.cwcot, .qv3Wpe  {
   color: white !important;
 }
 
 /*Calculator results bar*/
-.cwtlb {
+.cwtlb, .TIGsTb {
+  color: white !important;
   background: rgba(200, 200, 255, 0.2) !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
   border-radius: 25px !important;
   border-style: solid !important;
   border-color: rgba(255, 255, 255, 0.05) !important;
   border-width: 2px !important;
-  top: 5px !important;
+  padding-bottom: 15px !important;
+  height: 85px !important;
 }
 
 /*Calculator light buttons*/
-.cwlgb-tpl {
+.cwlgb-tpl, .AOvabd, .dxp44d {
   background-image: none !important;
   background: rgba(200, 200, 255, 0.2) !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
@@ -907,7 +921,7 @@ g-inner-card {
 }
 
 /*Calculator blue button*/
-.cwbb-tpl {
+.cwbb-tpl, .UUhRt {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
   border-radius: 25px !important;
   border-style: solid !important;
@@ -921,7 +935,7 @@ g-inner-card {
 }
 
 /*Calculator dark buttons*/
-.cwdgb-tpl {
+.cwdgb-tpl, .MEdqYd, .feqqG {
   background-image: none !important;
   background: rgba(200, 200, 255, 0.075) !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
@@ -933,45 +947,12 @@ g-inner-card {
   color: white !important;
 }
 
-/*Calculator top left buttons*/
-.cwrb-tpl {
-  background-image: none !important;
-  background: #414449 !important;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
-  border-radius: 25px 0px 0px 25px !important;
-  border-style: solid !important;
-  border-color: rgba(255, 255, 255, 0.05) !important;
-  border-width: 2px 0 2px 2px !important;
-  top: 5px !important;
-  width: 97% !important;
-  color: white !important;
-  left: 6px !important;
-}
-
-.cwdb-tpl {
-  background-image: none !important;
-  background: #414449 !important;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
-  border-radius: 0px 25px 25px 0px !important;
-  border-style: solid !important;
-  border-color: rgba(255, 255, 255, 0.05) !important;
-  border-width: 2px 2px 2px 0px !important;
-  top: 5px !important;
-  width: 97% !important;
-  color: white !important;
-  left: -1px !important;
-}
-
 /*Calculator Selector (top left)*/
-.cwdrsb-tpl {
-  background-image: none !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  border-radius: 25px !important;
-  border-style: solid !important;
-  border-color: rgba(255, 255, 255, 0.05) !important;
-  border-width: 2px !important;
-  top: 5px !important;
-  width: 97% !important;
+.pno7A.rfUaPd .Tqvz7b, .pno7A.hU1rMc .SwDSDf {
+  color: rgba(255,255,255,.1) !Important;
+}
+.pno7A.hU1rMc .Tqvz7b, .pno7A.rfUaPd .SwDSDf {
+  color: white !Important;
 }
 
 /*Calculator button text*/
