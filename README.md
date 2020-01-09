@@ -5,7 +5,7 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 
 # Screenshots
 
-![Google](https://raw.githubusercontent.com/PINPAL/CSS-Dark-Mode/Readme/Google.png)
+![Google](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Google.png)
 
 # Progress List
 
