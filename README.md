@@ -48,6 +48,7 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
  - [ ] "More Images" on sidebar "entombed"
  - [ ] Hex color picker
  - [ ] Quick translate buttons / dropdowns
+ - [ ] Fix a billion more bugs
 
 # Design Guidelines
 ## Basic Design Language
