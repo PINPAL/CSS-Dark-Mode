@@ -1,0 +1,265 @@
+@-moz-document domain("typingclub.com") {
+/* Font */
+@font-face {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
+}
+@font-face {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2);
+}
+
+* {
+  font-family: 'Google Sans', Roboto, sans-serif;
+  font-weight: 400 !important;
+}
+b {
+  font-family: 'Google Sans', Roboto, sans-serif !important;
+  font-weight: 500 !important;
+}
+
+/* Background Color */
+body, .DSHBRD,  #main, .lpviewbox, .lparena, .LPVIEW {
+  background-color: #292C30 !important;
+}
+* {
+  outline: none !important;
+}
+
+/* Dashboard Main Boxes */
+.lpbackground {
+    display: none !important;
+}
+.DSHBRD .lp-card {
+    background-color: #292C30 !important;
+    box-shadow: none !important;
+    border: solid 2px rgba(0,0,0,0);
+}
+.DSHBRD .lp-card:hover {
+    background-color: #44484d !important;
+    border-color: #575a5f !important;
+}
+.DSHBRD .lp-card .lp-card-menu:hover {
+    background-color: rgba(0,0,0,.25) !important;
+    border-bottom-left-radius: 5px
+}
+.DSHBRD .lp-card .lp-card-menu i {
+    color: white !important;
+}
+.DSHBRD .lp-card .lp-card-menu ul>li {
+    background-color: #292C30 !important;
+    border-color: rgba(255,255,255,.1) !important;
+}
+
+/* Typing Practice Text */
+.theme-codder ._clr {
+    color: rgba(255,255,255,.3) !important;
+}
+.theme-codder .typable .meta-word{
+    font-size: 12pt !important;
+    top: -5px !important;
+}
+sup {
+    top: 0 !important;
+}
+.token .token_unit {
+    border-radius: 0 !important;
+}
+
+/* Main Boxes Levels */
+.LPVIEW .scroll_look:not(.is_active) .page_number {
+    color: white !important;
+    background: rgba(255,255,255,.2) !important;
+}
+.LPVIEW .scroll_look .is_active .page_number {
+    color: #888 !important;
+    background: white !important;
+}
+.LPVIEW  .box{
+    color: rgba(255,255,255,.65) !important;
+    background-color: #191c1f !important;
+    opacity: .33;
+}
+.LPVIEW .is_unlocked .box{
+    background-color: #2F3439 !important;
+    opacity: 1 !important;
+}
+.LPVIEW .box:hover {
+    color: white !important;
+    background-color: #44484d !important;
+    border-color: #575a5f !important;
+    box-shadow: none !important;
+}
+.lsn_num {
+    text-shadow: none !important;
+    color: rgba(255,255,255,.65) !important;
+}
+.LPVIEW .box:hover .lsn_num {
+    color: white !important;
+}
+.LPVIEW .lsnrow {
+    opacity: 1 !important;
+}
+
+/* Floating Box for Progress on level select */
+.game_summary {
+    color: white !important;
+    background: rgba(255,255,255,.2) !important;
+}
+.game_summary_sep {
+    color: rgba(255,255,255,0.3) !important;
+}
+
+/* Navbar */
+.navbar-inverse, .TP_APP1 .with-ads .container{
+    background: rgb(27, 28, 31) !important;
+}
+.theme-codder .hdrlt, .theme-codder .hdrlt .header-item>span {
+    color: rgba(255,255,255,.65) !important;
+}
+.theme-codder .hdrlt .header-item>span:hover {
+    color: white !important;
+}
+/* Navbar dropdowns (in lesson) */
+.hdrlt .header-options .header-item .dropdown-panel {
+    background: rgb(27, 28, 31) !important;
+     color: rgba(255,255,255,.65) !important;
+    box-shadow: none !important;
+    border-color: rgba(255,255,255,.2) !important;
+    border-width: 2px !important;
+    border-top-width: 0 !important;
+    border-radius: 0 0 5px 5px !important;
+}
+
+/* Start Typing popup */
+.theme-codder .TP_APP1 .drop-banner, .theme-codder .TP_APP1 .pause-tooltip {
+    background: rgb(27, 28, 31) !important;
+    color: rgba(255,255,255,.65) !important;
+}
+
+/* Headers */
+h1, h2, h3, h4 {
+    color: white !important;
+    text-shadow: none !important;
+}
+
+/* Sliders */
+.filter-nav-tabs ul {
+  background: rgba(255,255,255,.1) !important;
+}
+.filter-nav-tabs ul li.selected {
+  background: rgba(255,255,255,.2) !important;
+  border: solid 2px rgba(255,255,255,.5) !important;
+  color: white !important;
+}
+
+/* Tabs */
+ul.filter-program-tab>li {
+   background: rgba(255,255,255,.1) !important;
+   color: white;
+   border: solid 1px rgba(255,255,255,.25) !important;
+   outline: none !important;
+}
+
+/* Popout boxes */
+.ed-paper {
+  color: rgba(255,255,255,0.5) !important;
+  background-color: #2F3439 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Progress Bars */
+.speed-progress-bar, .progress-stats-bar, .progress-bar-container {
+    background: rgba(255,255,255,0.15) !important;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+    color: rgba(255,255,255,.65);
+    font-weight: bold;
+}
+.progress-stats-bar label span {
+  color: white;
+}
+.speed-progress-bar .speed-label {
+    right: 5px;
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+.speed-title {
+  color: #292C30 !important;
+}
+
+/* Progress Graphs */
+.highcharts-background {
+  fill: none !important;
+}
+.highcharts-grid-line {
+  stroke: rgba(255,255,255,0.1) !important;
+}
+.highcharts-text-outline {
+  fill: none !important;
+  stroke: none !important;
+  color: rgb(0,0,0,0) !important;
+}
+.highcharts-data-label tspan {
+  fill: rgba(255,255,255,0.65);
+}
+
+/* Buttons */
+button {
+    color: rgba(255,255,255,.65) !important;
+    background-color: #2F3439 !important;
+    border: solid 2px rgb(255,255,255,.1) !important;
+    box-shadow: none !important;
+}
+button:hover {  
+    color: #2a90fc !important;
+}
+button .list-icon {
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+button.active {
+    background-color: rgba(255,255,255,.1) !important;
+}
+
+/* Progress Donuts */
+.progress-donut circle:first-of-type {
+  stroke: rgba(255,255,255,0.15);
+}
+
+/* Disable ads */
+.disable-ads-banner, #adslot_1, #adslot_2 {
+  display: none !important;
+}
+
+/* Tables */
+.table-striped>tbody>tr:nth-of-type(odd) {
+   background-color: #292C30 !important;
+}
+
+/* Badges */
+.badge-card {
+    border: none !important;
+}
+.badge-name {
+    color: white !important;
+}
+.badge-desc {
+    color: rgba(255,255,255,.65) !important;
+}
+.badge-card.in-active {
+    background-color: rgba(0,0,0,.5) !important;
+    opacity: .33 !important;
+}
+
+/* Seperators*/ 
+hr, .bottom-stats-separator , ul.left-side-stats li, .stats-helpbox, table, .catalog-item, .LPVIEW .lsn_name, .tpmodes.normal ._fcs, .tpmodes.normal {
+   border-color: rgba(255,255,255,0.1) !important;
+   border-width: 2px !important;
+}
+
+}
