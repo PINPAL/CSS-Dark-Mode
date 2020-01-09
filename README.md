@@ -7,10 +7,8 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 
 ![Google](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Google.png) 
 ![Google](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Google2.png)
-![Google](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Stylish.png) 
-![Google](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Typing.png)
-![Google](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Typing2.png)
-![Google](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Typing3.png)
+![Stylus](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Stylus.png) 
+![TypingClub](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Typing.png)
 
 # Progress List
 
