@@ -4,21 +4,24 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 [Stylus Extension](https://github.com/openstyles/stylus)
 
 # Progress List
-![Progress](http://progressed.io/bar/95)   iCloud Photos
 
-![Progress](http://progressed.io/bar/92)   Stylus IDE 
+99% - TypingClub
 
-![Progress](http://progressed.io/bar/92)   Google 
+95% - iCloud Photos
 
-![Progress](http://progressed.io/bar/60)   Amazon
+92% - Stylus IDE 
 
-![Progress](http://progressed.io/bar/0)    YouTube 
+80% - Google 
 
-![Progress](http://progressed.io/bar/0)    eBay
+50% - Amazon
 
-![Progress](http://progressed.io/bar/0)    PayPal
+0% - YouTube 
 
-![Progress](http://progressed.io/bar/0)    GitHub
+0% - eBay
+
+0% - PayPal
+
+0% - GitHub
 
 # To-Do List
 ## Google Dark Mode
