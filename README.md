@@ -9,6 +9,7 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 ![Google](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Google2.png)
 ![Stylus](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Stylus.png) 
 ![TypingClub](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Typing.png)
+![TypingClub](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/Typing2.png)
 ![iCloud Photos](https://github.com/PINPAL/CSS-Dark-Mode/raw/master/Readme/iCloud.png) 
 
 # Progress List
