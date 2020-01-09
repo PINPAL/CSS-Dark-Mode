@@ -9,11 +9,11 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 
 95% - iCloud Photos
 
-92% - Stylus IDE 
+80% - Stylus IDE 
 
-80% - Google 
+70% - Google 
 
-50% - Amazon
+40% - Amazon
 
 0% - YouTube 
 
