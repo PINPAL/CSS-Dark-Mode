@@ -15,12 +15,6 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 
 40% - Amazon
 
-0% - YouTube 
-
-0% - eBay
-
-0% - PayPal
-
 0% - GitHub
 
 # To-Do List
