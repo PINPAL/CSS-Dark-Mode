@@ -1,10 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@-moz-document url-prefix("moz-extension://6775ac0f-0967-4961-a12f-b5f1d3bfe7e3/"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/") {
+/* Font */
+@font-face {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
+}
 
-@-moz-document url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/") {
+@font-face {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2);
+}
+
 * {
-  font-family: Nunito;
-  scrollbar-color: rgba(255,255,255,0.20) rgba(255,255,255,0.08); /*Firefox Exclusive*/
-  scrollbar-width: thin; /*Firefox Exclusive*/
+  font-family: 'Google Sans', Roboto, sans-serif;
+  font-weight: 400;
+}
+
+b {
+  font-family: 'Google Sans', Roboto, sans-serif !important;
+  font-weight: 500 !important;
 }
 
 ::-webkit-scrollbar {
@@ -24,7 +41,7 @@
 }
 }
 
-@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/popup"), url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6/popup") {
+@-moz-document url-prefix("moz-extension://6775ac0f-0967-4961-a12f-b5f1d3bfe7e3/popup"), url-prefix("moz-extension://6775ac0f-0967-4961-a12f-b5f1d3bfe7e3/popup") {
 /*Main Page Background*/
 body {
   background: #242628 !important;
@@ -73,7 +90,7 @@ input[type="checkbox"]:not(.slider) {
 }
 }
 
-@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit"), url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6/edit"), url-prefix("moz-extension://dc4e7fdf-2004-422c-84be-f27a33995ce6/manage") {
+@-moz-document url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage"), url-prefix("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit"), url-prefix("moz-extension://6775ac0f-0967-4961-a12f-b5f1d3bfe7e3/edit"), url-prefix("moz-extension://6775ac0f-0967-4961-a12f-b5f1d3bfe7e3/manage") {
 /*Main Page Background*/
 body {
   background: #242628;
