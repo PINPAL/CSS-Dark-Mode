@@ -3,6 +3,10 @@ Custom Stylesheets can be applied using CSS Injection within your browser. The e
 
 [Stylus Extension](https://github.com/openstyles/stylus)
 
+# Screenshots
+
+![Google](https://raw.githubusercontent.com/PINPAL/CSS-Dark-Mode/Readme/Google.png)
+
 # Progress List
 
 99% - TypingClub
