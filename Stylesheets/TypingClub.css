@@ -23,7 +23,7 @@ b {
 }
 
 /* Background Color */
-body, .DSHBRD,  #main, .lpviewbox, .lparena, .LPVIEW {
+body, .DSHBRD,  #main, .lpviewbox, .lparena, .LPVIEW, .typing-results .spelling-results-panel {
   background-color: #292C30 !important;
 }
 * {
@@ -70,6 +70,27 @@ sup {
     border-radius: 0 !important;
 }
 
+/* Typing Practice Results */
+.bottom-nav-bar  {
+    background-color: #191c1f !important;
+    border: none !important;
+}
+.attempt-details {
+   background-color: #191c1f !important; 
+}
+.typing-attempt-details .details-panel {
+    background-color: #292C30 !important;
+    border-color: rgba(255,255,255,.1) !important;
+}
+.scroll-reminder {
+    background-color: #2F3439 !important;
+    border: solid 2px rgb(255,255,255,.1) !important;
+    box-shadow: none !important;
+}
+.scroll-reminder .b {
+    stroke: rgba(255,255,255,.65) !important;
+}
+
 /* Main Boxes Levels */
 .LPVIEW .scroll_look:not(.is_active) .page_number {
     color: white !important;
@@ -79,7 +100,7 @@ sup {
     color: #888 !important;
     background: white !important;
 }
-.LPVIEW  .box{
+.LPVIEW  .box {
     color: rgba(255,255,255,.65) !important;
     background-color: #191c1f !important;
     opacity: .33;
@@ -115,8 +136,9 @@ sup {
 }
 
 /* Navbar */
-.navbar-inverse, .TP_APP1 .with-ads .container{
+.navbar-inverse, .TP_APP1 .with-ads .container, .hdrlt {
     background: rgb(27, 28, 31) !important;
+    border: none;
 }
 .theme-codder .hdrlt, .theme-codder .hdrlt .header-item>span {
     color: rgba(255,255,255,.65) !important;
