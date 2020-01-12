@@ -23,11 +23,21 @@ b {
 }
 
 /* Background Color */
-body, .DSHBRD,  #main, .lpviewbox, .lparena, .LPVIEW, .typing-results .spelling-results-panel {
+body, .DSHBRD,  #main, .lpviewbox, .lparena, .LPVIEW, .typing-results .spelling-results-panel, #instructions, #root {
   background-color: #292C30 !important;
 }
 * {
   outline: none !important;
+}
+
+/* Stats Tables */
+.dual-stats-table {
+    background-color: #292C30 !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+.kb-keys svg path {
+    fill: rgba(255,255,255,.05) !important;
 }
 
 /* Dashboard Main Boxes */
@@ -68,6 +78,11 @@ sup {
 }
 .token .token_unit {
     border-radius: 0 !important;
+}
+#instruction .boxed-typing-lines .boxed-line>span {
+    background-color: #292C30 !important;
+    border-color: rgba(255,255,255,.1) !important;
+    border-width: 2px;
 }
 
 /* Typing Practice Results */
