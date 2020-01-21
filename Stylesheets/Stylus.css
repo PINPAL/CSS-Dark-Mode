@@ -49,7 +49,7 @@ b {
 
 /*Main Page Background*/
 body {
-    background: #292c30 !important;
+    background: rgb(44, 44, 48) !important;
 }
 
 /* Buttons and Inputs */
@@ -97,7 +97,8 @@ textarea:hover,
 input:not([type]):hover,
 .applies-value-wrapper a:hover,
 #message-box-close-icon svg:hover,
-p.actions svg:hover {
+p.actions svg:hover,
+input[type="number"]:focus {
     background: rgb(255, 255, 255) !important;
     color: black !important;
     fill: black !important;
@@ -126,6 +127,12 @@ input::placeholder {
 }
 input:hover::placeholder {
     color: rgba(0,0,0,0.65) !important;
+}
+.style-name {
+    padding-left: 40px !important;
+}
+.style-name .svg-icon.checked {
+    left: 15px !important;
 }
 optgroup {
     font-weight: 400 !important;
@@ -158,7 +165,8 @@ select {
 }
 .option:hover .svg-icon.select-arrow,
 label:hover .svg-icon.checked,
-.settings:hover {
+.settings:hover,
+.style-name:hover .svg-icon.checked {
     fill: black !important;
 }
 
@@ -556,9 +564,6 @@ summary h2 {
 .actions > a {
     width: 40px !important;
 }
-details {
-    
-}
 
 /* Sort */
 #add-style-as-usercss-wrapper span {
@@ -576,29 +581,178 @@ details {
 #only-updates svg {
     left: 15px !important;
 }
+#options label span {
+    padding-left: 15px !important;
+}
+label[for="manage.newUI.favicons"] {
+    font-size: 0;
+    margin-left: 15px;
+}
+label[for="manage.newUI.favicons"]::before {
+    font-size: 12pt;
+    content:"Show Icons"
+}
+label[for="manage.newUI.favicons"] input,
+label[for="manage.newUI.favicons"] svg {
+    margin-left: -15px !important;
+}
+label[for="manage.newUI.favicons"] a[data-toggle-on-click="#faviconsHelp"] {
+    display: none !important;
+}
+#options input[type="number"] {
+    margin-right: -8px !important;
+}
 
 /*Installed Page Boxes*/
-.entry {
-    margin-bottom: 20px !important;
-    display: block !important;
-    background: #2F3439 !important;
+#installed {
     text-align: center;
-    padding: 15px;
-    min-height: 50px !important;
-    border-radius: 8px;
+    padding-left: 0;
+    margin-left: 19rem;
+    margin-right: 0;
+    width: calc(100% - var(--header-width));
 }
-.entry img {
+.entry {
+    box-sizing: border-box;
+    position: relative !important;
+    margin-bottom: 20px !important;
+    margin-right: 10px !important;
+     margin-left: 10px !important;
+    display: inline-block !important;
+    background: rgb(52, 52, 60) !important;
+    text-align: center;
+    padding: 0;
+    min-height: 190px !important;
+    max-height: 190px !important;
+    min-width: 200px !important;
+    width: 270px !important;
+    border-radius: 8px;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: rgba(255,255,255,0.05)
+}
+.entry .style-name {
+    overflow-wrap: normal;
+    padding: 0 !important;
+    box-sizing: border-box;
+    width: 100% !important;
+    background-color: rgb(27, 28, 31);
+    min-height: 50px !important;
+    max-height: 50px !important;
+    text-align: left !important;
+}
+.entry:first-child {
+    border-top: solid 2px rgba(255,255,255,0.05) !important;
+}
+.entry > * {
+    display: block !important;
+}
+.entry h2 a {
+    overflow-wrap: normal;
+    text-indent: 0;
+    position: absolute !important;
+    top: 15px;
+    left: 15px;
+    line-height: 20px !important;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+    max-height: 20px !important;
+    display: block;
+    margin: 0;
+    width: calc(100% - 80px) !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
+.has-favicons .entry h2 a {
+    left: 40px;
+}
+.entry .actions {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    text-align: center !important;
+}
+.entry .actions svg {
+    margin-top: 10px !important;
+}
+.entry .actions a[target="_blank"] {
+    display: none  !important;
+}
+.entry .expander {
+    position: absolute !important;
+    top: 165px !important;
+    margin-left: 0 !important;
+    color: white !important;
+}
+.targets, .applies-to {
+    display: none !important;
+    width: 100% !important;
+    min-height: 175px !important;
+    max-height: 175px !important;
+    overflow: visible;
+    position: absolute !important;
+    top: 0px !important;
+    left: 0  !important;
+}
+.newUI .targets, .newUI .applies-to {
+    display: block !important;
+}
+.newUI .target {
+    overflow: hidden;
+    max-width: calc(100% - 30px)  !important;
+    margin: 0 15px !important;
+    padding: 0  !important;
+}
+.has-favicons .target {
+    overflow: visible !important;
+}
+.target:nth-child(n+2) {
+    overflow: hidden !important;
+    max-width: calc(100% - 30px)  !important;
+}
+.targets .target:first-of-type {
+    margin-top: 100px !important;
+}
+.entry img,
+.newUI .target:nth-child(n+4){
+    display: none  !important;
+}
+.entry span:nth-child(1) img {
+    margin: 0 !important;
+    display: none !important;
+    contain: none !important;
+    position: absolute !important;
+    top: -85px !important;
+    left: -5px  !important;
     filter: none !important;
     opacity: 1 !important;
     width: 20px !important;
     height: 20px !important;
 }
+.has-favicons .entry span:nth-child(1) img {
+    display: block !important;
+}
+.entry .checkmate {
+    height: 100%;
+    width: 40px;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    margin: 0 !important;
+}
 .entry h2::before {
     display: none !important;
 }
+.entry .checkmate .checked {
+    top: 50%  !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    margin: 0 !important;
+    fill: white !important;
+}
 .entry .checker {
     position: absolute !important;
-    top: 15px  !important;
-    left: 15px  !important;
+    top: 50%  !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
 }
 }
