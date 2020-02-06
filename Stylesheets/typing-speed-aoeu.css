@@ -1,0 +1,167 @@
+@-moz-document domain("typing-speed-test.aoeu.eu") {
+/* Font */
+@font-face {
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
+}
+@font-face {
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2);
+}
+
+* {
+    font-family: 'Google Sans', Roboto, sans-serif !important;
+    font-weight: 400 !important;
+    color: rgba(255, 255, 255, .6);
+    outline: none !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* Main Body */
+body,
+#all-inner {
+    background: rgb(44, 44, 48);
+    box-shadow: none;
+}
+/* Content Width */
+#all-inner,
+#testui,
+.testui {
+    max-width: 730px;
+}
+
+/* Text Formatting */
+dt,
+dd,
+#intro {
+    font-size: 12pt;
+}
+a, big {
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Subtitles */
+dt {
+    font-style: normal;
+    font-weight: 600;
+    background: none;
+    box-shadow: none;
+    color: white;
+}
+
+#words-outer,
+#words,
+#border,
+#score,
+#recentbox {
+    border: none;
+    background: rgb(27, 28, 31);
+}
+#border,
+#recentbox {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Increase Padding */
+#pct :nth-child(2),
+#recentbox {
+    margin-top: 10px !important;
+}
+#all-inner > div:nth-child(4) > h2 {
+    margin-top: 50px !important;
+}
+
+#score * {
+    display: inline-block;
+    font-size: 11pt !important;
+}
+
+/* Buttons */
+*::placeholder {
+  color: rgba(255,255,255,.4)
+}
+#progress,
+#highcpm,
+#rawcpm,
+#cpm,
+#wpm,
+#timer,
+#score a,
+#input,
+#pct > div {
+    text-decoration: none !important;
+    opacity: 1 !important;
+    background: rgb(100, 100, 110) !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+    padding: 5px 12px !important;
+    fill: white !important;
+    color: white !important;
+    border: none !important;
+}
+#score a:hover,
+#pct > div > div {
+    background: rgb(255, 255, 255) !important;
+    color: black !important;
+}
+#pct > div {
+    padding: 0 !important;
+    overflow: hidden;
+}
+#input {
+    padding: 5px 0 !important;
+    box-shadow: none !important;
+}
+#input:focus {
+    color: white !important;
+}
+
+/* Top Title */
+h1.tst {
+    color: white;
+}
+
+/* Cleanup Social Icons */
+a.tweet,
+#all-inner > div:nth-child(4) > table,
+#score > span:nth-child(10),
+.fbbutton {
+    display: none;
+}
+
+/* Word Colors */
+#currentword {
+    color: rgba(255, 255, 255, .6);
+    background: none;
+    box-shadow: inset white 0 -2px;
+    border-radius: 0;
+}
+.incorrect {
+    color: #E56868;
+}
+.correct{
+    color: white !important;
+}
+}
