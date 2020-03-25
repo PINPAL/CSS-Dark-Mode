@@ -1,0 +1,24 @@
+text {
+    color: white!important
+}
+
+div[id^="sc8"],#sc11318,#sc8510,#sc8559{
+    background-color: #292C30;
+}
+
+label.atv4.iwork.iw-section-title-label.iw-strong{color:white}
+
+#iw-canvas-dom-root-element{
+    top:10px!important;
+    bottom:10px
+}
+
+svg[id^="l:page-background"]:first-child{
+    border-radius: 25px 25px 0 0;
+}
+
+div[id^="l:page-shadow:GP.PageShadowHtmlLayer"]{
+    border-radius: 25px 25px 0 0;
+}
+
+#sc11322{text-shadow:none}
